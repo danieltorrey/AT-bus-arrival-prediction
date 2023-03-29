@@ -1,99 +1,89 @@
 ---
 title: "Bus_Data_Extraction"
-author: "Leonardo Phu"
-date: '2023-03-07'
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
 ```
 
 ```{r}
-#Load libaries
+# Load libraries
 library(tidyverse)
 library(jsonlite)
 library(httr)
-
-#Obtain Key - Leos Key 
-key = "567bb1fb7ab64582905c7812648075e1"
 ```
 
 ```{r}
-main = getwd()
+# Obtain AT API Key
+AT_key = "567bb1fb7ab64582905c7812648075e1"
+
+# Get today's date
+todays_date = as.character(Sys.Date())
+
+# Saving folder structures
+wd_main = getwd()
+wd_rawdata = paste(wd_main, '/rawdata', sep = "")
+wd_businfo = paste(wd_rawdata, '/businfo', sep = "")
+wd_busarrivals = paste(wd_rawdata, '/busarrivals', sep = "")
 ```
 
 ```{r}
-#Reading in static files 
-setwd(paste(main, '/rawdata/businfo', sep = ""))
+setwd(paste(wd_rawdata, '/businfo', sep = ""))
+
+# Reading in bus static files 
 stops = read.table("stops.txt", header = TRUE, sep = ",", quote = "")
-
 stop_times = read.table("stop_times.txt", header = TRUE, sep = ",", quote = "")
-
-nrow(stop_times)
-
 trips = read.table("trips.txt", header = TRUE, sep = ",", quote = ",", fill = TRUE)
-
 routes = read.table("routes.txt", header = TRUE, sep = ",", quote = "")
-
 shapes = read.table("shapes.txt", header = TRUE, sep = ",", quote = "")
-
 stop_times = stop_times %>% mutate(stop_code = substring(stop_id, 1, regexpr("-", stop_id)[1] - 1))
 ```
 
 ```{r}
-#All information
+# Grabbing live bus arrival data for current day
 
-#Writing to gtfs for the 
-
-combined_feed<-tryCatch(
+combined_feed <- tryCatch(
   GET('https://api.at.govt.nz/realtime/legacy/',
       accept_json(),
-      add_headers('Ocp-Apim-Subscription-Key' = key)),
+      add_headers('Ocp-Apim-Subscription-Key' = AT_key)),
   error=function(e) NULL)
 
-write_json(content(combined_feed), "/Users/leonardophu/Desktop/2023/STATS 765/PROJECT/Files/Combined_feed_28March.json", pretty = TRUE)
-
-vehcile<-tryCatch(
+vehicle <- tryCatch(
   GET('https://api.at.govt.nz/realtime/legacy/vehiclelocations',
       accept_json(),
-      add_headers('Ocp-Apim-Subscription-Key' = key)),
+      add_headers('Ocp-Apim-Subscription-Key' = AT_key)),
   error=function(e) NULL)
 
-write_json(content(vehcile), "/Users/leonardophu/Desktop/2023/STATS 765/PROJECT/Files/vechile_28March.json", pretty = TRUE)
-
-```
-
-
-```{r}
-#Read in data
-#Json File
-
-#trip_updates file
-gtfs_trips<-tryCatch(
+trip_updates <- tryCatch(
   GET('https://api.at.govt.nz/realtime/legacy/tripupdates',
       accept_json(),
-      add_headers('Ocp-Apim-Subscription-Key' = key)),
+      add_headers('Ocp-Apim-Subscription-Key' = AT_key)),
   error=function(e) NULL)
-
-#alerts files
 
 alerts <- tryCatch(
   GET('https://api.at.govt.nz/realtime/legacy/servicealerts',
       accept_json(),
-      add_headers('Ocp-Apim-Subscription-Key' = key)),
+      add_headers('Ocp-Apim-Subscription-Key' = AT_key)),
   error=function(e) NULL)
 ```
 
+
 ```{r}
+# Saving data to JSON file
+setwd(wd_busarrivals)
+dir.create(todays_date)
+setwd(paste(wd_busarrivals, paste('/', todays_date, sep = ""), sep = ""))
 
-write_json(content(gtfs_trips), "/Users/leonardophu/Desktop/2023/STATS 765/PROJECT/Files/Trip_Updates_28March.json", pretty = TRUE)
-
-write_json(content(alerts), "/Users/leonardophu/Desktop/2023/STATS 765/PROJECT/Files/Alert_Service_28March.json", pretty = TRUE)
+write_json(content(vehicle), paste('vehicle_', todays_date), pretty = TRUE)
+write_json(content(combined_feed), paste('combined_', todays_date), pretty = TRUE)
+write_json(content(trip_updates), paste('tripupdates_', todays_date), pretty = TRUE)
+write_json(content(alerts), paste('alerts_', todays_date), pretty = TRUE)
 ```
 
 ```{r}
-trip_content = content(gtfs_trips)[[2]][[2]]
+trip_content = content(trip_updates)[[2]][[2]]
 
 #trip_content = temp[[2]][[2]]
 
@@ -137,7 +127,6 @@ colnames(trip_data) = c("trip_id",
 
 #Converting our types to be able to join 
 trip_data$stop_sequence = as.integer(trip_data$stop_sequence)
-
 ```
 
 ```{r}
