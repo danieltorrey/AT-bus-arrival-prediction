@@ -1,0 +1,4222 @@
+{
+  "status": ["OK"],
+  "response": {
+    "header": {
+      "timestamp": [1679910288.692],
+      "gtfs_realtime_version": ["1.0"],
+      "incrementality": [0]
+    },
+    "entity": [
+      {
+        "id": ["80003245-d7ce-4d43-b995-46b2a3c4f331"],
+        "alert": {
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Temporary Bus Stop Closure - Polkinghorne Drive, Manly"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1679248800],
+              "end": [1679284800]
+            },
+            {
+              "start": [1679335200],
+              "end": [1679371200]
+            },
+            {
+              "start": [1679421600],
+              "end": [1679457600]
+            },
+            {
+              "start": [1679508000],
+              "end": [1679544000]
+            },
+            {
+              "start": [1679594400],
+              "end": [1679630400]
+            },
+            {
+              "start": [1679680800],
+              "end": [1679716800]
+            },
+            {
+              "start": [1679767200],
+              "end": [1679803200]
+            },
+            {
+              "start": [1679853600],
+              "end": [1679889600]
+            },
+            {
+              "start": [1679940000],
+              "end": [1679976000]
+            },
+            {
+              "start": [1680026400],
+              "end": [1680062400]
+            },
+            {
+              "start": [1680112800],
+              "end": [1680148800]
+            },
+            {
+              "start": [1680199200],
+              "end": [1680235200]
+            },
+            {
+              "start": [1680285600],
+              "end": [1680321600]
+            },
+            {
+              "start": [1680375600],
+              "end": [1680411600]
+            },
+            {
+              "start": [1680462000],
+              "end": [1680498000]
+            },
+            {
+              "start": [1680548400],
+              "end": [1680584400]
+            },
+            {
+              "start": [1680634800],
+              "end": [1680670800]
+            },
+            {
+              "start": [1680721200],
+              "end": [1680757200]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["4837-b5a33fdf"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Monday 20 March to Thursday 6 April, from 7am to 5pm, Stop 4837 on Polkinghorne Drive, near Onepu Lane, will be closed for roadworks. The nearest alternative is Stop 4739 on Stanmore Bay Road."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["e8bb2b1a-6cf3-476a-beb9-7504c7ce7ae4"],
+        "alert": {
+          "url": {
+            "translation": [
+              {
+                "text": ["https://papakurarsa.co.nz/anzac/"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Papakura Anzac Parade"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1682355600],
+              "end": [1682380800]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["2521-0ce47481"]
+            },
+            {
+              "stop_id": ["2518-3729214c"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["On Tuesday 25 April 2023 from 5:00am to 12:00pm the following stops are closed due to a planned event.\n - stop closed for stop 2518 at Central Park Reserve for all routes, Stop close. Use Stop 2716 – Papakura Station\n - stop closed for stop 2521 at Central Park Reserve for all routes, Stop closed. Use Stop 2716 – Papakura Station"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["f7991e07-f0a8-4329-ab35-8e9bccc0f538"],
+        "alert": {
+          "cause": ["CONSTRUCTION"],
+          "effect": ["STOP_MOVED"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop moved until 27 March due to roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1678014000],
+              "end": [1679914740]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["1976-e189d4ae"]
+            },
+            {
+              "stop_id": ["1975-c0ddf99d"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Stop 1976 - Sunnyview Avenue (closed)\nTo catch the 735, 426, 442 services: Use Temporary bus stop at 45 Sunnyview Avenue as an alternative. \nTo catch the 431 service: Use Temporary bus stop at 80 Sandspit Rd as an alternative.\nStop 1975 - Sunnyview Avenue (closed)\nTo catch the 735, 426 & 442 services: Use Temporary bus stop at 45 Sunnyview Avenue as an alternative. \nTo catch the 431 service: Use Temporary bus stop at 69 Sandspit Road as an alternative."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["5ed1f6ff-8df1-4769-974f-ae072595f220"],
+        "alert": {
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop closed until 27 March due to roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1678014000],
+              "end": [1679914740]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["6289-960f4799"]
+            },
+            {
+              "stop_id": ["2699-9802fa4b"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Stop 2699 - Somerville Rd (closed): Use Stop 1974 John Gill Rd as an alternative. \nStop 6289 - Somerville Rd (closed): Use Stop 6291 - John Gill Rd as an alternative. \n"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["391b23e9-52df-42b2-9b8f-48f675bf206b"],
+        "alert": {
+          "cause": ["WEATHER"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Bus stops closed due to urgent roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1675209180],
+              "end": {}
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["5970-5ea3b9da"]
+            },
+            {
+              "stop_id": ["5947-68a3e032"]
+            },
+            {
+              "stop_id": ["5887-0bec5dd5"]
+            },
+            {
+              "stop_id": ["5141-5ff38339"]
+            },
+            {
+              "stop_id": ["5139-4ab29029"]
+            },
+            {
+              "stop_id": ["5138-05b8022c"]
+            },
+            {
+              "stop_id": ["5136-0b248538"]
+            },
+            {
+              "stop_id": ["5134-41ec66aa"]
+            },
+            {
+              "stop_id": ["5130-8c1d6343"]
+            },
+            {
+              "stop_id": ["5129-4eb7fa5a"]
+            },
+            {
+              "stop_id": ["5126-9c4169d5"]
+            },
+            {
+              "stop_id": ["5124-ff642a22"]
+            },
+            {
+              "stop_id": ["5122-c0a17674"]
+            },
+            {
+              "stop_id": ["5121-8d30416f"]
+            },
+            {
+              "stop_id": ["5119-8e2b8c7d"]
+            },
+            {
+              "stop_id": ["5118-bb354166"]
+            },
+            {
+              "stop_id": ["5019-0e1b79b9"]
+            },
+            {
+              "stop_id": ["5017-e5128d9f"]
+            },
+            {
+              "stop_id": ["5010-066f61bb"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["The following stops are closed due to flooding. Stop closed due to urgent roadworks.\nStop 1635 - Avonleigh Road corner\nStop 5010 - Daffodil Street\nStop 5017 - Daffodil Street\nStop 5019 - Woodfern Crescent\nStop 5115 - 51 Wood Bay Road\nStop 5118 - 74 Wood Bay Road\nStop 5119 - 5 Tanekaha Road\nStop 5121 - 33 Tanekaha Road\nStop 5122 - Tanekaha Road\nStop 5124 - 22 Tanekaha Road\nStop 5125 - 21 Takahe Road\nStop 5126 - Miha Road\nStop 5127 - Rahui Kahika Reserve\nStop 5130 - 40 Takahe Road\nStop 5134 - Rahui Kahika Reserve\nStop 5136 - Taupiko Place\nStop 5138 - Avonleigh Road corner\nStop 5139 - 5 Otitori Bay Road\nStop 5140 - Avonleigh Road/Takahe Road\nStop 5141 - Park Road\nStop 5887 - Wood Bay Road\nStop 5947 - 6 Tanekaha Road\nStop 5970 - 36 Otitori Bay Road\nCheck AT Journey Planner or Live Departures and for up to date travel information, visit at.govt.nz/weatherwatch"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["b6f693dd-1fd8-4d4d-ba31-49c6f214b68b"],
+        "alert": {
+          "url": {
+            "translation": [
+              {
+                "text": ["https://at.govt.nz/weatherwatch"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "cause": ["WEATHER"],
+          "effect": ["DETOUR"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Bus stop closures due to severe weather events"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1675639620],
+              "end": {}
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["5970-5ea3b9da"]
+            },
+            {
+              "stop_id": ["5947-68a3e032"]
+            },
+            {
+              "stop_id": ["5887-0bec5dd5"]
+            },
+            {
+              "stop_id": ["5141-5ff38339"]
+            },
+            {
+              "stop_id": ["5140-78efec2c"]
+            },
+            {
+              "stop_id": ["5139-4ab29029"]
+            },
+            {
+              "stop_id": ["5138-05b8022c"]
+            },
+            {
+              "stop_id": ["5136-0b248538"]
+            },
+            {
+              "stop_id": ["5134-41ec66aa"]
+            },
+            {
+              "stop_id": ["5130-8c1d6343"]
+            },
+            {
+              "stop_id": ["5127-908ba84d"]
+            },
+            {
+              "stop_id": ["5126-9c4169d5"]
+            },
+            {
+              "stop_id": ["5125-dc3ed53c"]
+            },
+            {
+              "stop_id": ["5124-ff642a22"]
+            },
+            {
+              "stop_id": ["5122-c0a17674"]
+            },
+            {
+              "stop_id": ["5121-8d30416f"]
+            },
+            {
+              "stop_id": ["5119-8e2b8c7d"]
+            },
+            {
+              "stop_id": ["5118-bb354166"]
+            },
+            {
+              "stop_id": ["5115-46d748a5"]
+            },
+            {
+              "stop_id": ["5019-0e1b79b9"]
+            },
+            {
+              "stop_id": ["5017-e5128d9f"]
+            },
+            {
+              "stop_id": ["5010-066f61bb"]
+            },
+            {
+              "stop_id": ["1635-29c06c9f"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["The following stops are closed due to flooding and roadworks:\nStop 1635 - Avonleigh Road corner\nStop 5010 - Daffodil Street\nStop 5017 - Daffodil Street\nStop 5019 - Woodfern Crescent\nStop 5115 - 51 Wood Bay Road\nStop 5118 - 74 Wood Bay Road\nStop 5119 - 5 Tanekaha Road\nStop 5121 - 33 Tanekaha Road\nStop 5122 - Tanekaha Road\nStop 5124 - 22 Tanekaha Road\nStop 5125 - 21 Takahe Road\nStop 5126 - Miha Road\nStop 5127 - Rahui Kahika Reserve\nStop 5130 - 40 Takahe Road\nStop 5134 - Rahui Kahika Reserve\nStop 5136 - Taupiko Place\nStop 5138 - Avonleigh Road corner\nStop 5139 - 5 Otitori Bay Road\nStop 5140 - Avonleigh Road/Takahe Road\nStop 5141 - Park Road\nStop 5887 - Wood Bay Road\nStop 5947 - 6 Tanekaha Road\nStop 5970 - 36 Otitori Bay Road\nPlease check AT Journey Planner or Live Departures to find alternative bus stops."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["76394fd6-1383-4bd1-935f-fdcaf6e4dc9c"],
+        "alert": {
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Temporary Bus Stop Closure - Manukau Road, Epsom"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1678687200],
+              "end": [1678723200]
+            },
+            {
+              "start": [1678773600],
+              "end": [1678809600]
+            },
+            {
+              "start": [1678860000],
+              "end": [1678896000]
+            },
+            {
+              "start": [1678946400],
+              "end": [1678982400]
+            },
+            {
+              "start": [1679205600],
+              "end": [1679241600]
+            },
+            {
+              "start": [1679292000],
+              "end": [1679328000]
+            },
+            {
+              "start": [1679378400],
+              "end": [1679414400]
+            },
+            {
+              "start": [1679464800],
+              "end": [1679500800]
+            },
+            {
+              "start": [1679551200],
+              "end": [1679587200]
+            },
+            {
+              "start": [1679810400],
+              "end": [1679846400]
+            },
+            {
+              "start": [1679896800],
+              "end": [1679932800]
+            },
+            {
+              "start": [1679983200],
+              "end": [1680019200]
+            },
+            {
+              "start": [1680069600],
+              "end": [1680105600]
+            },
+            {
+              "start": [1680156000],
+              "end": [1680192000]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["8708-2fcfb421"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["From Monday 13 to Thursday 30 February, Stop 8708 on Manukau Road near Ranfurly Road, will be closed, from 7pm to 5am on Sunday to Thursday nights, for roadworks.\nPlease use Stop 8704, opposite the Epsom Library."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["ab6ddd6c-eb6e-4c3b-a08e-98559ec40fe5"],
+        "alert": {
+          "url": {
+            "translation": [
+              {
+                "text": ["https://at.govt.nz/weatherwatch"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "cause": ["WEATHER"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Ngapipi Road Southbound Closure due to severe weather events"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1675570800],
+              "end": {}
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["7899-fe8c40f2"]
+            },
+            {
+              "stop_id": ["7892-c9df81a0"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Ngapipi Road Southbound remains closed and buses will not be stopping at the following stops:\nStop - 7892 at Paritai Drive\nStop - 7899 at Tamaki Drive/Ngapipi\nPlease check AT Journey Planner or Live Departures before you travel."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["378ff6d7-7099-480b-bcb7-fd9d58e18605"],
+        "alert": {
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stops closed due to roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1679266020],
+              "end": [1680883200]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["6813-ced3f85c"]
+            },
+            {
+              "stop_id": ["6785-26f3ae0c"]
+            },
+            {
+              "stop_id": ["6764-2b22c199"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Until the end of daily operation on Friday 7 April, the following stops are closed due to roadworks:\n - stop closed for stop 6764 at Morris Avenue for all routes, Use temp bus stop at 139 Tui Rd\n - stop closed for stop 6785 at Morris Avenue for all routes, Use temp bus stop at 87 Tui Rd\n - stop closed for stop 6813 at Fraser Road for all routes, Use temp bus stop at 132 Tui Rd"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["4b802d4e-8667-4286-8a1f-49b240ea67ec"],
+        "alert": {
+          "cause": ["WEATHER"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop closed"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1675304040],
+              "end": {}
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["4272-29b4de0c"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Stop 4272 - Glamorgan Drive is closed due to urgent roadworks. Please use Stop 3074 - Oteha Valley Rd instead."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["012234b6-3415-42b0-8174-15e8d9d7842b"],
+        "alert": {
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["50B Bus Service Temporarily Suspended"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1671514380],
+              "end": {}
+            }
+          ],
+          "informed_entity": [
+            {
+              "route_id": ["50B-217"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Due to bus driver shortages, bus route 50B has been suspended until further notice. \nHowever, due to a technical error this service is still showing in Journey Planner as cancelled trips.\nWe hope to reinstate this service as soon as possible, and will notify customers when we have a confirmed date."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["1dbd3b0b-fd07-486b-b13c-cee1166f8282"],
+        "alert": {
+          "cause": ["CONSTRUCTION"],
+          "effect": ["STOP_MOVED"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop closed"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1677409200],
+              "end": [1688126340]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["7944-38a88699"]
+            },
+            {
+              "stop_id": ["7941-0b1f5ec1"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["From Monday 27 February to Friday 30 June 2023, the following stops have temporarily closed 24/7.\nStop 7941 - Fenchurch Street Shops (Use temporary bus stop outside 100 Taniwha Street).\nStop 7944 - Fenchurch Street Shops (Use Temp Stop at 89 Taniwha Street)."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["99964177-6cb2-4abd-9210-eb810459795d"],
+        "alert": {
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Godley Rd, Green Bay - Temporary Bus Stop Closures"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1673175660],
+              "end": [1680260340]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["5240-c5d057da"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Due to roadworks stop 5240 - Green Bay Shops is closed at all times from Monday 9 January to Friday 31 March 2023.\nPlease use stop 5242 - La Rosa St as an alternative."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["18aad0d3-98d2-48f5-a4e9-5df96dbe8f6c"],
+        "alert": {
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop closed until 31 March 2023 due to roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1675681200],
+              "end": [1680260340]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["8503-d4c66d96"]
+            },
+            {
+              "stop_id": ["8502-39116aa8"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Tuesday 07 February to Friday 31 March 2023 the following stops will be closed at all times, due to roadworks:\nStop 8503 (Akiraho Street): Use Stop 8505 (Kelly Street) as an alternative.\nStop 8502 (Akiraho Street)\nTo catch the 27H, 27T, 27W, 64 bus services, use Stop 8504 (Esplanade Rd) as an alternative.\nTo catch the 25B, 25L bus services, use Stop 8400 (Mount Eden Road) as an alternative.s"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["c0c2a9be-8815-4995-9211-c8bb31fd5948"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679551200],
+              "end": [1679580000]
+            },
+            {
+              "start": [1679810400],
+              "end": [1679839200]
+            },
+            {
+              "start": [1679896800],
+              "end": [1679925600]
+            },
+            {
+              "start": [1679983200],
+              "end": [1680012000]
+            },
+            {
+              "start": [1680069600],
+              "end": [1680098400]
+            },
+            {
+              "start": [1680156000],
+              "end": [1680184800]
+            },
+            {
+              "start": [1680418800],
+              "end": [1680447600]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["8345-725c0371"]
+            },
+            {
+              "stop_id": ["8347-15d2da07"]
+            }
+          ],
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop closed 7pm-5am due to roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Use Stop 8351 - Rathlin Street as an alternative for these stops. "],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["d1e5dd4d-c7f7-40d0-bd85-7e053ef0b74c"],
+        "alert": {
+          "url": {
+            "translation": [
+              {
+                "text": ["https://at.govt.nz/weatherwatch"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "cause": ["WEATHER"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Cyclone Gabrielle"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1676266140],
+              "end": {}
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["6195-4206438c"]
+            },
+            {
+              "stop_id": ["6193-05bc34d8"]
+            },
+            {
+              "stop_id": ["6186-a4d28ed7"]
+            },
+            {
+              "stop_id": ["2102-7d24e7f9"]
+            },
+            {
+              "stop_id": ["2101-d62c3095"]
+            },
+            {
+              "stop_id": ["2100-303a8542"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["The following stops are impacted due to flooding.\n - stop closed for stop 2100 at Bucklands Beach Road for all routes\n - stop closed for stop 2101 at Wycherley Drive for all routes\n - stop closed for stop 2102 at Macleans Road for all routes\n - stop closed for stop 6186 at Wycherley Drive for all routes\n - stop closed for stop 6193 at Macleans Road for all routes\n - stop closed for stop 6195 at Bucklands Beach Road for all routes"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["c4adbb9e-2e6d-47bb-be3a-29df6c05ed6a"],
+        "alert": {
+          "cause": ["CONSTRUCTION"],
+          "effect": ["STOP_MOVED"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop moved 7am-4pm due to roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1679508000],
+              "end": [1679540400]
+            },
+            {
+              "start": [1679594400],
+              "end": [1679626800]
+            },
+            {
+              "start": [1679680800],
+              "end": [1679713200]
+            },
+            {
+              "start": [1679767200],
+              "end": [1679799600]
+            },
+            {
+              "start": [1679853600],
+              "end": [1679886000]
+            },
+            {
+              "start": [1679940000],
+              "end": [1679972400]
+            },
+            {
+              "start": [1680026400],
+              "end": [1680058800]
+            },
+            {
+              "start": [1680112800],
+              "end": [1680145200]
+            },
+            {
+              "start": [1680199200],
+              "end": [1680231600]
+            },
+            {
+              "start": [1680285600],
+              "end": [1680318000]
+            },
+            {
+              "start": [1680375600],
+              "end": [1680408000]
+            },
+            {
+              "start": [1680462000],
+              "end": [1680494400]
+            },
+            {
+              "start": [1680548400],
+              "end": [1680580800]
+            },
+            {
+              "start": [1680634800],
+              "end": [1680667200]
+            },
+            {
+              "start": [1680721200],
+              "end": [1680753600]
+            },
+            {
+              "start": [1680807600],
+              "end": [1680840000]
+            },
+            {
+              "start": [1680894000],
+              "end": [1680926400]
+            },
+            {
+              "start": [1680980400],
+              "end": [1681012800]
+            },
+            {
+              "start": [1681066800],
+              "end": [1681099200]
+            },
+            {
+              "start": [1681153200],
+              "end": [1681185600]
+            },
+            {
+              "start": [1681239600],
+              "end": [1681272000]
+            },
+            {
+              "start": [1681326000],
+              "end": [1681358400]
+            },
+            {
+              "start": [1681412400],
+              "end": [1681444800]
+            },
+            {
+              "start": [1681498800],
+              "end": [1681531200]
+            },
+            {
+              "start": [1681585200],
+              "end": [1681617600]
+            },
+            {
+              "start": [1681671600],
+              "end": [1681704000]
+            },
+            {
+              "start": [1681758000],
+              "end": [1681790400]
+            },
+            {
+              "start": [1681844400],
+              "end": [1681876800]
+            },
+            {
+              "start": [1681930800],
+              "end": [1681963200]
+            },
+            {
+              "start": [1682017200],
+              "end": [1682049600]
+            },
+            {
+              "start": [1682103600],
+              "end": [1682136000]
+            },
+            {
+              "start": [1682190000],
+              "end": [1682222400]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["6275-23d5bb7e"]
+            },
+            {
+              "stop_id": ["6270-d2f1d9df"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Thursday 23 March to Sunday 23 April 2023 between 7am & 4pm the following stops will be closed, due to roadworks:\nStop 6275 - Abercrombie Street (closed): Use Temporary Bus Stop at 69 Cook Street as an alternative.\nStop 6270 - Abercrombie Street (closed): Use Temporary Bus Stop at 112 Cook Street as an alternative."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["1a9a1651-65db-42f8-849d-e16a0188c6c0"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679551200],
+              "end": [1679580000]
+            },
+            {
+              "start": [1679810400],
+              "end": [1679839200]
+            },
+            {
+              "start": [1679896800],
+              "end": [1679925600]
+            },
+            {
+              "start": [1679983200],
+              "end": [1680012000]
+            },
+            {
+              "start": [1680069600],
+              "end": [1680098400]
+            },
+            {
+              "start": [1680156000],
+              "end": [1680184800]
+            },
+            {
+              "start": [1680418800],
+              "end": [1680447600]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["8348-32ee99c3"]
+            },
+            {
+              "stop_id": ["8350-34c5ce4c"]
+            }
+          ],
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop closed 7pm-5am due to roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Use Stop 8354 - Rathlin Street as an alternative for these stops."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["247f8db2-4c44-4158-9b13-b53a0a7e6b9f"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679551200],
+              "end": [1679580000]
+            },
+            {
+              "start": [1679810400],
+              "end": [1679839200]
+            },
+            {
+              "start": [1679896800],
+              "end": [1679925600]
+            },
+            {
+              "start": [1679983200],
+              "end": [1680012000]
+            },
+            {
+              "start": [1680069600],
+              "end": [1680098400]
+            },
+            {
+              "start": [1680156000],
+              "end": [1680184800]
+            },
+            {
+              "start": [1680418800],
+              "end": [1680447600]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["8341-6136aaea"]
+            },
+            {
+              "stop_id": ["8343-253f3ed6"]
+            }
+          ],
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop closed 7pm-5am due to roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Use Stop 8339 - Blockhouse Bay Rd as an alternative for these stops. "],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["04050b85-12ad-42b1-8c12-f4863f09c1e6"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679551200],
+              "end": [1679580000]
+            },
+            {
+              "start": [1679810400],
+              "end": [1679839200]
+            },
+            {
+              "start": [1679896800],
+              "end": [1679925600]
+            },
+            {
+              "start": [1679983200],
+              "end": [1680012000]
+            },
+            {
+              "start": [1680069600],
+              "end": [1680098400]
+            },
+            {
+              "start": [1680156000],
+              "end": [1680184800]
+            },
+            {
+              "start": [1680418800],
+              "end": [1680447600]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["8346-ec6c0481"]
+            }
+          ],
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop closed 7pm-5am due to roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Use Stop 8342 - Blockhouse Bay Rd as an alternative."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["30a95394-2e6c-4777-93cc-1e82955690cd"],
+        "alert": {
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Temporary Bus Stop Closure - Great North Road, Avondale"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1671712920],
+              "end": {}
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["8144-272fea11"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Stop 8144 - Avondale Police Station is closed until further notice due to construction.\nPlease use Stop 8142 - Avondale Family Health Centre as an alternative."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["8621182c-fc04-41b4-83e6-72c4c642a99d"],
+        "alert": {
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Temporary Bus Stop Closure - Kauri Road, Whenuapai"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1671520260],
+              "end": {}
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["5821-8512f40e"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["The following stop on Kauri Road will be closed for roadworks until further notice:\nStop 5821 - Rata Road: Use Stop 5823 - 107 Kauri Road."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["1bbcbd2d-752f-4f74-b249-837ff2006495"],
+        "alert": {
+          "url": {
+            "translation": [
+              {
+                "text": ["https://at.govt.nz/bus-train-ferry/service-announcements/planned-rail-closures/"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "cause": ["MAINTENANCE"],
+          "effect": ["MODIFIED_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Rail Network Rebuild 2"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1675922220],
+              "end": [1679929200]
+            }
+          ],
+          "informed_entity": [
+            {
+              "route_id": ["ONE-201"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["All stations have re-opened. Due to stage 2 of KiwiRail’s Rail Network Rebuild, Onehunga services will run between Onehunga and Penrose at peak times and you will need to transfer at Penrose for Southern Line services to Britomart. During off-peak, all services will run from Onehunga to Britomart.\n"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["26cdd9ab-8bcb-4b4a-ac1c-4cd1836af557"],
+        "alert": {
+          "url": {
+            "translation": [
+              {
+                "text": ["https://at.govt.nz/weatherwatch"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "cause": ["WEATHER"],
+          "effect": ["DETOUR"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Bus 195 and 209 detoured due to road closure"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1676343900],
+              "end": {}
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["1658-76c48bb8"]
+            },
+            {
+              "stop_id": ["1656-fd789647"]
+            },
+            {
+              "stop_id": ["1633-5ee6da5a"]
+            },
+            {
+              "stop_id": ["1631-4dae07d3"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Due to severe weather impacting Connaught Street, buses 195 and 209 will travel via Godley, Rotage Rd, Kinross, Connell and Connaught St and will be missing the following stops:\nStop 1631 - Craigavon Park\nStop 1633 - Connell Street\nStop 1656 - Connell Street\nStop 1658 - Craigavon Park\n"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["5571d6a0-9f9b-441c-9ffa-2b4c4d4baee0"],
+        "alert": {
+          "cause": ["CONSTRUCTION"],
+          "effect": ["STOP_MOVED"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop moved due to roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1673175600],
+              "end": [1680173940]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["6005-f922ef93"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Sunday 15 January 2023 to Thursday 30 March 2023 the following stop will be closed at all times, due to roadworks:\nStop 6005 - 797 Great South Rd (closed): Use Temporary Bus Stop located at 787 Great South Rd as an alternative."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["e492986c-1608-4de2-a970-db9425c0ef44"],
+        "alert": {
+          "url": {
+            "translation": [
+              {
+                "text": ["https://at.govt.nz/weatherwatch"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "cause": ["WEATHER"],
+          "effect": ["DETOUR"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Bus 171 & School Services - Detour on Scenic Drive due to urgent roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1675036860],
+              "end": {}
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["5996-d292c902"]
+            },
+            {
+              "stop_id": ["5946-bdab99c7"]
+            },
+            {
+              "stop_id": ["5926-e3d33861"]
+            },
+            {
+              "stop_id": ["5915-58ab86b3"]
+            },
+            {
+              "stop_id": ["5898-347117de"]
+            },
+            {
+              "stop_id": ["5495-0eb2a37a"]
+            },
+            {
+              "stop_id": ["5493-b4ac3110"]
+            },
+            {
+              "stop_id": ["5491-d237078e"]
+            },
+            {
+              "stop_id": ["5489-9ce76f23"]
+            },
+            {
+              "stop_id": ["1616-b021fd86"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["The following stops are impacted due to flooding.\nStop 1616 - Manuka Road\nStop 5489 - Woodlands Park roundabout\nStop 5491 - Waima Reserve\nStop 5493 - Waima Crescent\nStop 5495 - Manuka Road\nStop 5898 - Waima Crescent\nStop 5915 - 197 Woodlands Park Road\nStop 5926 - 200 Woodlands Park Road\nStop 5946 - Waima Reserve\nStop 5996 - Woodlands Park roundabout\nPlease check AT Journey Planner or Live Departures and for up to date travel information, visit at.govt.nz/weatherwatch"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["e363f3bb-2ead-4a01-8d39-8b67265d54f8"],
+        "alert": {
+          "cause": ["CONSTRUCTION"],
+          "effect": ["DETOUR"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Route detoured"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1678646160],
+              "end": [1690459140]
+            }
+          ],
+          "informed_entity": [
+            {
+              "route_id": ["114-206"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Until Saturday 27 July 2023, bus 114 from Hobsonville Point to Westgate will follow a detour via Brigham Creek Rd and Hobsonville Rd due to a road closure on Trig Road between Brigham Creek Rd and Hobsonville Rd. No bus stops will be missed but please expect a longer journey time."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["a196d142-a782-4aa3-99b1-859761a29388"],
+        "alert": {
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Temporary bus stop closure - Playfair Road - Mount Roskill"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1676199600],
+              "end": [1681127940]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["8935-d1a23043"]
+            },
+            {
+              "stop_id": ["8930-ea94787a"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Monday 13 February to Monday 10 April 2023, the following stop is closed at all times, due to roadworks:\n8930 - Richardson Road/May Road School: Use Stop 8932, at 544 Richardson Road.\n8935 - Richardson Road/May Road School: Use Stop 8937, at 527 Richardson Road."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["8c545a2a-7a77-471c-9f0b-d6118c8c9a1f"],
+        "alert": {
+          "cause": ["CONSTRUCTION"],
+          "effect": ["STOP_MOVED"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Temporary bus stop closure - Tripoli Road, Tamaki"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1677409200],
+              "end": [1681646340]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["7548-9d4880cf"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Stop 7548 - Tobruk Road will be closed at all times from Monday 27 February to Sunday 16 April 2023, due to roadworks.\nUse Temporary Bus Stop at 105 Tripoli Road as an alternative."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["7a5ca0ad-2fa5-4495-b072-d889d92b9e9e"],
+        "alert": {
+          "cause": ["CONSTRUCTION"],
+          "effect": ["STOP_MOVED"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop moved"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "active_period": [
+            {
+              "start": [1645959600],
+              "end": [1693137600]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["8593-1b5d5171"]
+            }
+          ],
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Stop moved to Church St near Upper Municipal Place until Sun 27 Aug 2023 due to roadworks."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["035e26ab-8830-4278-bd4c-dbfb579ea007"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1680076800],
+              "end": [1680109200]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["6381-7b3aabe8"]
+            },
+            {
+              "stop_id": ["6379-a4062eae"]
+            },
+            {
+              "stop_id": ["6199-1aabca66"]
+            }
+          ],
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stops closed"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["From Wednesday 29 March 9:00 pm to Thursday 30 March 6:00am, the following stops are closed due to roadworks:\nStop 6199 - Redoubt North School\nStop 6379 - Derrimore Heights\nStop 6381 - Courant Place\nPlease use Stop 6189 - Manukau Sports Bowl instead."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["89bef7f9-c3be-47b2-98b0-8b22dc8fc886"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1672743660],
+              "end": [1681041540]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["7942-44b816c4"]
+            },
+            {
+              "stop_id": ["7939-75050667"]
+            },
+            {
+              "stop_id": ["7275-edf887cb"]
+            },
+            {
+              "stop_id": ["7273-2dced0d6"]
+            }
+          ],
+          "cause": ["CONSTRUCTION"],
+          "effect": ["STOP_MOVED"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop moved until Sunday 9 April due to roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Due to roadworks, the following bus stops are closed 24/7 until Sunday 9 April 2023: \nStop 7273 - Tamaki College\nStop 7275 - Tamaki College \nStop 7939 - Tamaki College For these closed stops use temporary bus stop at 142 Taniwha St.\nStop 7942 - Tamaki College: Please use temporary stop at 122 Taniwha St."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["b3f57447-03ac-46ac-86c4-c7128437d23d"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1672743660],
+              "end": [1681041540]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["7271-f9cb42d9"]
+            },
+            {
+              "stop_id": ["7259-41e5a03e"]
+            }
+          ],
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop closed until Sunday 9 April due to roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Due to roadworks, the following bus stops are closed 24/7 until Sunday 9 April:\nStop 7259 - West Tamaki Road \nStop 7271 - Sloane Street\nFor these closed stops please use stop 7276 - Elstree Avenue Shops as an alternative."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["a99807c7-2e9e-4633-89a9-60b3db42a454"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679853600],
+              "end": [1679896800]
+            },
+            {
+              "start": [1679940000],
+              "end": [1679983200]
+            },
+            {
+              "start": [1680026400],
+              "end": [1680069600]
+            },
+            {
+              "start": [1680112800],
+              "end": [1680156000]
+            },
+            {
+              "start": [1680199200],
+              "end": [1680242400]
+            },
+            {
+              "start": [1680462000],
+              "end": [1680505200]
+            },
+            {
+              "start": [1680548400],
+              "end": [1680591600]
+            },
+            {
+              "start": [1680634800],
+              "end": [1680678000]
+            },
+            {
+              "start": [1680721200],
+              "end": [1680764400]
+            },
+            {
+              "start": [1680807600],
+              "end": [1680850800]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["7937-a182c62d"]
+            },
+            {
+              "stop_id": ["7938-db2e1675"]
+            },
+            {
+              "stop_id": ["7940-47a3d5a1"]
+            }
+          ],
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop closed 7am-7pm due to roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Monday 27 March to Friday 7 April between: Weekdays (7am-7pm) Weekends (8am-6pm) the following stops will be closed, due to roadworks:\nStop 7940 - Halford Place (closed): Use Stop 7942 - Tamaki College as an alternative. \nStop 7938 - Heatherbank St (closed): Use Temporary Stop at 171 Taniwha St as an alternative. \nStop 7937 - Tosca Lane (closed): Use Stop 7939 - Tamaki College Or Stop 7823 - Taniwha Street/Line Rd as an alternative."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["c3a9ae5b-6cd5-469d-b381-c8c12182fd38"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1680289200],
+              "end": [1680325200]
+            },
+            {
+              "start": [1680379200],
+              "end": [1680415200]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["7940-47a3d5a1"]
+            },
+            {
+              "stop_id": ["7938-db2e1675"]
+            },
+            {
+              "stop_id": ["7397-8f7ce9a5"]
+            }
+          ],
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop closed 8am-6pm due to roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Every day until April 2, 2023 from 8:00am to 6:00pm the following stops are impacted due to roadworks.\n - stop closed for stop 7397 at St Heliers School for all routes, Stop 7940 - Halford Place (closed): Use Stop 7942 - Tamaki College as an alternative. \n - stop closed for stop 7938 at Heatherbank Street for all routes, Stop 7938 - Heatherbank St (closed): Use Temporary Stop at 171 Taniwha St as an alternative. \n - stop closed for stop 7940 at Halford Place for all routes, Stop 7937 - Tosca Lane (closed): Use Stop 7939 - Tamaki College Or Stop 7823 - Taniwha Street/Line Rd as an alternative."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["6107e0dc-7e29-4c09-ac95-ab5519670f93"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679299200],
+              "end": [1679328000]
+            },
+            {
+              "start": [1679558400],
+              "end": [1679587200]
+            },
+            {
+              "start": [1679817600],
+              "end": [1679846400]
+            },
+            {
+              "start": [1680163200],
+              "end": [1680192000]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["4081-59d49224"]
+            }
+          ],
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop closed 9pm-5am due to roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Sunday 26 & Thursday 30 March between 9pm & 5am the following stop will be closed, due to roadworks:\nStop 4081 - 174 Albany Highway (closed): Use Stop 3598 - Albany Highway, near Schnapper Rock as an alternative."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["2566a366-0ab4-410c-927f-2324045a0452"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679904000],
+              "end": [1679932800]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["3794-f6ce62d8"]
+            },
+            {
+              "stop_id": ["3792-db28f7db"]
+            },
+            {
+              "stop_id": ["3635-ce85de92"]
+            },
+            {
+              "stop_id": ["3633-c3703c92"]
+            }
+          ],
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop closed 9pm-5am due to roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Monday 27 March between 9pm & 5am the following stops will be closed, due to roadworks:\nStop 3792 – Rosedale Park North (closed) Stop 3794 – Saturn Pl (closed)\nUse Stop 4185 – Volkner Place as an alternative for these stops. \nStop 3635 – Saturn Pl (closed) Stop 3633 – Rosedale Park north (closed)\nUse Stop 3738 – Volkner Pl as an alternative for these stops."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["87193b48-c10f-40d1-bed2-df3b065bdd81"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1680206400],
+              "end": [1680231600]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["8861-bb392a46"]
+            }
+          ],
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Temporary Bus Stop Closure - Morningside Drive, St Lukes"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Friday 31 March, Stop 8861 on Morningside Drive, opposite St Lukes Mall, will be closed for roadworks from 9am to 4pm.\nPlease the temporary bus stop at 49 Morningside Drive."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["e2d37c5a-088f-4da8-8fc3-0646e8c0b002"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679904240],
+              "end": [1679907060]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["335-79702-75840-2-6462edee"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route CTY-202 [Schedule Start: 27-03-2023 21:04:00 - Schedule End: 27-03-2023 21:51:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["c50c5035-c739-40ba-acc2-8996554c0e69"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679905800],
+              "end": [1679907180]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1272-78104-77400-2-b32e1626"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 781-202 [Schedule Start: 27-03-2023 21:30:00 - Schedule End: 27-03-2023 21:53:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["f2eddd09-1af9-4361-8c72-981a4e6704f7"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679908860],
+              "end": [1679910420]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1389-06401-80460-2-03d70224"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 64-202 [Schedule Start: 27-03-2023 22:21:00 - Schedule End: 27-03-2023 22:47:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["412f9cf0-4da8-41af-b534-bd97f6d30775"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679911500],
+              "end": [1679912700]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1256-10601-83100-2-23fec01d"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 106-202 [Schedule Start: 27-03-2023 23:05:00 - Schedule End: 27-03-2023 23:25:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["4a06b3ef-0c3a-4a3a-a616-d4ec2403c974"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679906700],
+              "end": [1679908140]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["233-75504-78300-2-4f338745"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 755-202 [Schedule Start: 27-03-2023 21:45:00 - Schedule End: 27-03-2023 22:09:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["2ab2a5c5-1e68-4d5b-a4da-c2cbc1a4f288"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679909100],
+              "end": [1679910600]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["233-75503-80700-2-460cbe35"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 755-202 [Schedule Start: 27-03-2023 22:25:00 - Schedule End: 27-03-2023 22:50:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["800a82f7-ecba-4b50-b6ac-65f243ca310a"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679904900],
+              "end": [1679907180]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1285-07501-76500-2-877364df"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 75-202 [Schedule Start: 27-03-2023 21:15:00 - Schedule End: 27-03-2023 21:53:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["e63278c1-b3cd-403b-af58-48bb0d65995f"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679909400],
+              "end": [1679910600]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1302-92602-81000-2-82c7ea86"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 926-203 [Schedule Start: 27-03-2023 22:30:00 - Schedule End: 27-03-2023 22:50:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["4a46915c-20ed-4388-996f-33aa4578d4fc"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679906700],
+              "end": [1679907780]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1301-90702-78300-2-c1ad687c"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 907-203 [Schedule Start: 27-03-2023 21:45:00 - Schedule End: 27-03-2023 22:03:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["a07ec0b0-0a1e-48da-adc4-1130dffb4b89"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679905800],
+              "end": [1679907000]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1302-92602-77400-2-82c7ea86"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 926-203 [Schedule Start: 27-03-2023 21:30:00 - Schedule End: 27-03-2023 21:50:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["7efdbd93-7901-4df5-ae43-8e2937c494de"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679908500],
+              "end": [1679909580]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1301-90701-80100-2-01fbfc81"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 907-203 [Schedule Start: 27-03-2023 22:15:00 - Schedule End: 27-03-2023 22:33:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["ebe20c9f-97ec-48f2-8b3f-b161c1e8ae15"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679910300],
+              "end": [1679911380]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1301-90702-81900-2-a6ea6277"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 907-203 [Schedule Start: 27-03-2023 22:45:00 - Schedule End: 27-03-2023 23:03:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["2eec19c0-8178-4890-96b7-4a3d55b6fa74"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679896800],
+              "end": [1679932800]
+            },
+            {
+              "start": [1679983200],
+              "end": [1680019200]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["5339-b279244e"]
+            },
+            {
+              "stop_id": ["5337-59f83e66"]
+            },
+            {
+              "stop_id": ["5336-8fb7040e"]
+            },
+            {
+              "stop_id": ["5335-b8200296"]
+            },
+            {
+              "stop_id": ["5334-69208c16"]
+            }
+          ],
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop closed 7pm-5am due to roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Monday 27 & Tuesday 28 March 2023 from 7:00pm to 5:00am the following stops are impacted due to roadworks.\n - stop closed for stop 5334 at Henderson Valley Shops for all routes, Stop closed 7pm-5am due to roadworks.\n - stop closed for stop 5335 at Henderson Valley Shops for all routes, Stop closed 7pm-5am due to roadworks.\n - stop closed for stop 5336 at Henderson Valley Park for all routes, Stop closed 7pm-5am due to roadworks. Use Stop 5338 - Border Rd RAB\n - stop closed for stop 5337 at Henderson Valley Park for all routes, Stop closed 7pm-5am due to roadworks. Use Stop 5341 - Corban Reserve.\n - stop closed for stop 5339 at Border Road roundabout for all routes, Stop closed 7pm-5am due to roadworks. Use Stop 5341 - Corban Reserve."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["367d8439-960c-494a-b4b7-2d5d42c193a3"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1680069600],
+              "end": [1680105600]
+            },
+            {
+              "start": [1680156000],
+              "end": [1680192000]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["5328-02b6c4dd"]
+            }
+          ],
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop closed 7pm-5am due to roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Stop closed 7pm-5am. Use Stop 1568 - Forest Hill Rd/Farwood Dr."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["0c668492-0489-4145-b539-891eb422b3ba"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679914800],
+              "end": [1681473600]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["8404-b0f0f8aa"]
+            },
+            {
+              "stop_id": ["8403-04d67b79"]
+            }
+          ],
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop closed 28 March to 15 April 2023 due to roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["From Tuesday 28 March until Saturday 15 April 2023 the following stops will be closed at all times, due to roadworks:\nStop 8403 - Horoeka Avenue (closed): Use Stop 8401 - Ficino School as an alternative. \nStop 8404 - Horoeka Avnue (closed): Use Stop 8406 - View Rd/Dominion Rd as an alternative."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["dbdef47e-2b5b-4bd8-968d-d4cf4ba73147"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679900400],
+              "end": [1679936400]
+            },
+            {
+              "start": [1679986800],
+              "end": [1680022800]
+            },
+            {
+              "start": [1680073200],
+              "end": [1680109200]
+            },
+            {
+              "start": [1680159600],
+              "end": [1680195600]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["7566-d48760e7"]
+            },
+            {
+              "stop_id": ["7564-e61df501"]
+            },
+            {
+              "stop_id": ["7430-3cf0d40c"]
+            }
+          ],
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop closed 8pm-5am due to roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Monday 27 March to Thursday 30 March between 8pm & 5am the following stops will be closed, due to roadworks:\nStop 7430 - Remuera Road/Meadowbank Road (closed): Use Stop 7428 - Waiatarua Rd as an alternative.\nStop 7564 – Mount Carmel Pl (closed)\nStop 7566 – Mount Carmel School (closed)\nUse Stop 7433 - Meadowbank Shopping Centre as an alternative for these stops."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["619dbdf3-2a63-4f8a-85d3-8de88f9634f5"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679950800],
+              "end": [1679968800]
+            },
+            {
+              "start": [1680037200],
+              "end": [1680055200]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["7758-a55c71b8"]
+            },
+            {
+              "stop_id": ["7482-4e3f28ec"]
+            }
+          ],
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop closed 10am-3pm due to roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Stop closed 10am-3pm due to roadworks:\n - stop closed for stop 7482 at Crown Lane for all routes, Use Stop 1708 - Benson Rd Shops as an alternative. \n - stop closed for stop 7758 at Benson Road roundabout for all routes, Use Stop 7760 - Kenny Rd as an alternative."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["7d808a86-5c55-4f23-acae-78e4c38ee25a"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1680080400],
+              "end": [1680116400]
+            },
+            {
+              "start": [1680688800],
+              "end": [1680724800]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["2127-d4ee58fe"]
+            }
+          ],
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop closed 10pm-6am due to roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Stop 2127 - Stop B Manukau Station (closed): Use Stop 2188 - Osterley Way as an alternative."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["52b73013-4a87-4686-8479-2bd791fa085b"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679904600],
+              "end": [1679907000]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1277-02204-76200-2-6600a225"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 22N-202 [Schedule Start: 27-03-2023 21:10:00 - Schedule End: 27-03-2023 21:50:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["50d2c721-886d-4631-84bc-d1e7948ef5ac"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679909100],
+              "end": [1679911320]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1260-29501-80700-2-c2e6fa0b"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 295-202 [Schedule Start: 27-03-2023 22:25:00 - Schedule End: 27-03-2023 23:02:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["d741aac0-9e2e-4f40-a4ce-395616d978c0"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679904180],
+              "end": [1679908080]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1287-72121-75780-2-f645e709"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route OUT-202 [Schedule Start: 27-03-2023 21:03:00 - Schedule End: 27-03-2023 22:08:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["e8322090-6ceb-4724-9fa2-33c48f6c7b60"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679908500],
+              "end": [1679912100]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1287-72121-80100-2-ba15cb29"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route OUT-202 [Schedule Start: 27-03-2023 22:15:00 - Schedule End: 27-03-2023 23:15:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["c97f69b9-6380-457f-b641-62096e30340a"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1680076800],
+              "end": [1680105600]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["4200-3b3da5cd"]
+            }
+          ],
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop closed 9pm-5am due to roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Stop 4200 at Stop B Constellation for all routes, Use Stop 4200 - Stop B Constellation"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["a39d2520-1108-4d97-8e50-4f7315402413"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679909700],
+              "end": [1679911980]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1278-02201-81300-2-ad0be065"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 22R-202 [Schedule Start: 27-03-2023 22:35:00 - Schedule End: 27-03-2023 23:13:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["4e63cb01-d6f3-4fae-8d18-b4de61210f4a"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679905500],
+              "end": [1679908140]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1278-02202-77100-2-5aac4ca6"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 22R-202 [Schedule Start: 27-03-2023 21:25:00 - Schedule End: 27-03-2023 22:09:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["f33376be-5dde-476e-99c6-ad365242dd2e"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679912400],
+              "end": [1679914680]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["335-79702-84000-2-ef2d9001"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route CTY-202 [Schedule Start: 27-03-2023 23:20:00 - Schedule End: 27-03-2023 23:58:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["3139dd70-db01-4a4d-98f3-8d67bca465e9"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679909040],
+              "end": [1679911860]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["335-79702-80640-2-6462edee"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route CTY-202 [Schedule Start: 27-03-2023 22:24:00 - Schedule End: 27-03-2023 23:11:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["ecd2abf4-9a1b-4111-8c4e-3acc633bb96a"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679905680],
+              "end": [1679908500]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["335-79702-77280-2-6462edee"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route CTY-202 [Schedule Start: 27-03-2023 21:28:00 - Schedule End: 27-03-2023 22:15:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["48b20a43-259a-4614-8937-f3417b7c1540"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679906640],
+              "end": [1679909460]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["335-79702-78240-2-6462edee"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route CTY-202 [Schedule Start: 27-03-2023 21:44:00 - Schedule End: 27-03-2023 22:31:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["654584ef-9fb2-4ae0-a4fe-5827ec6e6d0f"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679908500],
+              "end": [1679910780]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1285-07501-80100-2-877364df"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 75-202 [Schedule Start: 27-03-2023 22:15:00 - Schedule End: 27-03-2023 22:53:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["d6759250-fe90-4d7e-930d-b63279a2daae"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679905800],
+              "end": [1679908200]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1285-07502-77400-2-a21403eb"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 75-202 [Schedule Start: 27-03-2023 21:30:00 - Schedule End: 27-03-2023 22:10:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["98862c83-ef15-4a6f-8c2b-ed29ff2586af"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679908200],
+              "end": [1679910360]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1277-02204-79800-2-bf19a0f8"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 22N-202 [Schedule Start: 27-03-2023 22:10:00 - Schedule End: 27-03-2023 22:46:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["20be0d15-a804-462f-a816-f9739ff5f7da"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679911620],
+              "end": [1679913780]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1277-02203-83220-2-b64200d6"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 22N-202 [Schedule Start: 27-03-2023 23:07:00 - Schedule End: 27-03-2023 23:43:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["e846ef07-7191-438a-888e-df1782007d23"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679904900],
+              "end": [1679908800]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1287-72121-76500-2-f645e709"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route OUT-202 [Schedule Start: 27-03-2023 21:15:00 - Schedule End: 27-03-2023 22:20:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["b6e5c00f-8293-417e-9902-187f8ecc6559"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679909400],
+              "end": [1679912880]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1287-72121-81000-2-bc910194"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route OUT-202 [Schedule Start: 27-03-2023 22:30:00 - Schedule End: 27-03-2023 23:28:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["d188fece-7cc2-4f27-9146-4652e836726c"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679911200],
+              "end": [1679912460]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1255-10502-82800-2-3a1fa6c1"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 105-202 [Schedule Start: 27-03-2023 23:00:00 - Schedule End: 27-03-2023 23:21:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["60520ea2-387b-474e-bd54-45a239bb4de6"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679908800],
+              "end": [1679910120]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["20-02005-80400-2-3c713b27"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 20-202 [Schedule Start: 27-03-2023 22:20:00 - Schedule End: 27-03-2023 22:42:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["0431a8ae-4684-4e50-93a2-a68b88db74c9"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679907300],
+              "end": [1679908440]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["20-02006-78900-2-986e6355"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 20-202 [Schedule Start: 27-03-2023 21:55:00 - Schedule End: 27-03-2023 22:14:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["9c3775d3-2be3-483e-888d-17742d6d5171"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679913300],
+              "end": [1679914380]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["20-02006-84900-2-feb804c2"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 20-202 [Schedule Start: 27-03-2023 23:35:00 - Schedule End: 27-03-2023 23:53:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["732405f6-0e32-45f7-91cd-6835f5b5d9e8"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679906700],
+              "end": [1679908980]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1285-07501-78300-2-877364df"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 75-202 [Schedule Start: 27-03-2023 21:45:00 - Schedule End: 27-03-2023 22:23:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["151bbe16-7202-4d3b-b702-80dc19c1284e"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679905800],
+              "end": [1679909580]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1287-72131-77400-2-1f923da1"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route OUT-202 [Schedule Start: 27-03-2023 21:30:00 - Schedule End: 27-03-2023 22:33:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["3f0e1c7c-6b1f-4bf4-832a-eb1d7aee631d"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679884440],
+              "end": [1681992000]
+            }
+          ],
+          "informed_entity": [
+            {
+              "stop_id": ["1977-2f634a2f"]
+            }
+          ],
+          "cause": ["CONSTRUCTION"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Stop closed 24/7 until 21 April 2023 due to roadworks"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Stop 1977 - William Roberts Road (closed): Use Stop 1971 - Grassways Avenue instead."],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["99fb49fa-c327-4f2d-9acf-3d80dcd446cc"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679914800],
+              "end": [1679917800]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1287-73120-86400-2-c86372be"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route OUT-202 [Schedule Start: 28-03-2023 00:00:00 - Schedule End: 28-03-2023 00:50:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["64bd7238-8f51-49c8-aaf3-0238b4866948"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679906280],
+              "end": [1679908980]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1374-13403-77880-2-97c429b3"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 134-206 [Schedule Start: 27-03-2023 21:38:00 - Schedule End: 27-03-2023 22:23:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["87b5185c-d9df-4b0b-93ae-bf8ed490c818"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679906100],
+              "end": [1679909100]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1263-67012-77700-2-67f991ed"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 670-202 [Schedule Start: 27-03-2023 21:35:00 - Schedule End: 27-03-2023 22:25:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["8540ccde-4b0e-4b80-9082-dbb236d1e99e"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679907600],
+              "end": [1679909880]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1285-07502-79200-2-f8aff441"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 75-202 [Schedule Start: 27-03-2023 22:00:00 - Schedule End: 27-03-2023 22:38:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["2bbb98d8-29b6-494f-bf6a-d046707370af"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679913000],
+              "end": [1679915100]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1285-07502-84600-2-d74be849"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 75-202 [Schedule Start: 27-03-2023 23:30:00 - Schedule End: 28-03-2023 00:05:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["d9369700-9427-43d7-9f6b-c3c490cb36f3"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679910300],
+              "end": [1679912580]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["1285-07501-81900-2-877364df"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route 75-202 [Schedule Start: 27-03-2023 22:45:00 - Schedule End: 27-03-2023 23:23:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["3f6ee12b-33a6-4f7d-a74f-213b764977ae"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679969700],
+              "end": [1679971980]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["901-95011-54900-2-930d1050"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route HMB-209 [Schedule Start: 28-03-2023 15:15:00 - Schedule End: 28-03-2023 15:53:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["753a9803-0799-4234-a5ae-0742f49b04a4"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679966700],
+              "end": [1679968980]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["901-95012-51900-2-3c52ffb3"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route HMB-209 [Schedule Start: 28-03-2023 14:25:00 - Schedule End: 28-03-2023 15:03:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["5719db1b-6501-446d-bf23-5c9ab6b27eb0"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679949000],
+              "end": [1679952000]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["733-93012-34200-2-f5124f32"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route GULF-209 [Schedule Start: 28-03-2023 09:30:00 - Schedule End: 28-03-2023 10:20:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["c8c15e3b-8cba-49ab-b2bc-fbcb73afaf2e"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679985900],
+              "end": [1679988900]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["733-93011-71100-2-1af24740"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route GULF-209 [Schedule Start: 28-03-2023 19:45:00 - Schedule End: 28-03-2023 20:35:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["b2d7803f-47a6-4ce9-9248-0a090a63e88b"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679952600],
+              "end": [1679955600]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["733-93011-37800-2-1af24740"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route GULF-209 [Schedule Start: 28-03-2023 10:30:00 - Schedule End: 28-03-2023 11:20:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["a3c84847-782e-4e92-89e9-27e0ffbea037"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679982300],
+              "end": [1679985300]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["733-93012-67500-2-f5124f32"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route GULF-209 [Schedule Start: 28-03-2023 18:45:00 - Schedule End: 28-03-2023 19:35:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["6f78e318-80db-40b2-9915-209946dab8d5"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679978700],
+              "end": [1679981700]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["733-93012-63900-2-f5124f32"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route GULF-209 [Schedule Start: 28-03-2023 17:45:00 - Schedule End: 28-03-2023 18:35:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["22fcbe60-a53b-4bd5-ba7d-9f275d0314f7"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679982300],
+              "end": [1679985300]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["733-93011-67500-2-1af24740"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route GULF-209 [Schedule Start: 28-03-2023 18:45:00 - Schedule End: 28-03-2023 19:35:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["8d4714fa-0ac2-4a6c-b482-e1df6a1e8993"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679906160],
+              "end": [1679909160]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["249-820055-77760-2-1174262-8529369d"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route STH-201 [Schedule Start: 27-03-2023 21:36:00 - Schedule End: 27-03-2023 22:26:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      },
+      {
+        "id": ["5722e6a4-2f04-4c11-a954-81d5ac89220d"],
+        "alert": {
+          "active_period": [
+            {
+              "start": [1679909520],
+              "end": [1679912400]
+            }
+          ],
+          "informed_entity": [
+            {
+              "trip": {
+                "trip_id": ["249-820164-81120-2-1179262-9e2d2917"]
+              }
+            }
+          ],
+          "cause": ["OTHER_CAUSE"],
+          "effect": ["NO_SERVICE"],
+          "header_text": {
+            "translation": [
+              {
+                "text": ["Service Cancellation for Route STH-201 [Schedule Start: 27-03-2023 22:32:00 - Schedule End: 27-03-2023 23:20:00 ]"],
+                "language": ["en"]
+              }
+            ]
+          },
+          "description_text": {
+            "translation": [
+              {
+                "text": ["Trip Cancelled"],
+                "language": ["en"]
+              }
+            ]
+          }
+        },
+        "timestamp": ["1679910288"]
+      }
+    ]
+  },
+  "error": {}
+}
