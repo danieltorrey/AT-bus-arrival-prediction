@@ -6,9 +6,10 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
+options(warn=-1)
 ```
 
-```{r}
+```{r eval=FALSE}
 # Load libraries
 library(tidyverse)
 library(jsonlite)
@@ -82,37 +83,33 @@ write_json(content(trip_updates), paste('tripupdates_', todays_date), pretty = T
 write_json(content(alerts), paste('alerts_', todays_date), pretty = TRUE)
 ```
 
-```{r}
+```{r include=FALSE}
 trip_content = content(trip_updates)[[2]][[2]]
 
-#trip_content = temp[[2]][[2]]
-
+head(trip_content)
 length(trip_content)
-
+#trip_content = temp[[2]][[2]]
 #head(str(trip_content), level = 3)
 
-head(trip_content)
-
 #Helper Functions
-
-n = function(x) if(is.null(x)) NA else x
+null_check = function(x) if(is.null(x)) NA else x
 
 trips = trips %>% filter(trip_id != "trip_id")
 
 trip_data = as.data.frame(do.call(rbind, lapply(trip_content, 
-                                                function(x) c(n(x$trip_update$trip$trip_id),
-                                                              n(x$trip_update$trip$direction_id),
-                                                              n(x$trip_update$trip$route_id),
-                                                              n(x$trip_update$stop_time_update$stop_id),
-                                                              n(x$trip_update$trip$schedule_relationship),
-                                                              n(x$trip_update$delay), 
-                                                              n(x$trip_update$stop_time_update$stop_sequence),
-                                                              n(x$trip_update$stop_time_update$arrival$time),
-                                                              n(x$trip_update$stop_time_update$arrival$delay),
-                                                              n(x$trip_update$stop_time_update$departure$time),
-                                                              n(x$trip_update$stop_time_update$departure$delay)
+                                                function(x) c(null_check(x$trip_update$trip$trip_id),
+                                                              null_check(x$trip_update$trip$direction_id),
+                                                              null_check(x$trip_update$trip$route_id),
+                                                              null_check(x$trip_update$stop_time_update$stop_id),
+                                                              null_check(x$trip_update$trip$schedule_relationship),
+                                                              null_check(x$trip_update$delay), 
+                                                              null_check(x$trip_update$stop_time_update$stop_sequence),
+                                                              null_check(x$trip_update$stop_time_update$arrival$time),
+                                                              null_check(x$trip_update$stop_time_update$arrival$delay),
+                                                              null_check(x$trip_update$stop_time_update$departure$time),
+                                                              null_check(x$trip_update$stop_time_update$departure$delay)
                                                 ))))
-
+# Setting column names
 colnames(trip_data) = c("trip_id", 
                         "direction_id", 
                         "route_id", 
@@ -125,7 +122,7 @@ colnames(trip_data) = c("trip_id",
                         "act_departure_time", 
                         "act_departure_delay")
 
-#Converting our types to be able to join 
+# Fixing stop sequence type
 trip_data$stop_sequence = as.integer(trip_data$stop_sequence)
 ```
 
@@ -152,9 +149,9 @@ cancelled_data = cancelled_data %>% filter(grepl("Cancellation", text) == TRUE) 
 
 
 ```{r}
-#Getting our full dataset by joining
+# Join all tables to collate full dataset
 
-df = trip_data %>% 
+bus_arrivals_full = trip_data %>% 
   left_join(stop_times %>% select("trip_id", "stop_sequence", "arrival_time", "departure_time"), 
             by = c("trip_id" = "trip_id", "stop_sequence" = "stop_sequence")) %>%
   left_join(stops %>% select("stop_id", "stop_lat", "stop_lon"), 
