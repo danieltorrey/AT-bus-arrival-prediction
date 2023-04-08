@@ -1,0 +1,255 @@
+---
+title: "Bus_Data_Extraction"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+options(warn=-1)
+```
+
+```{r eval=FALSE}
+# Load libraries
+library(tidyverse)
+library(jsonlite)
+library(httr)
+library(lubridate)
+```
+
+```{r eval = FALSE}
+# Obtain AT API Key
+AT_key = "567bb1fb7ab64582905c7812648075e1"
+# Get today's date
+todays_date = as.character(Sys.Date())
+# Saving folder structures
+wd_main = getwd()
+wd_rawdata = paste(wd_main, '/rawdata', sep = "")
+wd_businfo = paste(wd_rawdata, '/businfo', sep = "")
+wd_busarrivals = paste(wd_rawdata, '/busarrivals', sep = "")
+```
+
+```{r eval = FALSE}
+setwd(paste(wd_rawdata, '/businfo', sep = ""))
+# Reading in bus static files 
+stops = read.table("stops.txt", header = TRUE, sep = ",", quote = "")
+stop_times = read.table("stop_times.txt", header = TRUE, sep = ",", quote = "")
+trips = read.table("trips.txt", header = TRUE, sep = ",", quote = ",", fill = TRUE)
+routes = read.table("routes.txt", header = TRUE, sep = ",", quote = "")
+shapes = read.table("shapes.txt", header = TRUE, sep = ",", quote = "")
+stop_times = stop_times %>% mutate(stop_code = substring(stop_id, 1, regexpr("-", stop_id)[1] - 1))
+```
+
+```{r eval = FALSE}
+# Grabbing live bus arrival data for current day
+combined_feed <- tryCatch(
+  GET('https://api.at.govt.nz/realtime/legacy/',
+      accept_json(),
+      add_headers('Ocp-Apim-Subscription-Key' = AT_key)),
+  error=function(e) NULL)
+vehicle <- tryCatch(
+  GET('https://api.at.govt.nz/realtime/legacy/vehiclelocations',
+      accept_json(),
+      add_headers('Ocp-Apim-Subscription-Key' = AT_key)),
+  error=function(e) NULL)
+trip_updates <- tryCatch(
+  GET('https://api.at.govt.nz/realtime/legacy/tripupdates',
+      accept_json(),
+      add_headers('Ocp-Apim-Subscription-Key' = AT_key)),
+  error=function(e) NULL)
+alerts <- tryCatch(
+  GET('https://api.at.govt.nz/realtime/legacy/servicealerts',
+      accept_json(),
+      add_headers('Ocp-Apim-Subscription-Key' = AT_key)),
+  error=function(e) NULL)
+```
+
+
+```{r eval = FALSE}
+# Saving data to JSON file
+setwd(wd_busarrivals)
+dir.create(todays_date)
+setwd(paste(wd_busarrivals, paste('/', todays_date, sep = ""), sep = ""))
+write_json(content(vehicle), paste('vehicle_', todays_date), pretty = TRUE)
+write_json(content(combined_feed), paste('combined_', todays_date), pretty = TRUE)
+write_json(content(trip_updates), paste('tripupdates_', todays_date), pretty = TRUE)
+write_json(content(alerts), paste('alerts_', todays_date), pretty = TRUE)
+```
+
+
+```{r eval = FALSE}
+extract_data = function(trip_updates, alerts){
+  
+  trip_content =trip_updates[[2]][[2]]
+  
+  null_check = function(x) if(is.null(x)) NA else x
+  trips = trips %>% filter(trip_id != "trip_id")
+  trip_data = as.data.frame(do.call(rbind, lapply(trip_content, 
+                                                  function(x) c(null_check(x$trip_update$trip$trip_id[[1]][1]),
+                                                                null_check(x$trip_update$trip$direction_id),
+                                                                null_check(x$trip_update$trip$route_id),
+                                                                null_check(x$trip_update$stop_time_update$stop_id),
+                                                                null_check(x$trip_update$trip$schedule_relationship),
+                                                                null_check(x$trip_update$delay), 
+                                                                null_check(x$trip_update$stop_time_update$stop_sequence),
+                                                                null_check(x$trip_update$stop_time_update$arrival$time),
+                                                                null_check(x$trip_update$stop_time_update$arrival$delay),
+                                                                null_check(x$trip_update$stop_time_update$departure$time),
+                                                                null_check(x$trip_update$stop_time_update$departure$delay)
+                                                  ))))
+  
+  #For some reason, my dataframe returns a dataframe of lists when we store it as JSON instead of reading directly from the website, code to sort this issue
+  trip_data = as.data.frame(lapply(trip_data, unlist))
+  
+  # Setting column names
+  colnames(trip_data) = c("trip_id", 
+                          "direction_id", 
+                          "route_id", 
+                          "stop_id", 
+                          "schedule_relationship", 
+                          "delay", 
+                          "stop_sequence", 
+                          "act_arrival_time", 
+                          "arrival_delay", 
+                          "act_departure_time", 
+                          "act_departure_delay")
+  # Fixing stop sequence type
+  trip_data$stop_sequence = as.integer(trip_data$stop_sequence)
+  
+  #Now alerts are different 
+  alert_contents = alerts[[2]][[2]]
+  alert_data = as.data.frame(do.call(rbind, lapply(alert_contents, function(x) c(null_check(x$id), 
+                                                                                           null_check(x$alert$effect), 
+                                                                                           null_check(x$alert$header_text$translation[[1]]$text), 
+                                                                                           null_check(x$alert$informed_entity[[1]]$trip$trip_id)))))
+  
+  
+  alert_data = as.data.frame(lapply(alert_data, unlist))
+  
+  colnames(alert_data) = c("id", "effect", "text", "trip_id")
+  alert_temp1 = alert_data
+  #Comapring trip_ids, if they aren't the same, then the trip is invalid. 
+  alert_temp1$trip_id = ifelse(alert_temp1$trip_id == alert_temp1$id, NA, alert_temp1$trip_id)
+  
+  cancelled_buses = alert_temp1 %>% 
+    filter(is.na(trip_id) == FALSE) %>% 
+    select(trip_id) %>% 
+    mutate(cancelled = TRUE)
+  
+  cancelled_data = alert_data %>% 
+    filter(effect == "NO_SERVICE")
+  #Then filter about by cancellation 
+  #These are buses that have have cancelled prior to the event
+  #Could have alsued used the description text and found Trip Cancelled
+  cancelled_data = cancelled_data %>% 
+    filter(grepl("Cancellation", text) == TRUE) %>% 
+    select(trip_id) %>% 
+    mutate(cancelled = TRUE)
+  
+  bus_arrivals_full = trip_data %>% 
+  left_join(stop_times %>% 
+              select("trip_id", "stop_sequence", "arrival_time", "departure_time"), 
+            by = c("trip_id" = "trip_id", "stop_sequence" = "stop_sequence")) %>%
+  left_join(stops %>% select("stop_id", "stop_lat", "stop_lon"), 
+            by = c("stop_id" = "stop_id")) %>%
+  left_join(routes %>% select("route_id", "route_short_name"), 
+            by = c("route_id" = "route_id")) %>% 
+  left_join(cancelled_buses, 
+            by = c("trip_id" = "trip_id"))
+  
+  return(bus_arrivals_full)
+}
+
+
+
+```
+
+```{r eval = FALSE}
+#Getting information
+
+#Currently we stored all the information as dates in our files 
+list_of_dates = c("27 March", "28 March", "29 March", "30 March", "31 March", "1 April", "2 April")
+
+desired_length <- length(list_of_dates) # or whatever length you want
+
+list_df <- vector(mode = "list", length = desired_length)
+                  
+for(i in 1:length(list_of_dates)) {
+  trip_updates = read_json(paste("/Users/leonardophu/Desktop/2023/STATS 765/PROJECT/Temporary /", list_of_dates[i],"/Trip_Updates_", gsub(" ", "", list_of_dates[i]), ".json", sep = ""))
+  alerts = read_json(paste("/Users/leonardophu/Desktop/2023/STATS 765/PROJECT/Temporary /", list_of_dates[i],"/Alert_Service_", gsub(" ", "", list_of_dates[i]), ".json", sep = ""))
+  
+  daily_data = extract_data(trip_updates, alerts)
+  
+  list_df[[i]]  = daily_data  %>%  mutate(date = paste(list_of_dates[i], "2023", sep = " "))
+} 
+
+#Put all the dataframes for each day into one dataframe
+full_dataset = do.call(rbind, list_df)
+
+full_dataset = full_dataset %>% mutate(day_of_week = wday(as.Date(date, format = "%d %B %Y"), label = TRUE))
+```
+
+```{r eval = FALSE}
+#Cleaning the dataset
+full_dataset$act_arrival_time = ifelse(is.na(full_dataset$act_arrival_time) == TRUE & is.na(full_dataset$act_departure_time) == FALSE, full_dataset$act_departure_time, full_dataset$act_arrival_time)
+full_dataset$act_departure_time = ifelse(is.na(full_dataset$act_arrival_time) == FALSE & is.na(full_dataset$act_departure_time) == TRUE,  full_dataset$act_arrival_time, full_dataset$act_departure_time)
+
+#Since these times are in total seconds from Jan 1970
+class(full_dataset$act_arrival_time) = c('POSIXt','POSIXct')
+class(full_dataset$act_departure_time) = c('POSIXt','POSIXct')
+
+#full_dataset$act_arrival_time = ≈(full_dataset$act_arrival_time)
+```
+
+```{r eval = FALSE}
+non_cancelled = subset(full_dataset, is.na(cancelled) == TRUE)
+non_cancelled = non_cancelled %>% filter(!(route_short_name %in% c("WEST", "NORTH","SOUTH", "EAST"))) %>%
+  filter(is.na(act_arrival_time) == FALSE)
+
+unique(non_cancelled$route_short_name)
+
+#Bus cancellations are about 20%
+nrow(non_cancelled) / nrow(full_dataset)
+
+non_cancelled_2 = non_cancelled %>% group_by(trip_id) %>% arrange(act_arrival_time) %>%  mutate(previous_delay = lag(delay))
+
+table(non_cancelled_2$time_frame)
+
+```
+
+```{r eval = FALSE}
+library(ggplot2)
+
+#We have a row of outliers
+ggplot(non_cancelled %>% filter(delay > -75000), mapping = aes(x = day_of_week, y = delay)) + geom_boxplot()
+
+ggplot(non_cancelled %>% filter(delay > -75000), mapping = aes(x = day_of_week, y = delay)) + geom_boxplot()
+
+ggplot(non_cancelled %>% filter(delay > -75000), mapping = aes(x = delay)) + geom_density() + facet_wrap(~day_of_week)
+
+ggplot(non_cancelled %>% filter(delay > -75000), mapping = aes(x = day_of_week, y = delay)) + geom_boxplot()
+
+
+non_cancelled$time_frame = as.factor(as.numeric(substr(non_cancelled$act_arrival_time, 12, 13)))
+
+ggplot(non_cancelled %>% filter(delay > -75000), mapping = aes(x = time_frame, y = delay)) + geom_boxplot()
+
+ggplot(non_canel)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
