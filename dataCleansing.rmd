@@ -8,79 +8,11 @@ knitr::opts_chunk$set(echo = TRUE)
 options(warn=-1)
 ```
 
-```{r}
-# Load libraries
-library(tidyverse)
-library(jsonlite)
-library(httr)
-library(lubridate)
-```
 
 ```{r}
-# Obtain AT API Key
-AT_key = "567bb1fb7ab64582905c7812648075e1"
-# Get today's date
-todays_date = as.character(Sys.Date())
-# Saving folder structures
-wd_main = getwd()
-wd_rawdata = paste(wd_main, '/rawdata', sep = "")
-wd_businfo = paste(wd_rawdata, '/businfo', sep = "")
-wd_busarrivals = paste(wd_rawdata, '/busarrivals', sep = "")
-```
-
-```{r}
-setwd(paste(wd_rawdata, '/businfo', sep = ""))
-# Reading in bus static files 
-stops = read.table("stops.txt", header = TRUE, sep = ",", quote = "")
-stop_times = read.table("stop_times.txt", header = TRUE, sep = ",", quote = "")
-trips = read.table("trips.txt", header = TRUE, sep = ",", quote = ",", fill = TRUE)
-routes = read.table("routes.txt", header = TRUE, sep = ",", quote = "")
-shapes = read.table("shapes.txt", header = TRUE, sep = ",", quote = "")
-stop_times = stop_times %>% mutate(stop_code = substring(stop_id, 1, regexpr("-", stop_id)[1] - 1))
-```
-
-```{r}
-# Grabbing live bus arrival data for current day
-combined_feed <- tryCatch(
-  GET('https://api.at.govt.nz/realtime/legacy/',
-      accept_json(),
-      add_headers('Ocp-Apim-Subscription-Key' = AT_key)),
-  error=function(e) NULL)
-vehicle <- tryCatch(
-  GET('https://api.at.govt.nz/realtime/legacy/vehiclelocations',
-      accept_json(),
-      add_headers('Ocp-Apim-Subscription-Key' = AT_key)),
-  error=function(e) NULL)
-trip_updates <- tryCatch(
-  GET('https://api.at.govt.nz/realtime/legacy/tripupdates',
-      accept_json(),
-      add_headers('Ocp-Apim-Subscription-Key' = AT_key)),
-  error=function(e) NULL)
-alerts <- tryCatch(
-  GET('https://api.at.govt.nz/realtime/legacy/servicealerts',
-      accept_json(),
-      add_headers('Ocp-Apim-Subscription-Key' = AT_key)),
-  error=function(e) NULL)
-```
-
-
-```{r}
-# Saving data to JSON file
-setwd(wd_busarrivals)
-dir.create(todays_date)
-setwd(paste(wd_busarrivals, paste('/', todays_date, sep = ""), sep = ""))
-write_json(content(vehicle), paste('vehicle_', todays_date), pretty = TRUE)
-write_json(content(combined_feed), paste('combined_', todays_date), pretty = TRUE)
-write_json(content(trip_updates), paste('tripupdates_', todays_date), pretty = TRUE)
-write_json(content(alerts), paste('alerts_', todays_date), pretty = TRUE)
-```
-
-
-```{r}
-
 #Extract data is a function which takes in a JSON trip_updates file and a JSON alert files. The goal of this is to create 1 dataframe with all the required information for that given day
 
-extract_data = function(trip_updates, alerts){
+extract_data = function(trip_updates, alerts) {
   
   #Json file strucutre, all the information is in the 2nd list within that 2nd list (I know confusing)
   trip_content =trip_updates[[2]][[2]]
@@ -88,7 +20,6 @@ extract_data = function(trip_updates, alerts){
   #Null check is a function that checks if a feature for an entity (individual buses) exist, if they don't we will replace that column as NA for that entity 
   null_check = function(x) if(is.null(x)) NA else x
   
-  #
   trips = trips %>% filter(trip_id != "trip_id")
   
   #We will extract all the relevant columns from the trip_updates GTFS file.
@@ -241,107 +172,4 @@ cancelled_buses = subset(full_dataset, is.na(cancelled) == FALSE) %>% filter(!(r
 #Get bus non cancellation rates. From our dataset it's about 20%
 nrow(non_cancelled) / nrow(full_dataset)
 ```
-
-```{r}
-#Counts of total number of busses
-total_buses = full_dataset %>% 
-  filter(!(route_short_name %in% c("WEST", "NORTH","SOUTH", "EAST"))) %>% 
-  group_by(route_short_name) %>% 
-  summarise(total_counts = n()) %>% 
-  filter(total_counts > 20)
-
-#Cancelled bus proportion
-cancelled_buses_proportion = cancelled_buses %>% 
-  left_join(total_buses, by = "route_short_name") %>% 
-  mutate(Cancelled_Proportion = Tally/total_counts) %>% 
-  select(route_short_name, Cancelled_Proportion) %>% 
-  arrange(desc(Cancelled_Proportion)) %>% 
-  filter(is.na(route_short_name) != TRUE) %>% 
-  #This is just to get the ordering we want in the barplot, can remove later on
-  mutate(Position = factor(route_short_name, route_short_name))
-
-print(cancelled_buses_proportion)
-
-#Showing the cancelled bus proportion in a graph 
-ggplot(cancelled_buses_proportion, aes(x = Position, y = Cancelled_Proportion)) + 
-  geom_col() +
-  theme_minimal()+
-  coord_flip() + 
-  theme(axis.ticks.x = element_blank(),
-        axis.title.x = element_blank(),
-        panel.grid.major.y = element_blank(),
-        plot.title = element_text(hjust = 0.5, face = "bold")) + 
-  ylab("") +
-  ggtitle("Proportion of bus cancellation")+ 
-  xlab("Bus routes") +
-  scale_y_continuous(expand = expansion(c(0,0.05)))
-
-```
-
-```{r}
-#BUS CANCELLATION BY DAY 
-
-#Getting the cancelled buses information 
-cancelled_buses_day = subset(full_dataset, is.na(cancelled) == FALSE) %>% filter(!(route_short_name %in% c("WEST", "NORTH","SOUTH", "EAST"))) %>% group_by(day_of_week) %>% summarise(Tally = n()) 
-
-total_buses_day = full_dataset %>% 
-  filter(!(route_short_name %in% c("WEST", "NORTH","SOUTH", "EAST"))) %>% 
-  group_by(day_of_week) %>% 
-  summarise(total_counts = n()) 
-
-#Cancelled bus proportion
-cancelled_buses_day_proportion = cancelled_buses_day %>% 
-  left_join(total_buses_day, by = "day_of_week") %>% 
-  mutate(Cancelled_Proportion = Tally/total_counts) %>% 
-  select(day_of_week, Cancelled_Proportion) %>% 
-  arrange(desc(Cancelled_Proportion)) %>% 
-  filter(is.na(day_of_week) != TRUE) %>% 
-  #This is just to get the ordering we want in the barplot, can remove later on
-  mutate(Position = factor(day_of_week, day_of_week))
-
-#Showing the cancelled bus proportion in a graph 
-ggplot(cancelled_buses_day_proportion, aes(x = Position, y = Cancelled_Proportion)) + 
-  geom_col() +
-  theme_minimal()+
-  coord_flip() + 
-  theme(axis.ticks.x = element_blank(),
-        axis.title.x = element_blank(),
-        panel.grid.major.y = element_blank(),
-        plot.title = element_text(hjust = 0.5, face = "bold")) + 
-  ylab("") +
-  ggtitle("Proportion of bus cancellation by day")+ 
-  xlab("Day of week") +
-  scale_y_continuous(expand = expansion(c(0,0.05)))
-```
-
-
-```{r}
-library(ggplot2)
-
-#We have a row of outliers
-
-#We had one observation that was -75000 minutes. Really skeptical so this was removed 
-ggplot(non_cancelled %>% filter(delay > -75000), mapping = aes(x = day_of_week, y = delay)) + geom_boxplot()
-
-ggplot(non_cancelled %>% filter(delay > -75000), mapping = aes(x = day_of_week, y = delay)) + geom_boxplot() + xlab("Day of week")
-
-ggplot(non_cancelled %>% filter(delay > -75000 & time_frame %in% c(21,22,23)), mapping = aes(x = time_frame, y = delay)) + geom_boxplot() + xlab("Hour of the day")
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
