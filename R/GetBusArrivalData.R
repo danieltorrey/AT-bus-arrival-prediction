@@ -32,7 +32,7 @@ alerts <- tryCatch(
 
 # Creating folder for today's date and time
 setwd(dir_busarrivals)
-date <- format(Sys.time(), '%Y-%m-%d')
+date <- format(Sys.time() + 12*60*60, '%Y-%m-%d')
 time <- format(Sys.time() + 12*60*60, '%H%M')   # Adding 12 hours on to account for UTC time in GitHub actions
 
 if (!(file.exists(paste0(dir_busarrivals, date)))) {
