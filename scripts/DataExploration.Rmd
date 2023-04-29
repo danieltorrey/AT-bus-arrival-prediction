@@ -28,10 +28,9 @@ ggplot(cancelled_buses_proportion, aes(x = Position, y = Cancelled_Proportion)) 
         panel.grid.major.y = element_blank(),
         plot.title = element_text(hjust = 0.5, face = "bold")) + 
   ylab("") +
-  ggtitle("Proportion of bus cancellation")+ 
+  ggtitle("Proportion of bus cancellation") + 
   xlab("Bus routes") +
   scale_y_continuous(expand = expansion(c(0,0.05)))
-
 ```
 
 ```{r}
@@ -75,9 +74,20 @@ ggplot(cancelled_buses_day_proportion, aes(x = Position, y = Cancelled_Proportio
 #We have a row of outliers
 
 #We had one observation that was -75000 minutes. Really skeptical so this was removed 
-ggplot(non_cancelled %>% filter(delay > -75000), mapping = aes(x = day_of_week, y = delay)) + geom_boxplot()
+ggplot(non_cancelled %>% 
+         filter(delay > -75000), 
+       mapping = aes(x = day_of_week, y = delay)) + 
+  geom_boxplot()
 
-ggplot(non_cancelled %>% filter(delay > -75000), mapping = aes(x = day_of_week, y = delay)) + geom_boxplot() + xlab("Day of week")
+ggplot(non_cancelled %>% 
+         filter(delay > -75000), 
+       mapping = aes(x = day_of_week, y = delay)) + 
+  geom_boxplot() + 
+  xlab("Day of week")
 
-ggplot(non_cancelled %>% filter(delay > -75000 & time_frame %in% c(21,22,23)), mapping = aes(x = time_frame, y = delay)) + geom_boxplot() + xlab("Hour of the day")
+ggplot(non_cancelled %>% 
+         filter(delay > -75000 & time_frame %in% c(21,22,23)), 
+       mapping = aes(x = time_frame, y = delay)) + 
+  geom_boxplot() + 
+  xlab("Hour of the day")
 ```

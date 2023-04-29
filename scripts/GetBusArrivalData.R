@@ -25,14 +25,17 @@ alerts <- tryCatch(
 
 
 # Creating folder for today's date and time
-setwd(wd_busarrivals)
+setwd(dir_busarrivals)
 date <- format(Sys.time(), '%Y-%m-%d')
 time <- format(Sys.time(), '%H%M')
 
-dir.create(date)
-setwd(paste0(wd_busarrivals, paste0('/', date)))
+if (!(file.exists(paste0(dir_busarrivals, date)))) {
+  dir.create(date)
+}
+
+setwd(paste0(dir_busarrivals, paste0('/', date)))
 dir.create(time)
-setwd(paste0(paste0(wd_busarrivals, paste0('/', date)), paste0('/', time)))
+setwd(paste0(paste0(dir_busarrivals, paste0('/', date)), paste0('/', time)))
 
 # Saving data to JSON file
 write_json(content(vehicle), 'vehicle', pretty = TRUE)
