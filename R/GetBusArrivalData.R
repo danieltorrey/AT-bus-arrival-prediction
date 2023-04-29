@@ -43,7 +43,7 @@ setwd(paste0(dir_busarrivals, paste0('/', date)))
 dir.create(time)
 setwd(paste0(paste0(dir_busarrivals, paste0('/', date)), paste0('/', time)))
 
-# Saving data to JSON file
+# Saving data to JSON files
 write_json(content(vehicle), 'vehicle', pretty = TRUE)
 write_json(content(combined_feed), 'combined', pretty = TRUE)
 write_json(content(trip_updates), 'tripupdates', pretty = TRUE)
