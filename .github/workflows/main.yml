@@ -28,6 +28,7 @@ jobs:
     # Run R script
     - name: GetBusArrivalData
       run: source("scripts/GetBusArrivalData.R")
+      shell: Rscript {0}
       
  # Add new files in data folder, commit along with other modified files, push
     - name: Commit files
