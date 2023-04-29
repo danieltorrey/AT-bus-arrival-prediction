@@ -60,7 +60,7 @@ jobs:
 
       - name: GetBusArrivalData
         run: |
-          source("scripts/Execute.R")
+          source("R/Execute.R")
         shell: Rscript {0}
       
       - name: Commit files
