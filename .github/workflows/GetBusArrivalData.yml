@@ -4,7 +4,7 @@ name: GetBusArrivalData
 # Controls when the action will run.
 on:
   schedule:
-    - cron:  '16 * * * *'
+    - cron:  '*/5 * * * *'
 
 jobs: 
   GetBusArrivalData:
