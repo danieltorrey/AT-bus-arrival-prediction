@@ -33,7 +33,7 @@ jobs:
           git config --local user.name GitHub Actions
           git config --local user.email "actions@github.com"
           git add --all
-          git commit -am "Pulled Bus Arrival Data"
+          git commit -am "Pulled Bus Arrival Data at $(date +%z)"
           
           git push
 
