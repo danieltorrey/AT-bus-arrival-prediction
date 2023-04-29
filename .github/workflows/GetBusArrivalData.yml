@@ -6,76 +6,39 @@ on:
   schedule:
     - cron:  '*/5 * * * *'
 
-
 jobs: 
-  generate-data:
+  autoscrape:
     # The type of runner that the job will run on
-    runs-on: ${{ matrix.config.os }}
-    
-    name: ${{ matrix.config.os }} (${{ matrix.config.r }})
+    runs-on: macos-latest
 
-    strategy:
-      fail-fast: false
-      matrix:
-        config:
-          - {os: ubuntu-latest,   r: '4.0'}
-
-    env:
-      R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
-      RSPM: ${{ matrix.config.rspm }}
-      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
-
+    # Load repo and install R
     steps:
-      - uses: actions/checkout@v2
+    - uses: actions/checkout@master
+    - uses: r-lib/actions/setup-r@master
 
-      - uses: r-lib/actions/setup-r@v2
-        with:
-          r-version: ${{ matrix.config.r }}
-          http-user-agent: ${{ matrix.config.http-user-agent }}
+    # Set-up R
+    - name: Install packages
+      run: |
+        R -e 'install.packages("tidyverse")'
+        R -e 'install.packages("rvest")'
+        R -e 'install.packages('remotes')'
+        R -e 'install.packages('sessioninfo')'
+        R -e 'install.packages("tidyverse")'
+        R -e 'install.packages("jsonlite")'
+        R -e 'install.packages("httr")'
+        R -e 'install.packages("lubridate")'
+        R -e 'install.packages("ggplot2")'
 
-      - uses: r-lib/actions/setup-pandoc@master
-
-      - name: Query dependencies
-        run: |
-          install.packages('remotes')
-          install.packages('sessioninfo')
-          install.packages("tidyverse")
-          install.packages("jsonlite")
-          install.packages("httr")
-          install.packages("lubridate")
-          install.packages("ggplot2")
-          saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
-          writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
-        shell: Rscript {0}
-
-      - name: Cache R packages
-        uses: actions/cache@v1
-        with:
-          path: ${{ env.R_LIBS_USER }}
-          key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
-          restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
-
-      - name: Install dependencies
-        run: |
-          remotes::install_deps(dependencies = TRUE)
-        shell: Rscript {0}
-
-      - name: GetBusArrivalData
-        run: |
-          source("R/Execute.R")
-        shell: Rscript {0}
+    - name: GetBusArrivalData
+      run: |
+        source("R/Execute.R")
+      shell: Rscript {0}
       
-      - name: Commit files
-        run: |
-          git config --local user.name GitHub Actions
-          git config --local user.email "actions@github.com"
-          git add --all
-          git commit -am "Pulled Bus Arrival Data $(date)"
-          git push
-      
-      - name: Session info
-        run: |
-          options(width = 100)
-          pkgs <- installed.packages()[, "Package"]
-          sessioninfo::session_info(pkgs, include_base = TRUE)
-        shell: Rscript {0}
+    - name: Commit files
+      run: |
+        git config --local user.name GitHub Actions
+        git config --local user.email "actions@github.com"
+        git add --all
+        git commit -am "Pulled Bus Arrival Data $(date)"
+        git push
+
