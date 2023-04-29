@@ -9,10 +9,5 @@ source(paste0(dir_scripts, 'Initialise.R'))
 
 source(paste0(dir_scripts, 'GetBusInfoData.R'))
 
-############################################
-# Only run if intending to grab AT GTFS data
-source(paste0(dir_scripts, "GetBusArrivalData.R"))
-############################################
-
 #source(paste0(dir_scripts, '/DataCleansing.Rmd'))
 #source(paste0(dir_scripts, '/DataExploration'))

@@ -35,7 +35,7 @@ jobs:
 
       - name: GetBusArrivalData
         run: |
-          source("R/Execute.R")
+          source("R/GetBusArrivalData.R")
         shell: Rscript {0}
       
       - name: Commit files
@@ -43,6 +43,6 @@ jobs:
           git config --local user.name GitHub Actions
           git config --local user.email "actions@github.com"
           git add --all
-          git commit -am "Pulled Bus Arrival Data $(date)"
+          git commit -am "Pulled Bus Arrival Data $(format(Sys.time() + 12*60*60, '%Y-%m-%d-%H:%M'))"
           git push
 

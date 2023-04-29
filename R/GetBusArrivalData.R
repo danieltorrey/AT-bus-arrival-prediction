@@ -1,3 +1,7 @@
+# Saving folder directories
+dir = getwd()
+dir_busarrivals = paste0(dir, '../rawdata/busarrivals/', sep = "")
+
 # Obtain AT API Key
 AT_key = '567bb1fb7ab64582905c7812648075e1'
 
@@ -27,7 +31,7 @@ alerts <- tryCatch(
 # Creating folder for today's date and time
 setwd(dir_busarrivals)
 date <- format(Sys.time(), '%Y-%m-%d')
-time <- format(Sys.time(), '%H%M')
+time <- format(Sys.time() + 12*60*60, '%H%M')   # Adding 12 hours on to account for UTC time in GitHub actions
 
 if (!(file.exists(paste0(dir_busarrivals, date)))) {
   dir.create(date)
