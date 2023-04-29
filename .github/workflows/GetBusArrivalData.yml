@@ -25,6 +25,13 @@ jobs:
           R -e 'install.packages("tidyverse")'
           R -e 'install.packages("jsonlite")'
           R -e 'install.packages("lubridate")'
+          
+      - name: Cache R packages
+        uses: actions/cache@v1
+        with:
+          path: ${{ env.R_LIBS_USER }}
+          key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
+          restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
 
       - name: GetBusArrivalData
         run: |
