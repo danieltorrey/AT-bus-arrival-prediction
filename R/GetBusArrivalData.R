@@ -2,6 +2,8 @@
 dir = getwd()
 dir_busarrivals = paste0(dir, '/rawdata/busarrivals/', sep = "")
 
+source(paste0(dir, '/R/Initialise.R'))
+
 # Obtain AT API Key
 AT_key = '567bb1fb7ab64582905c7812648075e1'
 
