@@ -27,15 +27,20 @@ jobs:
         R -e 'install.packages("ggplot2")'
     # Run R script
     - name: GetBusArrivalData
+<<<<<<< HEAD
       run: Rscript Execute.R
+=======
+      run: source("scripts/GetBusArrivalData.R")
+      shell: Rscript {0}
+>>>>>>> 0a518fa3c9ef3d920abc0dd4f85e2791a5499c1f
       
  # Add new files in data folder, commit along with other modified files, push
     - name: Commit files
       run: |
         git config --local user.name actions-user
         git config --local user.email "actions@github.com"
-        git add data/*
-        git commit -am "GH ACTION Headlines $(date)"
+        git add --all
+        git commit -am "Pulled Bus Arrival Data $(date)"
         git push origin main
       env:
         REPO_KEY: ${{secrets.GITHUB_TOKEN}}
