@@ -23,14 +23,8 @@ jobs:
       - name: Install packages
         run: |
           R -e 'install.packages("tidyverse")'
-          R -e 'install.packages("rvest")'
-          R -e 'install.packages('remotes')'
-          R -e 'install.packages('sessioninfo')'
-          R -e 'install.packages("tidyverse")'
           R -e 'install.packages("jsonlite")'
-          R -e 'install.packages("httr")'
           R -e 'install.packages("lubridate")'
-          R -e 'install.packages("ggplot2")'
 
       - name: GetBusArrivalData
         run: |
