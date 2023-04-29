@@ -4,7 +4,7 @@ name: GetBusArrivalData
 # Controls when the action will run.
 on:
   schedule:
-    - cron:  '59 * * * *'
+    - cron:  '*/5 * * * *'
 
 
 jobs: 
@@ -27,7 +27,7 @@ jobs:
         R -e 'install.packages("ggplot2")'
     # Run R script
     - name: GetBusArrivalData
-      run: Rscript GetBusArrivalData.R
+      run: Rscript Execute.R
       
  # Add new files in data folder, commit along with other modified files, push
     - name: Commit files

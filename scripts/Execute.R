@@ -1,5 +1,3 @@
-setwd('..')
-
 # Saving folder directories
 dir = getwd()
 dir_scripts = paste0(dir, '/scripts/', sep = "")
