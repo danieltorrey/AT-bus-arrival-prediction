@@ -1,0 +1,36 @@
+name: GetBusArrivalData
+
+on:
+  schedule:
+    - cron:  '*/1 0-23 * * *'
+
+jobs: 
+  GetBusArrivalData:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: r-lib/actions/setup-pandoc@v2
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: 4.1.2
+          use-public-rspm: true
+    
+      - name: Install packages
+        run: |
+          install.packages('tidyverse')
+          install.packages('jsonlite')
+        shell: Rscript {0}
+
+      - name: GetBusArrivalData
+        run: |
+          source("R/GetBusArrivalData.R")
+        shell: Rscript {0}
+      
+      - name: Commit files
+        run: |
+          git pull
+          git config --local user.name GitHub Actions
+          git config --local user.email "actions@github.com"
+          git add --all
+          git commit -am "Pulled Bus Arrival Data at $(date)"
+          git push
