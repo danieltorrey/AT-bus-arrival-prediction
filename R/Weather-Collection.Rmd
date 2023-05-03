@@ -1,0 +1,43 @@
+---
+title: "Weather-Data-Collection"
+output: html_document
+---
+
+```{r}
+#Initialisation
+library(httr)
+
+#Also free API, I can only make max 1million calls to API, be mindful of that though 1million LOL that's enough
+api_key <- "d0d5efa738a7493db8a61211231203"
+```
+
+```{r}
+#Location we can give latitude,longitude 
+location <- "Auckland"
+#location = "48.8567,2.3508" 
+
+#Also for the start date can only get previous 7 days be mindful of that
+
+#Format is yyyy-mm-dd
+start_date <- "2023-05-03"
+```
+
+```{r}
+response <- GET(paste0("https://api.weatherapi.com/v1/history.json?key=", api_key, "&q=", location, "&dt=", start_date))
+```
+
+```{r}
+weather_data <- content(response, "parsed")
+```
+
+```{r}
+#https://www.weatherapi.com/api-explorer.aspx look at this, shows what data will look like
+
+#Collects hourly data, and has lots of information
+weather_data
+```
+
+
+
+
+
