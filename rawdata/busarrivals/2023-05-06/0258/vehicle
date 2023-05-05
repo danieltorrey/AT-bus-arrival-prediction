@@ -1,0 +1,3558 @@
+{
+  "status": ["OK"],
+  "response": {
+    "header": {
+      "timestamp": [1683298716.663],
+      "gtfs_realtime_version": ["1.0"],
+      "incrementality": [0]
+    },
+    "entity": [
+      {
+        "id": ["255806458"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.7094],
+            "longitude": [174.8538],
+            "bearing": ["33"],
+            "speed": [0.0514]
+          },
+          "timestamp": [1683298705],
+          "vehicle": {
+            "id": ["255806458"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512006643"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8558],
+            "longitude": [174.7312],
+            "bearing": ["71"],
+            "speed": [0]
+          },
+          "timestamp": [1683298562],
+          "vehicle": {
+            "id": ["512006643"],
+            "label": ["TEST-TRNSPONDER"],
+            "license_plate": ["MORAY"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512005620"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8367],
+            "longitude": [174.7485],
+            "bearing": ["288"],
+            "speed": [0]
+          },
+          "timestamp": [1683298604],
+          "vehicle": {
+            "id": ["512005620"],
+            "label": ["QUEENSTOWN"],
+            "license_plate": ["ZMU4012"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512008358"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8213],
+            "longitude": [174.7648],
+            "speed": [0.0514]
+          },
+          "timestamp": [1683298674],
+          "vehicle": {
+            "id": ["512008358"],
+            "label": ["SEA YOU SOON"],
+            "license_plate": ["ZMX9423"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512007617"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8765],
+            "longitude": [174.9021],
+            "speed": [0]
+          },
+          "timestamp": [1683298502],
+          "vehicle": {
+            "id": ["512007617"],
+            "label": ["CONDOR OF AUCKLAND"],
+            "license_plate": ["ZMX7366"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["636020796"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.4877],
+            "longitude": [175.6809],
+            "bearing": ["98"],
+            "speed": [4.9901]
+          },
+          "timestamp": [1683298708],
+          "vehicle": {
+            "id": ["636020796"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512002540"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8103],
+            "longitude": [174.6486],
+            "speed": [0]
+          },
+          "timestamp": [1683298623],
+          "vehicle": {
+            "id": ["512002540"],
+            "label": ["HALCYON"],
+            "license_plate": ["ZMT7669"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512433000"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.4058],
+            "longitude": [174.9382],
+            "bearing": ["340"],
+            "speed": [5.2473]
+          },
+          "timestamp": [1683298701],
+          "vehicle": {
+            "id": ["512433000"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["12132"],
+        "vehicle": {
+          "trip": {
+            "trip_id": ["1075-01806-93600-2-55bb9f74"],
+            "start_time": ["26:00:00"],
+            "start_date": ["20230505"],
+            "schedule_relationship": [0],
+            "route_id": ["18-202"],
+            "direction_id": [1]
+          },
+          "position": {
+            "latitude": [-36.9139],
+            "longitude": [174.6888],
+            "bearing": ["115"],
+            "speed": [12]
+          },
+          "timestamp": [1683298711],
+          "vehicle": {
+            "id": ["12132"],
+            "label": ["NB2132"],
+            "license_plate": ["EKL301"]
+          },
+          "occupancy_status": [1]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["563037780"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.6209],
+            "longitude": [174.7912],
+            "speed": [0]
+          },
+          "timestamp": [1683298564],
+          "vehicle": {
+            "id": ["563037780"],
+            "label": ["WILL"],
+            "license_plate": ["9MXJ9"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512009258"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8426],
+            "longitude": [174.763],
+            "speed": [0]
+          },
+          "timestamp": [1683298704],
+          "vehicle": {
+            "id": ["512009258"],
+            "label": ["PERETU"],
+            "license_plate": ["ZME3475"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512007465"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8407],
+            "longitude": [174.7764],
+            "bearing": ["34"],
+            "speed": [0]
+          },
+          "timestamp": [1683298580],
+          "vehicle": {
+            "id": ["512007465"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["22789"],
+        "vehicle": {
+          "trip": {
+            "trip_id": ["1395-27002-95400-2-d4ccec97"],
+            "start_time": ["26:30:00"],
+            "start_date": ["20230505"],
+            "schedule_relationship": [0],
+            "route_id": ["NX1-203"],
+            "direction_id": [1]
+          },
+          "position": {
+            "latitude": [-36.7393],
+            "longitude": [174.7151],
+            "bearing": ["165"],
+            "speed": [0]
+          },
+          "timestamp": [1683298714],
+          "vehicle": {
+            "id": ["22789"],
+            "label": ["RT1357"],
+            "license_plate": ["LPM20"]
+          },
+          "occupancy_status": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["235022000"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8485],
+            "longitude": [174.8089],
+            "speed": [0]
+          },
+          "timestamp": [1683298571],
+          "vehicle": {
+            "id": ["235022000"],
+            "label": ["SASSAFRAS"],
+            "license_plate": ["ZQD06"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512009495"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8391],
+            "longitude": [174.7481],
+            "speed": [0]
+          },
+          "timestamp": [1683298627],
+          "vehicle": {
+            "id": ["512009495"],
+            "label": ["EROS"],
+            "license_plate": ["ZMVG"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512009261"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8494],
+            "longitude": [174.8087],
+            "speed": [0]
+          },
+          "timestamp": [1683298644],
+          "vehicle": {
+            "id": ["512009261"],
+            "label": ["VIVANTE"],
+            "license_plate": ["ZMP5191"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512006003"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8424],
+            "longitude": [174.7663],
+            "speed": [0]
+          },
+          "timestamp": [1683298715],
+          "vehicle": {
+            "id": ["512006003"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512003518"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8415],
+            "longitude": [174.7764],
+            "speed": [0.0514]
+          },
+          "timestamp": [1683298681],
+          "vehicle": {
+            "id": ["512003518"],
+            "label": ["KAPUA"],
+            "license_plate": ["ZMW4289"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["319407000"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8417],
+            "longitude": [174.7601],
+            "bearing": ["219"],
+            "speed": [0]
+          },
+          "timestamp": [1683298623],
+          "vehicle": {
+            "id": ["319407000"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512000666"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8558],
+            "longitude": [174.7312],
+            "speed": [0]
+          },
+          "timestamp": [1683298703],
+          "vehicle": {
+            "id": ["512000666"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["12113"],
+        "vehicle": {
+          "trip": {
+            "trip_id": ["1114-11006-95700-2-6a8b7726"],
+            "start_time": ["26:35:00"],
+            "start_date": ["20230505"],
+            "schedule_relationship": [0],
+            "route_id": ["110-202"],
+            "direction_id": [1]
+          },
+          "position": {
+            "latitude": [-36.8603],
+            "longitude": [174.6593],
+            "bearing": ["295"],
+            "speed": [80]
+          },
+          "timestamp": [1683298715],
+          "vehicle": {
+            "id": ["12113"],
+            "label": ["NB2113"],
+            "license_plate": ["EGR133"]
+          },
+          "occupancy_status": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512001034"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.6209],
+            "longitude": [174.7916],
+            "speed": [0]
+          },
+          "timestamp": [1683298695],
+          "vehicle": {
+            "id": ["512001034"],
+            "label": ["VELA BLANCA"],
+            "license_plate": ["ZMT9906"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512007261"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8506],
+            "longitude": [174.809],
+            "speed": [0]
+          },
+          "timestamp": [1683298642],
+          "vehicle": {
+            "id": ["512007261"],
+            "label": ["FREEMAN"],
+            "license_plate": ["ZMX6512"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["211207130"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8405],
+            "longitude": [174.7522],
+            "bearing": ["129"],
+            "speed": [0]
+          },
+          "timestamp": [1683298587],
+          "vehicle": {
+            "id": ["211207130"],
+            "label": ["SAVITA"],
+            "license_plate": ["DC5332"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["308753000"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8376],
+            "longitude": [174.7597],
+            "bearing": ["42"],
+            "speed": [0]
+          },
+          "timestamp": [1683298605],
+          "vehicle": {
+            "id": ["308753000"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["319124600"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8399],
+            "longitude": [174.7525],
+            "speed": [0]
+          },
+          "timestamp": [1683298628],
+          "vehicle": {
+            "id": ["319124600"],
+            "label": ["ORION"],
+            "license_plate": ["ZGHD2"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512045000"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.842],
+            "longitude": [174.7608],
+            "speed": [0]
+          },
+          "timestamp": [1683298614],
+          "vehicle": {
+            "id": ["512045000"],
+            "label": ["YONDER STAR"],
+            "license_plate": ["ZM2851"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512000882"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8558],
+            "longitude": [174.7312],
+            "bearing": ["62"],
+            "speed": [0]
+          },
+          "timestamp": [1683298531],
+          "vehicle": {
+            "id": ["512000882"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512219000"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8419],
+            "longitude": [174.7706],
+            "bearing": ["198"],
+            "speed": [0]
+          },
+          "timestamp": [1683298709],
+          "vehicle": {
+            "id": ["512219000"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512009805"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.621],
+            "longitude": [174.7947],
+            "speed": [0]
+          },
+          "timestamp": [1683298547],
+          "vehicle": {
+            "id": ["512009805"],
+            "label": ["SCOOTS"],
+            "license_plate": ["ZMP6820"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512008023"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8413],
+            "longitude": [174.7702],
+            "speed": [0]
+          },
+          "timestamp": [1683298682],
+          "vehicle": {
+            "id": ["512008023"],
+            "label": ["MARSDEN BAY BARGE"],
+            "license_plate": ["ZMX8655"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["518100902"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8421],
+            "longitude": [174.759],
+            "speed": [0]
+          },
+          "timestamp": [1683298701],
+          "vehicle": {
+            "id": ["518100902"],
+            "label": ["BOONOOROO2"],
+            "license_plate": ["E5U3813"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512001028"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8796],
+            "longitude": [174.8968],
+            "bearing": ["173"],
+            "speed": [0]
+          },
+          "timestamp": [1683298544],
+          "vehicle": {
+            "id": ["512001028"],
+            "label": ["SEACAT"],
+            "license_plate": ["ZMQ7552"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512004979"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8793],
+            "longitude": [174.8993],
+            "speed": [0]
+          },
+          "timestamp": [1683298364],
+          "vehicle": {
+            "id": ["512004979"],
+            "label": ["MATAMUA"],
+            "license_plate": ["ZMW4351"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["368040510"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8393],
+            "longitude": [174.7509],
+            "speed": [0.2058]
+          },
+          "timestamp": [1683298592],
+          "vehicle": {
+            "id": ["368040510"],
+            "label": ["PAKELE LOA"],
+            "license_plate": ["WDK2956"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512449000"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8783],
+            "longitude": [174.9018],
+            "speed": [0]
+          },
+          "timestamp": [1683298400],
+          "vehicle": {
+            "id": ["512449000"],
+            "label": ["AELA"],
+            "license_plate": ["ZMF2869"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512009127"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.839],
+            "longitude": [174.747],
+            "speed": [0]
+          },
+          "timestamp": [1683298652],
+          "vehicle": {
+            "id": ["512009127"],
+            "label": ["SALTY DOG"],
+            "license_plate": ["ZMP4004"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512010288"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8884],
+            "longitude": [174.9857],
+            "bearing": ["74"],
+            "speed": [0]
+          },
+          "timestamp": [1683298678],
+          "vehicle": {
+            "id": ["512010288"],
+            "label": ["KIALOA"],
+            "license_plate": ["ZMP8145"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512006937"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.811],
+            "longitude": [174.6461],
+            "speed": [0]
+          },
+          "timestamp": [1683298633],
+          "vehicle": {
+            "id": ["512006937"],
+            "label": ["VALKYRIE"],
+            "license_plate": ["ZMV5000"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512003208"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8541],
+            "longitude": [174.8028],
+            "bearing": ["358"],
+            "speed": [0]
+          },
+          "timestamp": [1683298630],
+          "vehicle": {
+            "id": ["512003208"],
+            "label": ["NEWPORT"],
+            "license_plate": ["ZME6677"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["236112378"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8364],
+            "longitude": [174.7504],
+            "speed": [0]
+          },
+          "timestamp": [1683298640],
+          "vehicle": {
+            "id": ["236112378"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["518998464"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8414],
+            "longitude": [-132.6847],
+            "bearing": ["23"],
+            "speed": [0]
+          },
+          "timestamp": [1683298683],
+          "vehicle": {
+            "id": ["518998464"],
+            "label": ["CRAZY HORSE"],
+            "license_plate": ["E5U4444"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["378113465"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.841],
+            "longitude": [174.7547],
+            "speed": [0]
+          },
+          "timestamp": [1683298411],
+          "vehicle": {
+            "id": ["378113465"],
+            "label": ["KOKOMO"],
+            "license_plate": ["ZJL2542"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["339867000"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8428],
+            "longitude": [174.7607],
+            "speed": [0]
+          },
+          "timestamp": [1683298595],
+          "vehicle": {
+            "id": ["339867000"],
+            "label": ["MAHALO"],
+            "license_plate": ["6YUE7"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["26112"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.9798],
+            "longitude": [174.7726],
+            "bearing": ["264"],
+            "speed": [0]
+          },
+          "timestamp": [1683298676],
+          "vehicle": {
+            "id": ["26112"],
+            "label": ["GB5112"],
+            "license_plate": ["KZK591"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["235081673"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8368],
+            "longitude": [174.7466],
+            "speed": [0.0514]
+          },
+          "timestamp": [1683298577],
+          "vehicle": {
+            "id": ["235081673"],
+            "label": ["LYRA OF BRISTOL"],
+            "license_plate": ["MKHS9"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512004996"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8432],
+            "longitude": [174.7759],
+            "speed": [0]
+          },
+          "timestamp": [1683298709],
+          "vehicle": {
+            "id": ["512004996"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["15068"],
+        "vehicle": {
+          "trip": {
+            "trip_id": ["30-03008-93600-2-6ea9247a"],
+            "start_time": ["26:00:00"],
+            "start_date": ["20230505"],
+            "schedule_relationship": [0],
+            "route_id": ["30-202"],
+            "direction_id": [1]
+          },
+          "position": {
+            "latitude": [-36.8519],
+            "longitude": [174.764],
+            "bearing": ["23"],
+            "speed": [0]
+          },
+          "timestamp": [1683298665],
+          "vehicle": {
+            "id": ["15068"],
+            "label": ["NB5068"],
+            "license_plate": ["MAH60"]
+          },
+          "occupancy_status": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512008716"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8383],
+            "longitude": [174.7448],
+            "speed": [0]
+          },
+          "timestamp": [1683298645],
+          "vehicle": {
+            "id": ["512008716"],
+            "label": ["MATUKITUKI"],
+            "license_plate": ["ZMP3568"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512004962"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.6207],
+            "longitude": [174.7907],
+            "speed": [0]
+          },
+          "timestamp": [1683298650],
+          "vehicle": {
+            "id": ["512004962"],
+            "label": ["MATARIKI III"],
+            "license_plate": ["ZMG3118"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512087000"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.822],
+            "longitude": [174.7661],
+            "speed": [0]
+          },
+          "timestamp": [1683298596],
+          "vehicle": {
+            "id": ["512087000"],
+            "label": ["BELLE VIE"],
+            "license_plate": ["ZM2827"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["503111020"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8892],
+            "longitude": [174.986],
+            "speed": [0.3601]
+          },
+          "timestamp": [1683298659],
+          "vehicle": {
+            "id": ["503111020"],
+            "label": ["RELEASE"],
+            "license_plate": ["AFO49Q"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["26063"],
+        "vehicle": {
+          "trip": {
+            "trip_id": ["1020-55521-92160-2-e76e5bf6"],
+            "start_time": ["25:36:00"],
+            "start_date": ["20230505"],
+            "schedule_relationship": [0],
+            "route_id": ["RBE-402"],
+            "direction_id": [0]
+          },
+          "position": {
+            "latitude": [-36.9134],
+            "longitude": [174.8239],
+            "bearing": ["139"],
+            "speed": [65]
+          },
+          "timestamp": [1683298711],
+          "vehicle": {
+            "id": ["26063"],
+            "label": ["GB1414"],
+            "license_plate": ["BCW716"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512210000"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8423],
+            "longitude": [174.7622],
+            "speed": [0]
+          },
+          "timestamp": [1683298597],
+          "vehicle": {
+            "id": ["512210000"],
+            "label": ["TEMPLAR"],
+            "license_plate": ["ZMA2702"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512006897"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8188],
+            "longitude": [174.7664],
+            "speed": [0]
+          },
+          "timestamp": [1683298663],
+          "vehicle": {
+            "id": ["512006897"],
+            "label": ["YUMI ZOUMA"],
+            "license_plate": ["ZMX5475"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["319209100"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8405],
+            "longitude": [174.7528],
+            "speed": [0]
+          },
+          "timestamp": [1683298600],
+          "vehicle": {
+            "id": ["319209100"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["564260000"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8428],
+            "longitude": [174.7776],
+            "bearing": ["49"],
+            "speed": [0]
+          },
+          "timestamp": [1683298634],
+          "vehicle": {
+            "id": ["564260000"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["565385000"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8397],
+            "longitude": [174.7838],
+            "bearing": ["96"],
+            "speed": [0]
+          },
+          "timestamp": [1683298686],
+          "vehicle": {
+            "id": ["565385000"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512009770"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.618],
+            "longitude": [174.7887],
+            "speed": [0]
+          },
+          "timestamp": [1683298653],
+          "vehicle": {
+            "id": ["512009770"],
+            "label": ["KOKOMO"],
+            "license_plate": ["ZMP6800"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512005825"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8401],
+            "longitude": [174.7592],
+            "speed": [0.0514]
+          },
+          "timestamp": [1683298631],
+          "vehicle": {
+            "id": ["512005825"],
+            "label": ["T/T THE BEAST"],
+            "license_plate": ["ZME9371"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["319199500"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.6185],
+            "longitude": [174.789],
+            "bearing": ["32"],
+            "speed": [0]
+          },
+          "timestamp": [1683298578],
+          "vehicle": {
+            "id": ["319199500"],
+            "label": ["WISHFUL"],
+            "license_plate": ["ZGKY5"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512008206"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.6214],
+            "longitude": [174.7908],
+            "speed": [0]
+          },
+          "timestamp": [1683298599],
+          "vehicle": {
+            "id": ["512008206"],
+            "label": ["HANSE 508"],
+            "license_plate": ["ZMX8965"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["266283000"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8401],
+            "longitude": [174.7727],
+            "bearing": ["18"],
+            "speed": [0]
+          },
+          "timestamp": [1683298612],
+          "vehicle": {
+            "id": ["266283000"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512001026"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8379],
+            "longitude": [174.7552],
+            "speed": [0]
+          },
+          "timestamp": [1683298712],
+          "vehicle": {
+            "id": ["512001026"],
+            "label": ["SEAWAY II"],
+            "license_plate": ["ZMR3466"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512011037"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.6164],
+            "longitude": [174.7884],
+            "speed": [0]
+          },
+          "timestamp": [1683298582],
+          "vehicle": {
+            "id": ["512011037"],
+            "label": ["KIWI BREEZE"],
+            "license_plate": ["ZMV3161"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["540000730"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8427],
+            "longitude": [174.7517],
+            "speed": [0]
+          },
+          "timestamp": [1683298628],
+          "vehicle": {
+            "id": ["540000730"],
+            "label": ["HOKUTO2"],
+            "license_plate": ["H2NC"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512000741"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8896],
+            "longitude": [174.9897],
+            "speed": [0]
+          },
+          "timestamp": [1683298710],
+          "vehicle": {
+            "id": ["512000741"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["26206"],
+        "vehicle": {
+          "trip": {
+            "trip_id": ["1058-10018-91500-2-99484fb8"],
+            "start_time": ["25:25:00"],
+            "start_date": ["20230505"],
+            "schedule_relationship": [0],
+            "route_id": ["N10-221"],
+            "direction_id": [1]
+          },
+          "position": {
+            "latitude": [-36.8494],
+            "longitude": [174.7527],
+            "bearing": ["9"],
+            "speed": [0]
+          },
+          "timestamp": [1683298658],
+          "vehicle": {
+            "id": ["26206"],
+            "label": ["GB5206"],
+            "license_plate": ["JZR668"]
+          },
+          "occupancy_status": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512004016"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.822],
+            "longitude": [174.7648],
+            "bearing": ["207"],
+            "speed": [0]
+          },
+          "timestamp": [1683298649],
+          "vehicle": {
+            "id": ["512004016"],
+            "label": ["SOUTHERN STAR"],
+            "license_plate": ["ZM2059"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512009105"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.6229],
+            "longitude": [174.7873],
+            "speed": [0]
+          },
+          "timestamp": [1683298541],
+          "vehicle": {
+            "id": ["512009105"],
+            "label": ["FOGG"],
+            "license_plate": ["ZMP4688"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["235099332"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.6209],
+            "longitude": [174.7914],
+            "speed": [0]
+          },
+          "timestamp": [1683298682],
+          "vehicle": {
+            "id": ["235099332"],
+            "label": ["SKYBIRD"],
+            "license_plate": ["2GPE3"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["518998645"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.6183],
+            "longitude": [174.8244],
+            "speed": [0.0514]
+          },
+          "timestamp": [1683298697],
+          "vehicle": {
+            "id": ["518998645"],
+            "label": ["HYDRATE"],
+            "license_plate": ["E5U4625"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["236112464"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8404],
+            "longitude": [174.7531],
+            "speed": [0]
+          },
+          "timestamp": [1683298568],
+          "vehicle": {
+            "id": ["236112464"],
+            "label": ["TOKERAU"],
+            "license_plate": ["ZDQY5"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["518998278"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8427],
+            "longitude": [174.7606],
+            "speed": [0]
+          },
+          "timestamp": [1683298590],
+          "vehicle": {
+            "id": ["518998278"],
+            "label": ["DUCHESSA"],
+            "license_plate": ["E5U4258"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512001029"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8378],
+            "longitude": [174.7554],
+            "speed": [0]
+          },
+          "timestamp": [1683298560],
+          "vehicle": {
+            "id": ["512001029"],
+            "label": ["ISLAND NAVIGATOR"],
+            "license_plate": ["ZMQ7781"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512006129"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8778],
+            "longitude": [174.9007],
+            "bearing": ["241"],
+            "speed": [0]
+          },
+          "timestamp": [1683298539],
+          "vehicle": {
+            "id": ["512006129"],
+            "label": ["NEO"],
+            "license_plate": ["ZMW6612"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512006274"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8495],
+            "longitude": [174.8078],
+            "bearing": ["196"],
+            "speed": [0]
+          },
+          "timestamp": [1683298613],
+          "vehicle": {
+            "id": ["512006274"],
+            "label": ["NEYY"],
+            "license_plate": ["ZMX2562"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512009226"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8362],
+            "longitude": [174.7497],
+            "bearing": ["271"],
+            "speed": [0.0514]
+          },
+          "timestamp": [1683298576],
+          "vehicle": {
+            "id": ["512009226"],
+            "label": ["BELZARA"],
+            "license_plate": ["ZMW2965"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512007645"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8372],
+            "longitude": [174.748],
+            "speed": [0]
+          },
+          "timestamp": [1683298580],
+          "vehicle": {
+            "id": ["512007645"],
+            "label": ["PURA VIDA"],
+            "license_plate": ["ZMX7425"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512005515"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.621],
+            "longitude": [174.788],
+            "speed": [0]
+          },
+          "timestamp": [1683298587],
+          "vehicle": {
+            "id": ["512005515"],
+            "label": ["JASPER II"],
+            "license_plate": ["ZMU4590"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512009973"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8768],
+            "longitude": [174.9024],
+            "speed": [0]
+          },
+          "timestamp": [1683298656],
+          "vehicle": {
+            "id": ["512009973"],
+            "label": ["BITE TIME"],
+            "license_plate": ["ZMP7161"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512009535"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.889],
+            "longitude": [174.9859],
+            "speed": [0]
+          },
+          "timestamp": [1683298569],
+          "vehicle": {
+            "id": ["512009535"],
+            "label": ["SCALLYWAG"],
+            "license_plate": ["ZMY5182"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512006460"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8771],
+            "longitude": [174.9007],
+            "speed": [0]
+          },
+          "timestamp": [1683298632],
+          "vehicle": {
+            "id": ["512006460"],
+            "label": ["BLACK PEARL"],
+            "license_plate": ["ZMX4004"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512006326"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8413],
+            "longitude": [174.7673],
+            "speed": [0]
+          },
+          "timestamp": [1683298715],
+          "vehicle": {
+            "id": ["512006326"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512004511"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.841],
+            "longitude": [174.7674],
+            "speed": [0.0514]
+          },
+          "timestamp": [1683298711],
+          "vehicle": {
+            "id": ["512004511"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512006930"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8398],
+            "longitude": [174.7529],
+            "bearing": ["290"],
+            "speed": [0]
+          },
+          "timestamp": [1683298635],
+          "vehicle": {
+            "id": ["512006930"],
+            "label": ["T/T ODYSSEY"],
+            "license_plate": ["ZMX5856"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["503654100"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.6241],
+            "longitude": [174.7871],
+            "speed": [0]
+          },
+          "timestamp": [1683298591],
+          "vehicle": {
+            "id": ["503654100"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["538071555"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8403],
+            "longitude": [174.7525],
+            "bearing": ["107"],
+            "speed": [0]
+          },
+          "timestamp": [1683298596],
+          "vehicle": {
+            "id": ["538071555"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512006343"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8368],
+            "longitude": [174.7464],
+            "speed": [0]
+          },
+          "timestamp": [1683298576],
+          "vehicle": {
+            "id": ["512006343"],
+            "label": ["DREAMWEAVER"],
+            "license_plate": ["ZME9628"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["15017"],
+        "vehicle": {
+          "trip": {
+            "trip_id": ["27-02704-97200-2-1b6247da"],
+            "start_time": ["27:00:00"],
+            "start_date": ["20230505"],
+            "schedule_relationship": [0],
+            "route_id": ["27H-202"],
+            "direction_id": [1]
+          },
+          "position": {
+            "latitude": [-36.8444],
+            "longitude": [174.7683],
+            "bearing": ["190"],
+            "speed": [0]
+          },
+          "timestamp": [1683298678],
+          "vehicle": {
+            "id": ["15017"],
+            "label": ["NB5017"],
+            "license_plate": ["JWH956"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["538071005"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8419],
+            "longitude": [174.7606],
+            "speed": [0]
+          },
+          "timestamp": [1683298593],
+          "vehicle": {
+            "id": ["538071005"],
+            "label": ["LADY GREY"],
+            "license_plate": ["V7GJ3"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512004418"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.6232],
+            "longitude": [174.7869],
+            "speed": [0]
+          },
+          "timestamp": [1683298544],
+          "vehicle": {
+            "id": ["512004418"],
+            "label": ["ECLATANT"],
+            "license_plate": ["ZMU6620"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512005819"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.6186],
+            "longitude": [174.7891],
+            "speed": [0]
+          },
+          "timestamp": [1683298708],
+          "vehicle": {
+            "id": ["512005819"],
+            "label": ["CHILL"],
+            "license_plate": ["ZMW6063"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512000497"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8492],
+            "longitude": [174.8097],
+            "speed": [0]
+          },
+          "timestamp": [1683298640],
+          "vehicle": {
+            "id": ["512000497"],
+            "label": ["NORTHSTAR II"],
+            "license_plate": ["ZM9300"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512007444"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8395],
+            "longitude": [174.7478],
+            "speed": [0]
+          },
+          "timestamp": [1683298595],
+          "vehicle": {
+            "id": ["512007444"],
+            "label": ["EL TORITO"],
+            "license_plate": ["ZMS7918"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512009817"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8388],
+            "longitude": [174.7481],
+            "speed": [0]
+          },
+          "timestamp": [1683298665],
+          "vehicle": {
+            "id": ["512009817"],
+            "label": ["HEAD QUARTERS"],
+            "license_plate": ["ZMX3999"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["319144700"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8402],
+            "longitude": [174.7525],
+            "speed": [0]
+          },
+          "timestamp": [1683298672],
+          "vehicle": {
+            "id": ["319144700"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["563991000"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8421],
+            "longitude": [174.7806],
+            "bearing": ["228"],
+            "speed": [0]
+          },
+          "timestamp": [1683298553],
+          "vehicle": {
+            "id": ["563991000"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512006907"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8767],
+            "longitude": [174.9026],
+            "bearing": ["330"],
+            "speed": [0]
+          },
+          "timestamp": [1683298706],
+          "vehicle": {
+            "id": ["512006907"],
+            "label": ["TASMAN JEWEL"],
+            "license_plate": ["ZMX5811"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512006818"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8888],
+            "longitude": [174.9876],
+            "bearing": ["78"],
+            "speed": [0]
+          },
+          "timestamp": [1683298555],
+          "vehicle": {
+            "id": ["512006818"],
+            "label": ["TE IKA NUI"],
+            "license_plate": ["ZMU8138"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512009382"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8401],
+            "longitude": [174.7506],
+            "speed": [0]
+          },
+          "timestamp": [1683298484],
+          "vehicle": {
+            "id": ["512009382"],
+            "label": ["COPIA"],
+            "license_plate": ["ZMP5649"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512006213"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.9199],
+            "longitude": [174.8584],
+            "speed": [0]
+          },
+          "timestamp": [1683298709],
+          "vehicle": {
+            "id": ["512006213"],
+            "label": ["KAURI BAY"],
+            "license_plate": ["ZMX4512"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512010645"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.6185],
+            "longitude": [174.7888],
+            "speed": [0.3087]
+          },
+          "timestamp": [1683298636],
+          "vehicle": {
+            "id": ["512010645"],
+            "label": ["CAPE LANDING"],
+            "license_plate": ["ZMP9403"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512007716"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.84],
+            "longitude": [174.7593],
+            "bearing": ["42"],
+            "speed": [0]
+          },
+          "timestamp": [1683298537],
+          "vehicle": {
+            "id": ["512007716"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["367781480"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8406],
+            "longitude": [174.7524],
+            "bearing": ["116"],
+            "speed": [0]
+          },
+          "timestamp": [1683298595],
+          "vehicle": {
+            "id": ["367781480"],
+            "label": ["NOGAL"],
+            "license_plate": ["WDJ4824"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["538007518"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8419],
+            "longitude": [174.7833],
+            "bearing": ["347"],
+            "speed": [0]
+          },
+          "timestamp": [1683298702],
+          "vehicle": {
+            "id": ["538007518"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512008959"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8372],
+            "longitude": [174.744],
+            "speed": [0]
+          },
+          "timestamp": [1683298571],
+          "vehicle": {
+            "id": ["512008959"],
+            "label": ["ASMARA"],
+            "license_plate": ["ZMP4313"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512008622"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8486],
+            "longitude": [174.809],
+            "speed": [0]
+          },
+          "timestamp": [1683298683],
+          "vehicle": {
+            "id": ["512008622"],
+            "label": ["CAT IN THE HAT"],
+            "license_plate": ["ZMP3272"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512201000"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.3984],
+            "longitude": [174.7606],
+            "bearing": ["61"],
+            "speed": [0.0514]
+          },
+          "timestamp": [1683298643],
+          "vehicle": {
+            "id": ["512201000"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512001390"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8429],
+            "longitude": [174.761],
+            "bearing": ["18"],
+            "speed": [0]
+          },
+          "timestamp": [1683298679],
+          "vehicle": {
+            "id": ["512001390"],
+            "label": ["WASTING LIGHT"],
+            "license_plate": ["ZMY4565"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["59578"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.9996],
+            "longitude": [174.8606],
+            "bearing": ["17"],
+            "odometer": [220904946],
+            "speed": [0]
+          },
+          "timestamp": [1683298379],
+          "vehicle": {
+            "id": ["59578"],
+            "label": ["AMP        578"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512000954"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8392],
+            "longitude": [174.7478],
+            "speed": [0]
+          },
+          "timestamp": [1683298652],
+          "vehicle": {
+            "id": ["512000954"],
+            "label": ["CABANA"],
+            "license_plate": ["ZMR7352"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512011235"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8543],
+            "longitude": [174.8009],
+            "bearing": ["296"],
+            "speed": [0]
+          },
+          "timestamp": [1683298565],
+          "vehicle": {
+            "id": ["512011235"],
+            "label": ["BLUE SEDITION"],
+            "license_plate": ["ZMS2553"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512009697"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8095],
+            "longitude": [174.6462],
+            "bearing": ["346"],
+            "speed": [0]
+          },
+          "timestamp": [1683298559],
+          "vehicle": {
+            "id": ["512009697"],
+            "label": ["VAGABOND"],
+            "license_plate": ["ZMP6580"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["14086"],
+        "vehicle": {
+          "trip": {
+            "trip_id": ["1281-02504-93600-2-ea362d90"],
+            "start_time": ["26:00:00"],
+            "start_date": ["20230505"],
+            "schedule_relationship": [0],
+            "route_id": ["25L-202"],
+            "direction_id": [1]
+          },
+          "position": {
+            "latitude": [-36.8515],
+            "longitude": [174.7643],
+            "bearing": ["198"],
+            "speed": [0]
+          },
+          "timestamp": [1683298657],
+          "vehicle": {
+            "id": ["14086"],
+            "label": ["NB4086"],
+            "license_plate": ["GER482"]
+          },
+          "occupancy_status": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512004127"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.9179],
+            "longitude": [174.8571],
+            "speed": [0]
+          },
+          "timestamp": [1683298695],
+          "vehicle": {
+            "id": ["512004127"],
+            "label": ["REEF SPIRIT"],
+            "license_plate": ["ZMG2890"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512005528"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8219],
+            "longitude": [174.7659],
+            "speed": [0]
+          },
+          "timestamp": [1683298652],
+          "vehicle": {
+            "id": ["512005528"],
+            "label": ["MOONDANCE"],
+            "license_plate": ["ZMU9211"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512004558"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8365],
+            "longitude": [174.7472],
+            "speed": [0]
+          },
+          "timestamp": [1683298561],
+          "vehicle": {
+            "id": ["512004558"],
+            "label": ["MA ' ARA"],
+            "license_plate": ["ZMU7020"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512004509"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.843],
+            "longitude": [174.7762],
+            "bearing": ["213"],
+            "speed": [0]
+          },
+          "timestamp": [1683298630],
+          "vehicle": {
+            "id": ["512004509"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512006414"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8791],
+            "longitude": [174.8987],
+            "bearing": ["271"],
+            "speed": [0]
+          },
+          "timestamp": [1683298695],
+          "vehicle": {
+            "id": ["512006414"],
+            "label": ["REBEL"],
+            "license_plate": ["ZMR3865"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512200730"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8778],
+            "longitude": [174.8992],
+            "speed": [0.0514]
+          },
+          "timestamp": [1683298548],
+          "vehicle": {
+            "id": ["512200730"],
+            "label": ["EDEN"],
+            "license_plate": ["ZMS5665"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["503088200"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8426],
+            "longitude": [174.7586],
+            "speed": [0]
+          },
+          "timestamp": [1683298660],
+          "vehicle": {
+            "id": ["503088200"],
+            "label": ["HUSH"],
+            "license_plate": ["ZMW9805"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512164000"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8429],
+            "longitude": [174.7626],
+            "bearing": ["282"],
+            "speed": [0.0514]
+          },
+          "timestamp": [1683298573],
+          "vehicle": {
+            "id": ["512164000"],
+            "label": ["LION"],
+            "license_plate": ["ZMA2403"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512010820"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8791],
+            "longitude": [174.8992],
+            "speed": [0.1029]
+          },
+          "timestamp": [1683298699],
+          "vehicle": {
+            "id": ["512010820"],
+            "label": ["HANK"],
+            "license_plate": ["ZMU6616"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512008446"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8892],
+            "longitude": [174.9881],
+            "bearing": ["250"],
+            "speed": [0]
+          },
+          "timestamp": [1683298647],
+          "vehicle": {
+            "id": ["512008446"],
+            "label": ["KIWI CAT"],
+            "license_plate": ["ZMX9704"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["304984000"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.721],
+            "longitude": [174.8752],
+            "bearing": ["45"],
+            "speed": [0.1543]
+          },
+          "timestamp": [1683298662],
+          "vehicle": {
+            "id": ["304984000"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512006562"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8798],
+            "longitude": [174.8998],
+            "speed": [0]
+          },
+          "timestamp": [1683298582],
+          "vehicle": {
+            "id": ["512006562"],
+            "label": ["SV SUNRISE"],
+            "license_plate": ["ZMX3233"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["205826610"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.839],
+            "longitude": [174.7461],
+            "bearing": ["71"],
+            "speed": [0]
+          },
+          "timestamp": [1683298617],
+          "vehicle": {
+            "id": ["205826610"],
+            "label": ["VAGUEBOND"],
+            "license_plate": ["OR8266"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512010567"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8781],
+            "longitude": [174.8991],
+            "bearing": ["88"],
+            "speed": [0]
+          },
+          "timestamp": [1683298645],
+          "vehicle": {
+            "id": ["512010567"],
+            "label": ["RAPIDE"],
+            "license_plate": ["ZMP9113"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512003987"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8371],
+            "longitude": [174.7471],
+            "speed": [0]
+          },
+          "timestamp": [1683298638],
+          "vehicle": {
+            "id": ["512003987"],
+            "label": ["QUESTA"],
+            "license_plate": ["ZMU2165"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512007046"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.6166],
+            "longitude": [174.79],
+            "speed": [0]
+          },
+          "timestamp": [1683298583],
+          "vehicle": {
+            "id": ["512007046"],
+            "label": ["AZURE"],
+            "license_plate": ["ZMX6053"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512000369"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8466],
+            "longitude": [174.7888],
+            "speed": [0]
+          },
+          "timestamp": [1683298657],
+          "vehicle": {
+            "id": ["512000369"],
+            "label": ["DEODAR 111"],
+            "license_plate": ["ZMIH"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["123456789"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.7525],
+            "longitude": [174.6969],
+            "bearing": ["270"],
+            "speed": [0]
+          },
+          "timestamp": [1683298711],
+          "vehicle": {
+            "id": ["123456789"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512010604"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.618],
+            "longitude": [174.7909],
+            "bearing": ["252"],
+            "speed": [0]
+          },
+          "timestamp": [1683298660],
+          "vehicle": {
+            "id": ["512010604"],
+            "label": ["AVANTI"],
+            "license_plate": ["ZMP9264"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["12106"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.9139],
+            "longitude": [174.689],
+            "bearing": ["183"],
+            "speed": [0]
+          },
+          "timestamp": [1683298309],
+          "vehicle": {
+            "id": ["12106"],
+            "label": ["NB2106"],
+            "license_plate": ["EJC614"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["235096724"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8218],
+            "longitude": [174.7645],
+            "speed": [0.0514]
+          },
+          "timestamp": [1683298610],
+          "vehicle": {
+            "id": ["235096724"],
+            "label": ["GOLDEN OPUS"],
+            "license_plate": ["2GEP9"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["518998735"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8382],
+            "longitude": [174.7481],
+            "speed": [0]
+          },
+          "timestamp": [1683298689],
+          "vehicle": {
+            "id": ["518998735"],
+            "label": ["SHINE"],
+            "license_plate": ["E5U4715"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["235104651"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8404],
+            "longitude": [174.7589],
+            "bearing": ["222"],
+            "speed": [0]
+          },
+          "timestamp": [1683298712],
+          "vehicle": {
+            "id": ["235104651"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512008312"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8206],
+            "longitude": [174.7657],
+            "speed": [0]
+          },
+          "timestamp": [1683298649],
+          "vehicle": {
+            "id": ["512008312"],
+            "label": ["WOODWIND"],
+            "license_plate": ["ZMX9290"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["248847000"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8402],
+            "longitude": [174.7528],
+            "bearing": ["295"],
+            "speed": [0]
+          },
+          "timestamp": [1683298628],
+          "vehicle": {
+            "id": ["248847000"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["538070921"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8397],
+            "longitude": [174.7529],
+            "bearing": ["288"],
+            "speed": [0]
+          },
+          "timestamp": [1683298622],
+          "vehicle": {
+            "id": ["538070921"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["24261"],
+        "vehicle": {
+          "trip": {
+            "trip_id": ["1184-07210-88800-2-7337f0e9"],
+            "start_time": ["24:40:00"],
+            "start_date": ["20230505"],
+            "schedule_relationship": [0],
+            "route_id": ["72M-205"],
+            "direction_id": [1]
+          },
+          "position": {
+            "latitude": [-36.8454],
+            "longitude": [174.7699],
+            "bearing": ["101"],
+            "speed": [0]
+          },
+          "timestamp": [1683298695],
+          "vehicle": {
+            "id": ["24261"],
+            "label": ["HE0261"],
+            "license_plate": ["JAF123"]
+          },
+          "occupancy_status": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512000344"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8431],
+            "longitude": [174.7758],
+            "speed": [0.0514]
+          },
+          "timestamp": [1683298555],
+          "vehicle": {
+            "id": ["512000344"],
+            "label": ["AKARANA"],
+            "license_plate": ["ZMT2938"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["538071492"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.84],
+            "longitude": [174.7524],
+            "speed": [0.0514]
+          },
+          "timestamp": [1683298710],
+          "vehicle": {
+            "id": ["538071492"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512008862"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8499],
+            "longitude": [174.8081],
+            "speed": [0]
+          },
+          "timestamp": [1683298659],
+          "vehicle": {
+            "id": ["512008862"],
+            "label": ["KISU"],
+            "license_plate": ["ZMP4053"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512009984"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.843],
+            "longitude": [174.7756],
+            "bearing": ["227"],
+            "speed": [0.1029]
+          },
+          "timestamp": [1683298624],
+          "vehicle": {
+            "id": ["512009984"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["503065240"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8362],
+            "longitude": [174.7432],
+            "speed": [0]
+          },
+          "timestamp": [1683298601],
+          "vehicle": {
+            "id": ["503065240"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512007057"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8117],
+            "longitude": [174.6452],
+            "speed": [0]
+          },
+          "timestamp": [1683298541],
+          "vehicle": {
+            "id": ["512007057"],
+            "label": ["SKI"],
+            "license_plate": ["ZMX5008"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512001021"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8271],
+            "longitude": [174.7614],
+            "speed": [0.0514]
+          },
+          "timestamp": [1683298634],
+          "vehicle": {
+            "id": ["512001021"],
+            "label": ["DRAGONS LAIR"],
+            "license_plate": ["ZMY5154"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512007850"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8492],
+            "longitude": [174.8083],
+            "speed": [0]
+          },
+          "timestamp": [1683298692],
+          "vehicle": {
+            "id": ["512007850"],
+            "label": ["MY HAVANA"],
+            "license_plate": ["ZMR5642"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512005119"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8435],
+            "longitude": [174.7701],
+            "speed": [0]
+          },
+          "timestamp": [1683298715],
+          "vehicle": {
+            "id": ["512005119"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512000742"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8897],
+            "longitude": [174.9897],
+            "speed": [0]
+          },
+          "timestamp": [1683298714],
+          "vehicle": {
+            "id": ["512000742"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512007596"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8435],
+            "longitude": [174.7703],
+            "bearing": ["199"],
+            "speed": [0]
+          },
+          "timestamp": [1683298560],
+          "vehicle": {
+            "id": ["512007596"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512005706"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8414],
+            "longitude": [174.7521],
+            "speed": [0]
+          },
+          "timestamp": [1683298713],
+          "vehicle": {
+            "id": ["512005706"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["22731"],
+        "vehicle": {
+          "trip": {
+            "trip_id": ["1395-27002-97200-2-d4ccec97"],
+            "start_time": ["27:00:00"],
+            "start_date": ["20230505"],
+            "schedule_relationship": [0],
+            "route_id": ["NX1-203"],
+            "direction_id": [1]
+          },
+          "position": {
+            "latitude": [-36.8434],
+            "longitude": [174.7657],
+            "bearing": ["15"],
+            "speed": [0]
+          },
+          "timestamp": [1683298703],
+          "vehicle": {
+            "id": ["22731"],
+            "label": ["RT1377"],
+            "license_plate": ["LUJ136"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512004731"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.7811],
+            "longitude": [174.8969],
+            "speed": [0.1029]
+          },
+          "timestamp": [1683298401],
+          "vehicle": {
+            "id": ["512004731"],
+            "label": ["LION RESCUE"],
+            "license_plate": ["ZMR7777"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512999887"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8558],
+            "longitude": [174.7312],
+            "bearing": ["57"],
+            "speed": [0]
+          },
+          "timestamp": [1683298066],
+          "vehicle": {
+            "id": ["512999887"],
+            "label": ["2TEST2"],
+            "license_plate": ["2TEST2"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["12114"],
+        "vehicle": {
+          "trip": {
+            "trip_id": ["1114-11006-92100-2-6a8b7726"],
+            "start_time": ["25:35:00"],
+            "start_date": ["20230505"],
+            "schedule_relationship": [0],
+            "route_id": ["110-202"],
+            "direction_id": [1]
+          },
+          "position": {
+            "latitude": [-36.8434],
+            "longitude": [174.7658],
+            "bearing": ["199"],
+            "speed": [0]
+          },
+          "timestamp": [1683298714],
+          "vehicle": {
+            "id": ["12114"],
+            "label": ["NB2114"],
+            "license_plate": ["EGR138"]
+          },
+          "occupancy_status": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["232040041"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8812],
+            "longitude": [174.883],
+            "speed": [0.2572]
+          },
+          "timestamp": [1683298224],
+          "vehicle": {
+            "id": ["232040041"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512010207"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.6228],
+            "longitude": [174.787],
+            "speed": [0]
+          },
+          "timestamp": [1683298703],
+          "vehicle": {
+            "id": ["512010207"],
+            "label": ["HALO"],
+            "license_plate": ["ZMP7900"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["OCT2018 - 107"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.844],
+            "longitude": [174.7655],
+            "bearing": ["128"],
+            "odometer": [6886169],
+            "speed": [3.0556]
+          },
+          "timestamp": [1683298713],
+          "vehicle": {
+            "id": ["OCT2018 - 107"],
+            "label": ["OCT2018 - 107"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["636020985"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.4184],
+            "longitude": [174.9841],
+            "bearing": ["172"],
+            "speed": [5.093]
+          },
+          "timestamp": [1683298715],
+          "vehicle": {
+            "id": ["636020985"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["59319"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.9997],
+            "longitude": [174.8607],
+            "bearing": ["181"],
+            "odometer": [679642982],
+            "speed": [0]
+          },
+          "timestamp": [1683298693],
+          "vehicle": {
+            "id": ["59319"],
+            "label": ["AMP        319"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["368042390"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.6215],
+            "longitude": [174.7881],
+            "speed": [0]
+          },
+          "timestamp": [1683298687],
+          "vehicle": {
+            "id": ["368042390"],
+            "label": ["ANTARES"],
+            "license_plate": ["WDK3147"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["14063"],
+        "vehicle": {
+          "trip": {
+            "trip_id": ["1321-08208-97200-2-a0fd7c82"],
+            "start_time": ["27:00:00"],
+            "start_date": ["20230505"],
+            "schedule_relationship": [0],
+            "route_id": ["82-202"],
+            "direction_id": [1]
+          },
+          "position": {
+            "latitude": [-36.8526],
+            "longitude": [174.7656],
+            "bearing": ["18"],
+            "speed": [0]
+          },
+          "timestamp": [1683298672],
+          "vehicle": {
+            "id": ["14063"],
+            "label": ["NB4063"],
+            "license_plate": ["GCY586"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512007533"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.621],
+            "longitude": [174.7935],
+            "bearing": ["83"],
+            "speed": [0]
+          },
+          "timestamp": [1683298512],
+          "vehicle": {
+            "id": ["512007533"],
+            "label": ["SHALAKO"],
+            "license_plate": ["ZMX7144"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["232017309"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.6186],
+            "longitude": [174.7889],
+            "speed": [0]
+          },
+          "timestamp": [1683298703],
+          "vehicle": {
+            "id": ["232017309"],
+            "label": ["MANGO"],
+            "license_plate": ["MDPO9"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["22913"],
+        "vehicle": {
+          "trip": {
+            "trip_id": ["1306-94104-95100-2-22ab9e0a"],
+            "start_time": ["26:25:00"],
+            "start_date": ["20230505"],
+            "schedule_relationship": [0],
+            "route_id": ["941-203"],
+            "direction_id": [1]
+          },
+          "position": {
+            "latitude": [-36.7975],
+            "longitude": [174.7615],
+            "bearing": ["316"],
+            "speed": [22]
+          },
+          "timestamp": [1683298713],
+          "vehicle": {
+            "id": ["22913"],
+            "label": ["RT1446"],
+            "license_plate": ["JDL30"]
+          },
+          "occupancy_status": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["370865000"],
+        "vehicle": {
+          "position": {
+            "latitude": [-37.6538],
+            "longitude": [176.182],
+            "bearing": ["9"],
+            "speed": [0]
+          },
+          "timestamp": [1683298647],
+          "vehicle": {
+            "id": ["370865000"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["22499"],
+        "vehicle": {
+          "trip": {
+            "trip_id": ["1306-94106-98700-2-03d833f3"],
+            "start_time": ["27:25:00"],
+            "start_date": ["20230505"],
+            "schedule_relationship": [0],
+            "route_id": ["941-203"],
+            "direction_id": [1]
+          },
+          "position": {
+            "latitude": [-36.7842],
+            "longitude": [174.7511],
+            "bearing": ["329"],
+            "speed": [0]
+          },
+          "timestamp": [1683298681],
+          "vehicle": {
+            "id": ["22499"],
+            "label": ["RT1499"],
+            "license_plate": ["MQN225"]
+          },
+          "occupancy_status": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512006211"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8404],
+            "longitude": [174.7503],
+            "speed": [0]
+          },
+          "timestamp": [1683298557],
+          "vehicle": {
+            "id": ["512006211"],
+            "label": ["TE MAKI"],
+            "license_plate": ["ZMX2434"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["12105"],
+        "vehicle": {
+          "trip": {
+            "trip_id": ["24-02404-97500-2-23ee8ab5"],
+            "start_time": ["27:05:00"],
+            "start_date": ["20230505"],
+            "schedule_relationship": [0],
+            "route_id": ["24B-202"],
+            "direction_id": [1]
+          },
+          "position": {
+            "latitude": [-36.8477],
+            "longitude": [174.7589],
+            "bearing": ["75"],
+            "speed": [0]
+          },
+          "timestamp": [1683298708],
+          "vehicle": {
+            "id": ["12105"],
+            "label": ["NB2105"],
+            "license_plate": ["EJC613"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["15781"],
+        "vehicle": {
+          "trip": {
+            "trip_id": ["1276-07702-97200-2-d7420ce5"],
+            "start_time": ["27:00:00"],
+            "start_date": ["20230505"],
+            "schedule_relationship": [0],
+            "route_id": ["TMK-202"],
+            "direction_id": [1]
+          },
+          "position": {
+            "latitude": [-36.8452],
+            "longitude": [174.7683],
+            "bearing": ["286"],
+            "speed": [0]
+          },
+          "timestamp": [1683298660],
+          "vehicle": {
+            "id": ["15781"],
+            "label": ["NB5781"],
+            "license_plate": ["PNH858"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["59565"],
+        "vehicle": {
+          "position": {
+            "latitude": [-37.0019],
+            "longitude": [174.8621],
+            "bearing": ["348"],
+            "odometer": [622781798],
+            "speed": [0]
+          },
+          "timestamp": [1683298710],
+          "vehicle": {
+            "id": ["59565"],
+            "label": ["AMP        565"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["59904"],
+        "vehicle": {
+          "position": {
+            "latitude": [-37.0006],
+            "longitude": [174.8617],
+            "bearing": ["337"],
+            "odometer": [148031989],
+            "speed": [0]
+          },
+          "timestamp": [1683298708],
+          "vehicle": {
+            "id": ["59904"],
+            "label": ["AMP        904"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["24157"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.9281],
+            "longitude": [174.9037],
+            "bearing": ["203"],
+            "speed": [0]
+          },
+          "timestamp": [1683298146],
+          "vehicle": {
+            "id": ["24157"],
+            "label": ["HE0157"],
+            "license_plate": ["GFK488"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["12436"],
+        "vehicle": {
+          "trip": {
+            "trip_id": ["1285-07502-93600-2-da0ca60a"],
+            "start_time": ["26:00:00"],
+            "start_date": ["20230505"],
+            "schedule_relationship": [0],
+            "route_id": ["75-202"],
+            "direction_id": [1]
+          },
+          "position": {
+            "latitude": [-36.8406],
+            "longitude": [174.7557],
+            "bearing": ["111"],
+            "speed": [0]
+          },
+          "timestamp": [1683298714],
+          "vehicle": {
+            "id": ["12436"],
+            "label": ["NB2436"],
+            "license_plate": ["CMF430"]
+          },
+          "occupancy_status": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["12405"],
+        "vehicle": {
+          "trip": {
+            "trip_id": ["1278-02202-96000-2-5267659b"],
+            "start_time": ["26:40:00"],
+            "start_date": ["20230505"],
+            "schedule_relationship": [0],
+            "route_id": ["22R-202"],
+            "direction_id": [1]
+          },
+          "position": {
+            "latitude": [-36.8798],
+            "longitude": [174.7345],
+            "bearing": ["202"],
+            "speed": [38]
+          },
+          "timestamp": [1683298714],
+          "vehicle": {
+            "id": ["12405"],
+            "label": ["NB2405"],
+            "license_plate": ["CEK70"]
+          },
+          "occupancy_status": [1]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["59524"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8893],
+            "longitude": [174.6312],
+            "bearing": ["179"],
+            "odometer": [632052897],
+            "speed": [0]
+          },
+          "timestamp": [1683298640],
+          "vehicle": {
+            "id": ["59524"],
+            "label": ["AMP        524"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["59279"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8893],
+            "longitude": [174.6312],
+            "bearing": ["168"],
+            "odometer": [545856573],
+            "speed": [0]
+          },
+          "timestamp": [1683298637],
+          "vehicle": {
+            "id": ["59279"],
+            "label": ["AMP        279"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512010927"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8361],
+            "longitude": [174.7482],
+            "speed": [0]
+          },
+          "timestamp": [1683298627],
+          "vehicle": {
+            "id": ["512010927"],
+            "label": ["TE ARIA"],
+            "license_plate": ["ZMY4725"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["59633"],
+        "vehicle": {
+          "position": {
+            "latitude": [-37.0006],
+            "longitude": [174.8617],
+            "bearing": ["217"],
+            "odometer": [589744553],
+            "speed": [0]
+          },
+          "timestamp": [1683298467],
+          "vehicle": {
+            "id": ["59633"],
+            "label": ["AMP        633"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["59849"],
+        "vehicle": {
+          "position": {
+            "latitude": [-37.0013],
+            "longitude": [174.862],
+            "bearing": ["17"],
+            "odometer": [151503126],
+            "speed": [0]
+          },
+          "timestamp": [1683298469],
+          "vehicle": {
+            "id": ["59849"],
+            "label": ["AMP        849"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512005511"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.6228],
+            "longitude": [174.7861],
+            "speed": [0]
+          },
+          "timestamp": [1683298548],
+          "vehicle": {
+            "id": ["512005511"],
+            "label": ["SILVER SPRAY"],
+            "license_plate": ["ZMW7474"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512009450"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8892],
+            "longitude": [174.9866],
+            "bearing": ["68"],
+            "speed": [0.0514]
+          },
+          "timestamp": [1683298707],
+          "vehicle": {
+            "id": ["512009450"],
+            "label": ["VIRAGO"],
+            "license_plate": ["ZMP5966"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["563052100"],
+        "vehicle": {
+          "position": {
+            "latitude": [-35.7101],
+            "longitude": [175.4255],
+            "bearing": ["135"],
+            "speed": [6.0704]
+          },
+          "timestamp": [1683298700],
+          "vehicle": {
+            "id": ["563052100"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512011151"],
+        "vehicle": {
+          "position": {
+            "latitude": [-37.5406],
+            "longitude": [176.1636],
+            "bearing": ["69"],
+            "speed": [0]
+          },
+          "timestamp": [1683298526],
+          "vehicle": {
+            "id": ["512011151"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512007354"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.921],
+            "longitude": [174.8574],
+            "speed": [0]
+          },
+          "timestamp": [1683298556],
+          "vehicle": {
+            "id": ["512007354"],
+            "label": ["COOLCHANGE"],
+            "license_plate": ["ZMU9341"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["518395000"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.8416],
+            "longitude": [174.7624],
+            "speed": [0]
+          },
+          "timestamp": [1683298556],
+          "vehicle": {
+            "id": ["518395000"],
+            "label": ["ALANI II"],
+            "license_plate": ["E5U2345"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["477669400"],
+        "vehicle": {
+          "position": {
+            "latitude": [-37.6546],
+            "longitude": [176.1819],
+            "bearing": ["188"],
+            "speed": [0]
+          },
+          "timestamp": [1683298636],
+          "vehicle": {
+            "id": ["477669400"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["353369000"],
+        "vehicle": {
+          "position": {
+            "latitude": [-37.6427],
+            "longitude": [176.1814],
+            "bearing": ["351"],
+            "speed": [0]
+          },
+          "timestamp": [1683298365],
+          "vehicle": {
+            "id": ["353369000"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["563148300"],
+        "vehicle": {
+          "position": {
+            "latitude": [-37.4697],
+            "longitude": [176.0989],
+            "bearing": ["26"],
+            "speed": [0.1029]
+          },
+          "timestamp": [1683298415],
+          "vehicle": {
+            "id": ["563148300"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["512009808"],
+        "vehicle": {
+          "position": {
+            "latitude": [-36.4229],
+            "longitude": [174.8408],
+            "bearing": ["323"],
+            "speed": [0.0514]
+          },
+          "timestamp": [1683298459],
+          "vehicle": {
+            "id": ["512009808"],
+            "label": ["S5,!,)"],
+            "license_plate": [":-Y7072"]
+          }
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["477351600"],
+        "vehicle": {
+          "position": {
+            "latitude": [-37.645],
+            "longitude": [176.1819],
+            "bearing": ["349"],
+            "speed": [0]
+          },
+          "timestamp": [1683298587],
+          "vehicle": {
+            "id": ["477351600"],
+            "label": [""],
+            "license_plate": [""]
+          }
+        },
+        "is_deleted": [false]
+      }
+    ]
+  },
+  "error": {}
+}
