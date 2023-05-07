@@ -108,4 +108,23 @@ for (date in dates) {
   }
 }
 
+# Creating day of week column
+full_bus_data <- full_bus_data %>% 
+  mutate(day_of_week = wday(as.Date(date, format = "%Y-%m-%d"), label = TRUE)) 
+
+# Removing duplicates
+full_bus_data = distinct(full_bus_data)
+
+# Converting all non-cancelled busses cancellation statuses to false
+full_bus_data$cancelled = ifelse(is.na(full_bus_data$cancelled) == TRUE, FALSE, TRUE)
+
+# Some rows don't have both arrival and departure time. If we don't have both, we assume they are the same
+full_bus_data$act_arrival_time = ifelse(is.na(full_bus_data$act_arrival_time) == TRUE & is.na(full_bus_data$act_departure_time) == FALSE, 
+                                        full_bus_data$act_departure_time, 
+                                        full_bus_data$act_arrival_time)
+
+full_bus_data$act_departure_time = ifelse(is.na(full_bus_data$act_arrival_time) == FALSE & is.na(full_bus_data$act_departure_time) == TRUE,  
+                                          full_bus_data$act_arrival_time, 
+                                          full_bus_data$act_departure_time)
+
 save(full_bus_data, file=paste0(dir_rawdata, "/FullBusData.RData"))

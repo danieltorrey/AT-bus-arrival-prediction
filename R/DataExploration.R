@@ -1,3 +1,7 @@
+# Loading in previously saved datasets
+load(paste0(dir_rawdata, '/FullBusData.RData'))
+load(paste0(dir_rawdata, '/FullProcessedData.RData'))
+
 # Subsetted datasets
 
 #Counts of total number of busses
@@ -21,18 +25,18 @@ cancelled_buses_day= subset(full_bus_data, is.na(cancelled) == FALSE) %>%
 
 # Proportion of non-cancelled buses
 
-nrow(non_cancelled) / nrow(full_bus_data)
+nrow(full_processed_data) / nrow(full_bus_data)
 
 #Distribution of delay by the day of week
 
 #Note we removed delays that are an hour or more
-ggplot(full.df %>% 
+ggplot(full_processed_data %>% 
          filter(delay > -3600 & delay < 3600), 
        mapping = aes(x = day_of_week, y = delay)) + 
   geom_boxplot()
 
 #Note we removed delays that are an hour or more
-ggplot(full.df %>% 
+ggplot(full_processed_data %>% 
          filter(delay > -3600 & delay < 3600), 
        mapping = aes(x = time_frame, y = delay)) + 
   geom_boxplot()
@@ -85,9 +89,3 @@ ggplot(cancelled_buses_day_prop,
   ggtitle("Proportion of bus cancellation by day") + 
   xlab("Day of week") +
   scale_y_continuous(expand = expansion(c(0,0.05)))
-
-
-
-
-
-
