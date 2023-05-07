@@ -1,8 +1,4 @@
-# Saving folder directories
-dir = getwd()
-dir_busarrivals = paste0(dir, '/rawdata/busarrivals/', sep = "")
-
-source(paste0(dir, '/R/Initialise.R'))
+source(paste0(getwd(), '/R/Initialise.R'))
 
 # Obtain AT API Key
 AT_key = '567bb1fb7ab64582905c7812648075e1'
@@ -44,7 +40,7 @@ dir.create(time)
 setwd(paste0(paste0(dir_busarrivals, paste0('/', date)), paste0('/', time)))
 
 # Saving data to JSON files
-write_json(content(vehicle), 'vehicle', pretty = TRUE)
-write_json(content(combined_feed), 'combined', pretty = TRUE)
-write_json(content(trip_updates), 'tripupdates', pretty = TRUE)
-write_json(content(alerts), 'alerts', pretty = TRUE)
+write_json(content(vehicle), 'vehicle.json', pretty = TRUE)
+write_json(content(combined_feed), 'combined.json', pretty = TRUE)
+write_json(content(trip_updates), 'tripupdates.json', pretty = TRUE)
+write_json(content(alerts), 'alerts.json', pretty = TRUE)

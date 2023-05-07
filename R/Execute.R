@@ -1,13 +1,11 @@
-# Saving folder directories
-dir = getwd()
-dir_scripts = paste0(dir, '/R/', sep = "")
-dir_rawdata = paste0(dir, '/rawdata/', sep = "")
-dir_businfo = paste0(dir_rawdata, '/businfo/', sep = "")
-dir_busarrivals = paste0(dir_rawdata, '/busarrivals/', sep = "")
-
-source(paste0(dir_scripts, 'Initialise.R'))
+source(paste0(getwd(), '/R/Initialise.R'))
 
 source(paste0(dir_scripts, 'GetBusInfoData.R'))
+source(paste0(dir_scripts, 'GetSuburbData.R'))
+source(paste0(dir_scripts, 'GetWeatherData.R'))
 
-#source(paste0(dir_scripts, '/DataCleansing.Rmd'))
-#source(paste0(dir_scripts, '/DataExploration'))
+source(paste0(dir_scripts, 'BusDataCleansing.R'))
+source(paste0(dir_scripts, 'WeatherDataCleansing.R'))
+
+source(paste0(dir_scripts, 'CombineAllData.R'))
+source(paste0(dir_scripts, 'DataExploration.R'))
