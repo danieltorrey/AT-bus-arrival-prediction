@@ -32,13 +32,13 @@ nrow(full_processed_data) / nrow(full_bus_data)
 #Note we removed delays that are an hour or more
 ggplot(full_processed_data %>% 
          filter(delay > -3600 & delay < 3600), 
-       mapping = aes(x = day_of_week, y = delay)) + 
+       mapping = aes(x = day_of_week, y = delay)) +geom_hline(yintercept = 0, col = "red", alpha  = 0.5) +
   geom_boxplot()
 
 #Note we removed delays that are an hour or more
 ggplot(full_processed_data %>% 
          filter(delay > -3600 & delay < 3600), 
-       mapping = aes(x = time_frame, y = delay)) + 
+       mapping = aes(x = time_frame, y = delay)) +geom_hline(yintercept = 0, col = "red", alpha  = 0.5) +
   geom_boxplot()
 
 #Cancelled bus proportion route dataset
