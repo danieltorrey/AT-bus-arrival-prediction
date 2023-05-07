@@ -54,7 +54,7 @@ cancelled_buses_route_proportion = cancelled_buses_route %>%
 print(cancelled_buses_route_proportion)
 
 #Proportion of bus cancellation via histogram of proportions - route
-ggplot(cancelled_buses_route_proportion %>% filter(Cancelled_Proportion > 0.010), 
+ggplot(cancelled_buses_route_proportion %>% filter(Cancelled_Proportion > 0.10), 
        aes(x = Position, y = Cancelled_Proportion)) + 
   geom_col() +
   theme_minimal() + 
@@ -65,7 +65,7 @@ ggplot(cancelled_buses_route_proportion %>% filter(Cancelled_Proportion > 0.010)
         axis.text.x = element_text(angle = 90)) +
   coord_flip() +
   ylab("") +
-  ggtitle("Proportion of bus cancellation (that has at least 1%)") + 
+  ggtitle("Top proportion of bus cancellation") + 
   xlab("Bus routes") +
   scale_y_continuous(expand = expansion(c(0,0.05)))
 
