@@ -13,6 +13,10 @@ cancelled_buses = subset(full_bus_data, is.na(cancelled) == FALSE) %>%
   group_by(route_short_name) %>% 
   summarise(Tally = n()) 
 
+# Proportion of cancelled and non-cancelled buses
+
+nrow(cancelled_buses) / nrow(total_buses)
+
 #Distribution of delay by the day of week
 
 #Note we removed delays that are an hour or more
