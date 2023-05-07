@@ -1,4 +1,4 @@
-non_cancelled <- subset(full_bus_data, cancelled=FALSE)
+non_cancelled <- subset(full_bus_data, cancelled==FALSE)
 
 class(non_cancelled$act_arrival_time) = c('POSIXt','POSIXct')
 class(non_cancelled$act_departure_time) = c('POSIXt','POSIXct')
@@ -38,7 +38,7 @@ for (i in 1:nrow(non_cancelled)) {
 
 # Joining weather data to full dataset
 full_processed_data <- non_cancelled %>% left_join(full_weather %>% 
-                                        select("weather", "suburb", "time", "date"), 
-                                      by = c("suburb" = "suburb", "time" = "time", "date" = "date"))
+                                                     select("weather", "suburb", "time", "date"), 
+                                                   by = c("suburb" = "suburb", "time" = "time", "date" = "date"))
 
 save(full_processed_data, file=paste0(dir_rawdata, "/FullProcessedData.RData"))
