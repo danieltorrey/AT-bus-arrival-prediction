@@ -83,7 +83,7 @@ ggplot(cancelled_buses_day_prop,
   coord_flip() +
   ylab("") +
   ggtitle("Proportion of bus cancellation by day") + 
-  xlab("Bus routes") +
+  xlab("Day of week") +
   scale_y_continuous(expand = expansion(c(0,0.05)))
 
 
