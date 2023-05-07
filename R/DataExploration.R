@@ -12,13 +12,13 @@ total_buses = full_bus_data %>%
   filter(total_counts > 20)
 
 #Getting the cancelled buses route information 
-cancelled_buses_route = subset(full_bus_data, is.na(cancelled) == FALSE) %>% 
+cancelled_buses_route = subset(full_bus_data, cancelled == TRUE) %>% 
   filter(!(route_short_name %in% c("WEST", "NORTH","SOUTH", "EAST"))) %>% 
   group_by(route_short_name) %>% 
   summarise(Tally = n()) 
 
 #Getting the cancelled buses route information 
-cancelled_buses_day= subset(full_bus_data, is.na(cancelled) == FALSE) %>% 
+cancelled_buses_day= subset(full_bus_data, cancelled == TRUE) %>% 
   filter(!(route_short_name %in% c("WEST", "NORTH","SOUTH", "EAST"))) %>% 
   group_by(day_of_week) %>% 
   summarise(Tally = n()) 
