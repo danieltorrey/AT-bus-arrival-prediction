@@ -1,0 +1,2986 @@
+{
+  "status": ["OK"],
+  "response": {
+    "header": {
+      "timestamp": [1683999201.055],
+      "gtfs_realtime_version": ["1.0"],
+      "incrementality": [0]
+    },
+    "entity": [
+      {
+        "id": ["51357284474-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51357284474-20230509151519_v105.8"],
+            "start_time": ["09:40:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["27001-20230509151519_v105.8"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683978346],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51357283619-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51357283619-20230509151519_v105.8"],
+            "start_time": ["11:40:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["27001-20230509151519_v105.8"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683978346],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51357284813-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51357284813-20230509151519_v105.8"],
+            "start_time": ["15:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["27001-20230509151519_v105.8"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683978346],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51357284989-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51357284989-20230509151519_v105.8"],
+            "start_time": ["18:10:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["27001-20230509151519_v105.8"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683978346],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51357284555-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51357284555-20230509151519_v105.8"],
+            "start_time": ["11:05:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["27002-20230509151519_v105.8"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683978346],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51357285076-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51357285076-20230509151519_v105.8"],
+            "start_time": ["19:35:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["27002-20230509151519_v105.8"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683978346],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51357284602-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51357284602-20230509151519_v105.8"],
+            "start_time": ["11:55:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["27002-20230509151519_v105.8"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683978346],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51357284974-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51357284974-20230509151519_v105.8"],
+            "start_time": ["17:55:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["27002-20230509151519_v105.8"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683978346],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51357284914-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51357284914-20230509151519_v105.8"],
+            "start_time": ["17:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["27001-20230509151519_v105.8"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683978346],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51357283573-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51357283573-20230509151519_v105.8"],
+            "start_time": ["10:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["27001-20230509151519_v105.8"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683978346],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51357284952-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51357284952-20230509151519_v105.8"],
+            "start_time": ["17:35:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["27002-20230509151519_v105.8"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683978346],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51357284134-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51357284134-20230509151519_v105.8"],
+            "start_time": ["20:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["27001-20230509151519_v105.8"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683978346],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51357285042-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51357285042-20230509151519_v105.8"],
+            "start_time": ["19:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["27001-20230509151519_v105.8"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683978346],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51357285123-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51357285123-20230509151519_v105.8"],
+            "start_time": ["20:35:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["27002-20230509151519_v105.8"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683978346],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51336186710-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51336186710-20230509151519_v105.8"],
+            "start_time": ["09:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["90112-20230509151519_v105.8"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683978489],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51336199307-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51336199307-20230509151519_v105.8"],
+            "start_time": ["07:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["90111-20230509151519_v105.8"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683978489],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51336199504-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51336199504-20230509151519_v105.8"],
+            "start_time": ["08:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["90111-20230509151519_v105.8"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683978489],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51336170873-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51336170873-20230509151519_v105.8"],
+            "start_time": ["10:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["90111-20230509151519_v105.8"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683978489],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51336187162-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51336187162-20230509151519_v105.8"],
+            "start_time": ["06:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["90112-20230509151519_v105.8"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683978489],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51336199409-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51336199409-20230509151519_v105.8"],
+            "start_time": ["07:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["90112-20230509151519_v105.8"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683978490],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51440151777-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51440151777-20230509151519_v105.8"],
+            "start_time": ["08:17:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["88302-20230509151519_v105.8"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683978886],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51440206007-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51440206007-20230509151519_v105.8"],
+            "start_time": ["08:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["88301-20230509151519_v105.8"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683978886],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51343200169-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51343200169-20230509151519_v105.8"],
+            "start_time": ["11:35:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["92802-20230509151519_v105.8"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683978947],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51343226185-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51343226185-20230509151519_v105.8"],
+            "start_time": ["11:05:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["92801-20230509151519_v105.8"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683978947],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51343226192-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51343226192-20230509151519_v105.8"],
+            "start_time": ["12:05:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["92801-20230509151519_v105.8"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683978947],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51343199994-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51343199994-20230509151519_v105.8"],
+            "start_time": ["10:35:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["92802-20230509151519_v105.8"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683978947],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51342301863-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51342301863-20230509151519_v105.8"],
+            "start_time": ["14:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["92601-20230509151519_v105.8"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683979017],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51342301812-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51342301812-20230509151519_v105.8"],
+            "start_time": ["13:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["92602-20230509151519_v105.8"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683979017],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51334199370-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51334199370-20230509151519_v105.8"],
+            "start_time": ["07:20:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["88902-20230509151519_v105.8"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683979052],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51334199310-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51334199310-20230509151519_v105.8"],
+            "start_time": ["07:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["88901-20230509151519_v105.8"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683979052],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51317302837-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51317302837-20230509151519_v105.8"],
+            "start_time": ["07:40:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["08301-20230509151519_v105.8"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683979107],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51317302921-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51317302921-20230509151519_v105.8"],
+            "start_time": ["09:25:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["08301-20230509151519_v105.8"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683979107],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51317303078-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51317303078-20230509151519_v105.8"],
+            "start_time": ["12:10:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["08301-20230509151519_v105.8"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683979107],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51317303143-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51317303143-20230509151519_v105.8"],
+            "start_time": ["13:15:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["08302-20230509151519_v105.8"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683979156],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51317302877-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51317302877-20230509151519_v105.8"],
+            "start_time": ["08:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["08302-20230509151519_v105.8"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683979156],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51317302981-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51317302981-20230509151519_v105.8"],
+            "start_time": ["10:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["08302-20230509151519_v105.8"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683979156],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303377-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86102-63000-2-5542ac25"],
+            "start_time": ["17:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683979227],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303320-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86101-59280-2-eaeefb29"],
+            "start_time": ["16:28:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683979227],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303273-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86102-55800-2-5542ac25"],
+            "start_time": ["15:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683979227],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303423-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86101-66480-2-7ab62fb9"],
+            "start_time": ["18:28:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683979227],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326302928-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86102-34200-2-5755c533"],
+            "start_time": ["09:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683979331],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326302873-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86101-30480-2-0841a0f6"],
+            "start_time": ["08:28:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683979331],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303372-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86101-62880-2-eaeefb29"],
+            "start_time": ["17:28:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683979331],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326302832-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86102-27000-2-5755c533"],
+            "start_time": ["07:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683979331],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303428-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86102-66600-2-5542ac25"],
+            "start_time": ["18:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683979331],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303325-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86102-59400-2-5542ac25"],
+            "start_time": ["16:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683979331],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326302978-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86101-37680-2-9b7c1187"],
+            "start_time": ["10:28:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683979331],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303468-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86101-70080-2-475d3491"],
+            "start_time": ["19:28:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683979331],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51325303069-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1325-85601-43200-2-e564191f"],
+            "start_time": ["12:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["856-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683979429],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51325303140-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1325-85602-47400-2-301e3a7d"],
+            "start_time": ["13:10:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["856-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683979429],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51325303508-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1325-85602-74400-2-d95dc498"],
+            "start_time": ["20:40:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["856-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683979490],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51325303473-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1325-85601-70200-2-675de6e6"],
+            "start_time": ["19:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["856-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683979490],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51325303411-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1325-85602-65400-2-d95dc498"],
+            "start_time": ["18:10:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["856-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683979490],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51325303350-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1325-85601-61200-2-e4a2c2bb"],
+            "start_time": ["17:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["856-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683979490],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326302951-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86101-35880-2-9b7c1187"],
+            "start_time": ["09:58:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683979587],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303096-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86101-44880-2-40216c91"],
+            "start_time": ["12:28:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683979587],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326302903-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86102-32400-2-5755c533"],
+            "start_time": ["09:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683979587],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303040-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86102-41400-2-4c2b26d7"],
+            "start_time": ["11:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683979588],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303162-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86102-48600-2-4c2b26d7"],
+            "start_time": ["13:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683979587],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303213-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86101-52080-2-3623f04a"],
+            "start_time": ["14:28:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683979587],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303506-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86102-73800-2-ae00b1ce"],
+            "start_time": ["20:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683979646],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303524-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86101-77280-2-475d3491"],
+            "start_time": ["21:28:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683979646],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51317303295-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1324-08301-57300-2-8a3bbe8c"],
+            "start_time": ["15:55:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["83-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683979823],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51317303398-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1324-08301-64500-2-9a8c6003"],
+            "start_time": ["17:55:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["83-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683979823],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51317303349-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1324-08302-61200-2-8eb6bee0"],
+            "start_time": ["17:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["83-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683979886],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51317303452-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1324-08302-68400-2-06be6d57"],
+            "start_time": ["19:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["83-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683979886],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51334200387-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1291-88902-46200-2-3cb9d272"],
+            "start_time": ["12:50:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["889-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683979920],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51334200336-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1291-88901-45000-2-0646ec73"],
+            "start_time": ["12:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["889-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683979920],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51317303038-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1324-08302-41400-2-f57f19f7"],
+            "start_time": ["11:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["83-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683980098],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51324167071-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1298-84502-37800-2-ab1e7ce1"],
+            "start_time": ["10:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["845-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683980130],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51324301544-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1298-84501-39600-2-b5488ac9"],
+            "start_time": ["11:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["845-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683980130],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51325302927-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1325-85601-34200-2-6c6e434b"],
+            "start_time": ["09:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["856-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683980155],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303007-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86101-39480-2-a8704e6a"],
+            "start_time": ["10:58:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683980212],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326302955-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86102-36000-2-5755c533"],
+            "start_time": ["10:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683980212],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51330303071-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1328-87802-43200-2-9443330b"],
+            "start_time": ["12:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["878-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683980261],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51330303517-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1328-87802-75600-2-09164d62"],
+            "start_time": ["21:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["878-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683980261],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51330300648-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1328-87801-73800-2-042d89f3"],
+            "start_time": ["20:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["878-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683980261],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51327281032-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1327-86501-77400-2-66f8b312"],
+            "start_time": ["21:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["865-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683980323],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51327278941-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1327-86501-45000-2-5380b22b"],
+            "start_time": ["12:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["865-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683980323],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51327279629-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1327-86502-72000-2-96e917d1"],
+            "start_time": ["20:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["865-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683980323],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51327281052-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1327-86502-79200-2-7ab8055f"],
+            "start_time": ["22:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["865-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683980323],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51325303217-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1325-85601-52200-2-11bb4749"],
+            "start_time": ["14:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["856-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683980366],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51325303334-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1325-85602-60000-2-83fcc323"],
+            "start_time": ["16:40:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["856-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683980366],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51324166383-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1298-84502-55800-2-ab1e7ce1"],
+            "start_time": ["15:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["845-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683980410],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51324302099-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1298-84501-57600-2-b5488ac9"],
+            "start_time": ["16:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["845-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683980410],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51334201417-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1291-88902-66000-2-e0329a01"],
+            "start_time": ["18:20:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["889-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683980445],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51334201360-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1291-88901-64800-2-36330781"],
+            "start_time": ["18:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["889-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683980445],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51334199899-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1291-88901-36000-2-3c5fc546"],
+            "start_time": ["10:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["889-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683980484],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51334199948-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1291-88902-37200-2-3cb9d272"],
+            "start_time": ["10:20:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["889-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683980484],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51327279098-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1327-86501-52200-2-5380b22b"],
+            "start_time": ["14:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["865-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683980531],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51327280238-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1327-86502-39600-2-96e917d1"],
+            "start_time": ["11:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["865-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683980532],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51330301604-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1328-87801-41400-2-d7c09ea5"],
+            "start_time": ["11:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["878-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683980567],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51330303192-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1328-87802-50400-2-9443330b"],
+            "start_time": ["14:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["878-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683980567],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303070-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86102-43200-2-4c2b26d7"],
+            "start_time": ["12:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683980629],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303448-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86101-68280-2-475d3491"],
+            "start_time": ["18:58:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683980629],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303128-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86101-46680-2-40216c91"],
+            "start_time": ["12:58:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683980629],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303403-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86102-64800-2-5542ac25"],
+            "start_time": ["18:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683980629],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303541-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86102-79200-2-aa201265"],
+            "start_time": ["22:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683980630],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303489-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86102-72000-2-5542ac25"],
+            "start_time": ["20:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683980629],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303510-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86101-75480-2-475d3491"],
+            "start_time": ["20:58:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683980629],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["6777306485-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1023-22217-20760-2-3be1bb90"],
+            "start_time": ["05:46:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [0],
+            "route_id": ["RBS-402"],
+            "direction_id": [0]
+          },
+          "stop_time_update": {
+            "stop_sequence": [9],
+            "arrival": {
+              "delay": [-19187],
+              "time": [1683983533],
+              "uncertainty": [0]
+            },
+            "stop_id": ["1771-118407aa"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["26220"],
+            "label": ["GB5220"],
+            "license_plate": ["JSZ353"]
+          },
+          "timestamp": [1683983617],
+          "delay": [-19187]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51498262175-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1397-38017-16200-2-3d15f326"],
+            "start_time": ["04:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [0],
+            "route_id": ["AIR-221"],
+            "direction_id": [0]
+          },
+          "stop_time_update": {
+            "stop_sequence": [24],
+            "arrival": {
+              "delay": [-766],
+              "time": [1683997994],
+              "uncertainty": [0]
+            },
+            "stop_id": ["1808-0d9a1f7f"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["26006"],
+            "label": ["GB8902"]
+          },
+          "timestamp": [1683998733],
+          "delay": [-766]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51499268606-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1396-03804-16200-2-d7df5a7d"],
+            "start_time": ["04:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [0],
+            "route_id": ["38-221"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [24],
+            "arrival": {
+              "delay": [-196],
+              "time": [1683997304],
+              "uncertainty": [0]
+            },
+            "stop_id": ["2375-c1152962"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["26504"],
+            "label": ["GB5804"],
+            "license_plate": ["KDW233"]
+          },
+          "timestamp": [1683997329],
+          "delay": [-196]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51498262177-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1397-38017-16800-2-3d15f326"],
+            "start_time": ["04:40:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [0],
+            "route_id": ["AIR-221"],
+            "direction_id": [0]
+          },
+          "stop_time_update": {
+            "stop_sequence": [24],
+            "arrival": {
+              "delay": [-566],
+              "time": [1683998794],
+              "uncertainty": [0]
+            },
+            "stop_id": ["1808-0d9a1f7f"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["26005"],
+            "label": ["GB8901"]
+          },
+          "timestamp": [1683999052],
+          "delay": [-566]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51498262178-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1397-38017-17400-2-3d15f326"],
+            "start_time": ["04:50:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [0],
+            "route_id": ["AIR-221"],
+            "direction_id": [0]
+          },
+          "stop_time_update": {
+            "stop_sequence": [18],
+            "departure": {
+              "delay": [-57],
+              "time": [1683999165],
+              "uncertainty": [0]
+            },
+            "stop_id": ["6561-a7453de6"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["26008"],
+            "label": ["GB8904"],
+            "license_plate": [""]
+          },
+          "timestamp": [1683999165],
+          "delay": [-57]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51498262179-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1397-38017-18000-2-3d15f326"],
+            "start_time": ["05:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [0],
+            "route_id": ["AIR-221"],
+            "direction_id": [0]
+          },
+          "stop_time_update": {
+            "stop_sequence": [15],
+            "departure": {
+              "delay": [110],
+              "time": [1683999147],
+              "uncertainty": [0]
+            },
+            "stop_id": ["2421-500c377a"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["26010"],
+            "label": ["GB8906"],
+            "license_plate": [""]
+          },
+          "timestamp": [1683999147],
+          "delay": [110]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51499268609-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1396-03804-18000-2-d7df5a7d"],
+            "start_time": ["05:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [0],
+            "route_id": ["38-221"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [24],
+            "arrival": {
+              "delay": [-219],
+              "time": [1683999081],
+              "uncertainty": [0]
+            },
+            "stop_id": ["2375-c1152962"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["26114"],
+            "label": ["GB5114"],
+            "license_plate": ["KZK617"]
+          },
+          "timestamp": [1683999081],
+          "delay": [-219]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51499301004-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1396-03803-18480-2-5a38f080"],
+            "start_time": ["05:08:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [0],
+            "route_id": ["38-221"],
+            "direction_id": [0]
+          },
+          "stop_time_update": {
+            "stop_sequence": [17],
+            "departure": {
+              "delay": [17],
+              "time": [1683999174],
+              "uncertainty": [0]
+            },
+            "stop_id": ["6623-daa2eabe"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["26504"],
+            "label": ["GB5804"],
+            "license_plate": ["KDW233"]
+          },
+          "timestamp": [1683999174],
+          "delay": [17]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51330303219-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1328-87802-52200-2-9443330b"],
+            "start_time": ["14:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["878-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683997431],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51327279143-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1327-86501-54000-2-5380b22b"],
+            "start_time": ["15:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["865-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683997443],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51325303272-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1325-85601-55800-2-11bb4749"],
+            "start_time": ["15:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["856-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683997456],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51324166451-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1298-84502-59400-2-ab1e7ce1"],
+            "start_time": ["16:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["845-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683997469],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51324302221-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1298-84501-61200-2-b5488ac9"],
+            "start_time": ["17:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["845-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683997479],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51325303385-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1325-85602-63600-2-83fcc323"],
+            "start_time": ["17:40:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["856-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683997494],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51327280938-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1327-86502-70200-2-96e917d1"],
+            "start_time": ["19:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["865-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683997517],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51330300579-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1328-87801-72000-2-042d89f3"],
+            "start_time": ["20:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["878-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683997531],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51330303507-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1328-87802-73800-2-09164d62"],
+            "start_time": ["20:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["878-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683997547],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51327281011-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1327-86501-75600-2-66f8b312"],
+            "start_time": ["21:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["865-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683997568],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51327281033-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1327-86502-77400-2-7ab8055f"],
+            "start_time": ["21:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["865-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683997580],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51330300837-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1328-87801-79200-2-32f77a58"],
+            "start_time": ["22:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["878-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683997596],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51330303555-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1328-87802-81000-2-09164d62"],
+            "start_time": ["22:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["878-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683997609],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51317303241-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1324-08301-53700-2-e5339897"],
+            "start_time": ["14:55:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["83-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683997626],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51498262181-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1397-38017-18600-2-3d15f326"],
+            "start_time": ["05:10:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [0],
+            "route_id": ["AIR-221"],
+            "direction_id": [0]
+          },
+          "stop_time_update": {
+            "stop_sequence": [11],
+            "departure": {
+              "delay": [-79],
+              "time": [1683999101],
+              "uncertainty": [0]
+            },
+            "stop_id": ["2206-d03ff463"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["26007"],
+            "label": ["GB8903"],
+            "license_plate": [""]
+          },
+          "timestamp": [1683999101],
+          "delay": [-108]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51317303298-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1324-08302-57600-2-8eb6bee0"],
+            "start_time": ["16:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["83-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683998072],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51317303346-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1324-08301-60900-2-8a3bbe8c"],
+            "start_time": ["16:55:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["83-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683998083],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51498262182-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1397-38017-19200-2-3d15f326"],
+            "start_time": ["05:20:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [0],
+            "route_id": ["AIR-221"],
+            "direction_id": [0]
+          },
+          "stop_time_update": {
+            "stop_sequence": [8],
+            "departure": {
+              "delay": [42],
+              "time": [1683999117],
+              "uncertainty": [0]
+            },
+            "stop_id": ["2216-fcbe8357"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["26011"],
+            "label": ["GB8907"],
+            "license_plate": [""]
+          },
+          "timestamp": [1683999117],
+          "delay": [42]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51317303401-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1324-08302-64800-2-06be6d57"],
+            "start_time": ["18:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["83-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683998163],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51334201544-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1291-88901-68400-2-36330781"],
+            "start_time": ["19:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["889-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683998175],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51334201595-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1291-88902-69600-2-e0329a01"],
+            "start_time": ["19:20:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["889-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683998305],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51327280992-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1327-86502-73800-2-7ab8055f"],
+            "start_time": ["20:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["865-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683998321],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51330300718-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1328-87801-75600-2-042d89f3"],
+            "start_time": ["21:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["878-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683998335],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51330303531-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1328-87802-77400-2-09164d62"],
+            "start_time": ["21:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["878-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683998345],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51327281051-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1327-86501-79200-2-66f8b312"],
+            "start_time": ["22:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["865-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683998358],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51327281070-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1327-86502-81000-2-7ab8055f"],
+            "start_time": ["22:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["865-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683998369],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51327281084-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1327-86502-82800-2-7ab8055f"],
+            "start_time": ["23:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["865-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683998378],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51327281096-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1327-86502-84600-2-7ab8055f"],
+            "start_time": ["23:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["865-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683998390],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303246-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86102-54000-2-5542ac25"],
+            "start_time": ["15:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683998408],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303296-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86101-57480-2-eaeefb29"],
+            "start_time": ["15:58:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683998419],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51439259121-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1321-08203-19500-2-a8db9928"],
+            "start_time": ["05:25:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [0],
+            "route_id": ["82-202"],
+            "direction_id": [0]
+          },
+          "stop_time_update": {
+            "stop_sequence": [12],
+            "arrival": {
+              "delay": [36],
+              "time": [1683999184],
+              "uncertainty": [0]
+            },
+            "stop_id": ["3484-ce435305"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["11478"],
+            "label": ["NB1478"],
+            "license_plate": ["EKQ313"]
+          },
+          "timestamp": [1683999184],
+          "delay": [36]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303351-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86102-61200-2-5542ac25"],
+            "start_time": ["17:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683998430],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303399-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86101-64680-2-7ab62fb9"],
+            "start_time": ["17:58:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683998441],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303474-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86102-70200-2-5542ac25"],
+            "start_time": ["19:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683998453],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303500-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86101-73680-2-475d3491"],
+            "start_time": ["20:28:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683998466],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303530-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86102-77400-2-ae00b1ce"],
+            "start_time": ["21:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683998478],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303554-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86102-81000-2-aa201265"],
+            "start_time": ["22:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683998490],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51326303564-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1326-86102-84600-2-aa201265"],
+            "start_time": ["23:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["861-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683998506],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51327280585-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1327-86502-55800-2-96e917d1"],
+            "start_time": ["15:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["865-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683998524],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51330302106-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1328-87801-57600-2-d7c09ea5"],
+            "start_time": ["16:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["878-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683998535],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51330303326-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1328-87802-59400-2-9443330b"],
+            "start_time": ["16:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["878-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683998545],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51327280723-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1327-86501-61200-2-87d41cf7"],
+            "start_time": ["17:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["865-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683998556],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51327280772-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1327-86502-63000-2-96e917d1"],
+            "start_time": ["17:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["865-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683998566],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51330302347-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1328-87801-64800-2-d7c09ea5"],
+            "start_time": ["18:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["878-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683998579],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51330303429-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1328-87802-66600-2-09164d62"],
+            "start_time": ["18:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["878-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683998590],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51327280903-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1327-86501-68400-2-87d41cf7"],
+            "start_time": ["19:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["865-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683998604],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51325303488-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1325-85601-72000-2-675de6e6"],
+            "start_time": ["20:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["856-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683998627],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51325303520-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1325-85602-76200-2-b7b2f035"],
+            "start_time": ["21:10:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["856-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683998640],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51325303540-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1325-85601-79200-2-ea6f4230"],
+            "start_time": ["22:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["856-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683998655],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51325303562-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1325-85602-83400-2-b7b2f035"],
+            "start_time": ["23:10:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["856-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683998670],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51325303245-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1325-85601-54000-2-11bb4749"],
+            "start_time": ["15:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["856-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683998692],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51325303307-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1325-85602-58200-2-83fcc323"],
+            "start_time": ["16:10:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["856-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683998701],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51325303376-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1325-85601-63000-2-e4a2c2bb"],
+            "start_time": ["17:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["856-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683998713],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51325303437-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1325-85602-67200-2-d95dc498"],
+            "start_time": ["18:40:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["856-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683998724],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51498262185-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1397-38017-19800-2-3d15f326"],
+            "start_time": ["05:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [0],
+            "route_id": ["AIR-221"],
+            "direction_id": [0]
+          },
+          "stop_time_update": {
+            "stop_sequence": [4],
+            "arrival": {
+              "delay": [-71],
+              "time": [1683999196],
+              "uncertainty": [0]
+            },
+            "stop_id": ["6541-18323bb0"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["26006"],
+            "label": ["GB8902"]
+          },
+          "timestamp": [1683999196],
+          "delay": [-71]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51325303505-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1325-85601-73800-2-675de6e6"],
+            "start_time": ["20:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["856-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683998737],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51325303535-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1325-85602-78000-2-b7b2f035"],
+            "start_time": ["21:40:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["856-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683998752],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51325303553-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1325-85601-81000-2-ea6f4230"],
+            "start_time": ["22:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["856-203"],
+            "direction_id": [0]
+          },
+          "timestamp": [1683998768],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51499268613-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1396-03804-19800-2-d7df5a7d"],
+            "start_time": ["05:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [0],
+            "route_id": ["38-221"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "departure": {
+              "delay": [115],
+              "time": [1683999177],
+              "uncertainty": [0]
+            },
+            "stop_id": ["1039-4731e87c"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["26101"],
+            "label": ["GB5101"],
+            "license_plate": ["KAZ57"]
+          },
+          "timestamp": [1683999177],
+          "delay": [115]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51317300987-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1324-08302-86400-2-6ea01447"],
+            "start_time": ["24:00:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [3],
+            "route_id": ["83-203"],
+            "direction_id": [1]
+          },
+          "timestamp": [1683998780],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["13154276350-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1109-15405-19800-2-f7408883"],
+            "start_time": ["05:30:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [0],
+            "route_id": ["154-206"],
+            "direction_id": [0]
+          },
+          "stop_time_update": {
+            "stop_sequence": [4],
+            "arrival": {
+              "delay": [9],
+              "time": [1683999197],
+              "uncertainty": [0]
+            },
+            "stop_id": ["5524-680adac4"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["23126"],
+            "label": ["PC4026"],
+            "license_plate": ["KPG702"]
+          },
+          "timestamp": [1683999197],
+          "delay": [9]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51458203372-20230503143402_v105.4"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["51458203372-20230503143402_v105.4"],
+            "start_time": ["20:45:00"],
+            "start_date": ["20230513"],
+            "schedule_relationship": [0],
+            "route_id": ["50202-20230503143402_v105.4"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [39],
+            "arrival": {
+              "delay": [155],
+              "time": [1683969755],
+              "uncertainty": [0]
+            },
+            "stop_id": ["1113-20230503143402_v105.4"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["32163"],
+            "label": ["WB0163"],
+            "license_plate": ["NCZ427"]
+          },
+          "timestamp": [1683998937],
+          "delay": [155]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["2376301009-20230509151519_v105.8"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1048-37604-19920-2-fb16e3d3"],
+            "start_time": ["05:32:00"],
+            "start_date": ["20230514"],
+            "schedule_relationship": [0],
+            "route_id": ["376-203"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [1],
+            "departure": {
+              "delay": [13],
+              "time": [1683999133],
+              "uncertainty": [0]
+            },
+            "stop_id": ["2522-d7d47f16"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["22261"],
+            "label": ["RT9815"],
+            "license_plate": ["HFD145"]
+          },
+          "timestamp": [1683999133],
+          "delay": [13]
+        },
+        "is_deleted": [false]
+      }
+    ]
+  },
+  "error": {}
+}
