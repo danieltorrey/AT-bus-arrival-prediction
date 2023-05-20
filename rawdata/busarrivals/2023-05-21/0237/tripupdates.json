@@ -1,0 +1,2483 @@
+{
+  "status": ["OK"],
+  "response": {
+    "header": {
+      "timestamp": [1684593450.91],
+      "gtfs_realtime_version": ["1.0"],
+      "incrementality": [0]
+    },
+    "entity": [
+      {
+        "id": ["17000307220-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["247-810124-90300-2-W268960-9e288d81"],
+            "start_time": ["25:05:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["WEST-201"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [14],
+            "departure": {
+              "delay": [47],
+              "time": [1684590407],
+              "uncertainty": [0]
+            },
+            "stop_id": ["9327-c03ec883"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["59851"],
+            "label": ["AMP        851"]
+          },
+          "timestamp": [1684590587],
+          "delay": [47]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51498262732-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1397-38017-84600-2-3d15f326"],
+            "start_time": ["23:30:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["AIR-221"],
+            "direction_id": [0]
+          },
+          "stop_time_update": {
+            "stop_sequence": [10],
+            "departure": {
+              "delay": [-71],
+              "time": [1684583439],
+              "uncertainty": [0]
+            },
+            "stop_id": ["2004-34cd452b"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["26007"],
+            "label": ["GB8903"]
+          },
+          "timestamp": [1684587784],
+          "delay": [4249]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["7003295107-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["901-95015-68400-2-4f21a457"],
+            "start_time": ["19:00:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [3],
+            "route_id": ["HMB-209"],
+            "direction_id": [0]
+          },
+          "timestamp": [1684582380],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["7003295099-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["901-95015-30600-2-4f21a457"],
+            "start_time": ["08:30:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [3],
+            "route_id": ["HMB-209"],
+            "direction_id": [0]
+          },
+          "timestamp": [1684582380],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["7003295106-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["901-95018-65400-2-ec3f2604"],
+            "start_time": ["18:10:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [3],
+            "route_id": ["HMB-209"],
+            "direction_id": [1]
+          },
+          "timestamp": [1684582380],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["7003295098-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["901-95018-27600-2-ec3f2604"],
+            "start_time": ["07:40:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [3],
+            "route_id": ["HMB-209"],
+            "direction_id": [1]
+          },
+          "timestamp": [1684582380],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["6555307503-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1020-55525-85380-2-c71a1a31"],
+            "start_time": ["23:43:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["RBE-402"],
+            "direction_id": [0]
+          },
+          "stop_time_update": {
+            "stop_sequence": [12],
+            "arrival": {
+              "delay": [1024],
+              "time": [1684589104],
+              "uncertainty": [0]
+            },
+            "stop_id": ["7017-6e27ec87"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["26065"],
+            "label": ["GB1416"],
+            "license_plate": ["BFZ265"]
+          },
+          "timestamp": [1684591493],
+          "delay": [1024]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["7004243940-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["122-91020-61800-2-fedfcd15"],
+            "start_time": ["17:10:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [3],
+            "route_id": ["BIRK-209"],
+            "direction_id": [1]
+          },
+          "timestamp": [1684582766],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["7004243941-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["122-91020-72600-2-fedfcd15"],
+            "start_time": ["20:10:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [3],
+            "route_id": ["BIRK-209"],
+            "direction_id": [1]
+          },
+          "timestamp": [1684582766],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51507294342-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["519-99317-45900-1-37bfca20"],
+            "start_time": ["12:45:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [3],
+            "route_id": ["CORO-209"],
+            "direction_id": [0]
+          },
+          "timestamp": [1684583959],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51507294340-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["519-99316-28800-1-1cf16300"],
+            "start_time": ["08:00:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [3],
+            "route_id": ["CORO-209"],
+            "direction_id": [1]
+          },
+          "timestamp": [1684583959],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51507294344-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["519-99317-57600-1-37bfca20"],
+            "start_time": ["16:00:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [3],
+            "route_id": ["CORO-209"],
+            "direction_id": [0]
+          },
+          "timestamp": [1684583959],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51507294341-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["519-99316-41400-1-1cf16300"],
+            "start_time": ["11:30:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [3],
+            "route_id": ["CORO-209"],
+            "direction_id": [1]
+          },
+          "timestamp": [1684583959],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51507294343-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["519-99316-53100-1-1cf16300"],
+            "start_time": ["14:45:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [3],
+            "route_id": ["CORO-209"],
+            "direction_id": [1]
+          },
+          "timestamp": [1684583959],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["7007104763-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["902-98012-66600-1-bb9c2d8b"],
+            "start_time": ["18:30:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [3],
+            "route_id": ["MTIA-209"],
+            "direction_id": [1]
+          },
+          "timestamp": [1684584010],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["7007104764-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["902-98011-70200-1-d485e99d"],
+            "start_time": ["19:30:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [3],
+            "route_id": ["MTIA-209"],
+            "direction_id": [0]
+          },
+          "timestamp": [1684584010],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["7012303985-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["514-96012-28500-2-f085c4f3"],
+            "start_time": ["07:55:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["HOBS-209"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [1],
+            "arrival": {
+              "delay": [0],
+              "time": [1684612500]
+            },
+            "departure": {
+              "delay": [0],
+              "time": [1684612500]
+            },
+            "stop_id": ["9702-e5f42777"],
+            "schedule_relationship": [0]
+          },
+          "timestamp": [1684584022],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["1028274146-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1114-11006-88500-2-6a8b7726"],
+            "start_time": ["24:35:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["110-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [33],
+            "arrival": {
+              "delay": [-218],
+              "time": [1684588042],
+              "uncertainty": [0]
+            },
+            "stop_id": ["1599-7b11ac3b"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["12148"],
+            "label": ["NB2148"],
+            "license_plate": ["EPN273"]
+          },
+          "timestamp": [1684591054],
+          "delay": [-218]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["6777306766-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1023-22216-88560-2-f82f6df1"],
+            "start_time": ["24:36:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["RBS-402"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [9],
+            "arrival": {
+              "delay": [19],
+              "time": [1684589059],
+              "uncertainty": [0]
+            },
+            "stop_id": ["2554-a68c9573"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["26205"],
+            "label": ["GB5205"],
+            "license_plate": ["JZR681"]
+          },
+          "timestamp": [1684590508],
+          "delay": [19]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51498262747-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1397-38017-88800-2-3d15f326"],
+            "start_time": ["24:40:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["AIR-221"],
+            "direction_id": [0]
+          },
+          "stop_time_update": {
+            "stop_sequence": [23],
+            "departure": {
+              "delay": [-608],
+              "time": [1684588956],
+              "uncertainty": [0]
+            },
+            "stop_id": ["6925-157d9f39"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["26006"],
+            "label": ["GB8902"]
+          },
+          "timestamp": [1684589969],
+          "delay": [-608]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["465274147-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1278-02202-88800-2-5267659b"],
+            "start_time": ["24:40:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["22R-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [44],
+            "arrival": {
+              "delay": [-81],
+              "time": [1684588359],
+              "uncertainty": [0]
+            },
+            "stop_id": ["4308-b5e254d1"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["12142"],
+            "label": ["NB2142"],
+            "license_plate": ["EPN280"]
+          },
+          "timestamp": [1684591370],
+          "delay": [-81]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["7007104743-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["902-98011-41400-1-d485e99d"],
+            "start_time": ["11:30:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["MTIA-209"],
+            "direction_id": [0]
+          },
+          "stop_time_update": {
+            "stop_sequence": [1],
+            "arrival": {
+              "delay": [0],
+              "time": [1684625400]
+            },
+            "departure": {
+              "delay": [0],
+              "time": [1684625400]
+            },
+            "stop_id": ["61000-f20238b1"],
+            "schedule_relationship": [0]
+          },
+          "timestamp": [1684586887],
+          "delay": [0]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["1080253048-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1075-01806-90000-2-55bb9f74"],
+            "start_time": ["25:00:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["18-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [50],
+            "arrival": {
+              "delay": [-135],
+              "time": [1684589865],
+              "uncertainty": [0]
+            },
+            "stop_id": ["5841-86978172"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["14215"],
+            "label": ["NB4215"],
+            "license_plate": ["GTR821"]
+          },
+          "timestamp": [1684589865],
+          "delay": [-135]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["477238655-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1276-07702-90000-2-d7420ce5"],
+            "start_time": ["25:00:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["TMK-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [32],
+            "arrival": {
+              "delay": [242],
+              "time": [1684589342],
+              "uncertainty": [0]
+            },
+            "stop_id": ["7821-f47ec9af"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["15762"],
+            "label": ["NB5762"],
+            "license_plate": ["PMK60"]
+          },
+          "timestamp": [1684590943],
+          "delay": [242]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51438248418-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["30-03008-90000-2-6ea9247a"],
+            "start_time": ["25:00:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["30-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [27],
+            "arrival": {
+              "delay": [409],
+              "time": [1684589449],
+              "uncertainty": [0]
+            },
+            "stop_id": ["8581-e25bb08a"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["12435"],
+            "label": ["NB2435"],
+            "license_plate": ["CLT712"]
+          },
+          "timestamp": [1684590611],
+          "delay": [409]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["470268600-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1281-02504-90000-2-ea362d90"],
+            "start_time": ["25:00:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["25L-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [42],
+            "arrival": {
+              "delay": [-636],
+              "time": [1684589064],
+              "uncertainty": [0]
+            },
+            "stop_id": ["7139-e360d6b5"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["15047"],
+            "label": ["NB5047"],
+            "license_plate": ["LYS149"]
+          },
+          "timestamp": [1684591123],
+          "delay": [-636]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["471259110-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["27-02704-90000-2-1b6247da"],
+            "start_time": ["25:00:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["27H-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [35],
+            "arrival": {
+              "delay": [-503],
+              "time": [1684589197],
+              "uncertainty": [0]
+            },
+            "stop_id": ["8451-793d4f7f"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["11470"],
+            "label": ["NB1470"],
+            "license_plate": ["BSJ161"]
+          },
+          "timestamp": [1684591161],
+          "delay": [-503]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51439300995-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1321-08208-90000-2-a0fd7c82"],
+            "start_time": ["25:00:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["82-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [39],
+            "departure": {
+              "delay": [164],
+              "time": [1684589865],
+              "uncertainty": [0]
+            },
+            "stop_id": ["3106-4eadf700"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["14083"],
+            "label": ["NB4083"],
+            "license_plate": ["GEH824"]
+          },
+          "timestamp": [1684591242],
+          "delay": [164]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["466300996-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["24-02404-90300-2-23ee8ab5"],
+            "start_time": ["25:05:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["24B-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [47],
+            "arrival": {
+              "delay": [100],
+              "time": [1684590100],
+              "uncertainty": [0]
+            },
+            "stop_id": ["5908-eb576903"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["12492"],
+            "label": ["NB2492"],
+            "license_plate": ["CUY409"]
+          },
+          "timestamp": [1684593053],
+          "delay": [100]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51439300995-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1321-08208-90000-2-a0fd7c82"],
+            "start_time": ["01:00:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["82-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "arrival": {
+              "delay": [79],
+              "time": [1684587770],
+              "uncertainty": [25]
+            },
+            "departure": {
+              "delay": [79],
+              "time": [1684587770],
+              "uncertainty": [25]
+            },
+            "stop_id": ["7086-cd2e71da"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["14083"],
+            "label": ["NB4083"],
+            "license_plate": ["GEH824"]
+          },
+          "timestamp": [1684587634],
+          "delay": [164]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["1145279811-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1185-07010-90300-2-8addafcd"],
+            "start_time": ["25:05:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["70H-205"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [68],
+            "arrival": {
+              "delay": [29],
+              "time": [1684591229],
+              "uncertainty": [0]
+            },
+            "stop_id": ["6233-47eb8987"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["24260"],
+            "label": ["HE0260"],
+            "license_plate": ["HZL564"]
+          },
+          "timestamp": [1684591229],
+          "delay": [29]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["466300996-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["24-02404-90300-2-23ee8ab5"],
+            "start_time": ["01:05:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["24B-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "arrival": {
+              "delay": [26],
+              "time": [1684587951],
+              "uncertainty": [7]
+            },
+            "departure": {
+              "delay": [26],
+              "time": [1684587951],
+              "uncertainty": [7]
+            },
+            "stop_id": ["1095-d2168523"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["12492"],
+            "label": ["NB2492"],
+            "license_plate": ["CUY409"]
+          },
+          "timestamp": [1684587926],
+          "delay": [79]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["6888307512-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1021-11117-90360-2-be11d02e"],
+            "start_time": ["25:06:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["RBW-402"],
+            "direction_id": [0]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "arrival": {
+              "delay": [-334],
+              "time": [1684588406],
+              "uncertainty": [0]
+            },
+            "stop_id": ["7019-18ba0388"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["23088"],
+            "label": ["PC4088"],
+            "license_plate": ["BJY867"]
+          },
+          "timestamp": [1684590100],
+          "delay": [-334]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51348304007-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1307-94206-90900-2-fa016c17"],
+            "start_time": ["25:15:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["942-203"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [58],
+            "arrival": {
+              "delay": [-3],
+              "time": [1684590897],
+              "uncertainty": [0]
+            },
+            "stop_id": ["3353-6403c547"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["22890"],
+            "label": ["RT1432"],
+            "license_plate": ["JML179"]
+          },
+          "timestamp": [1684592562],
+          "delay": [-3]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51348304007-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1307-94206-90900-2-fa016c17"],
+            "start_time": ["01:15:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["942-203"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "arrival": {
+              "delay": [45],
+              "time": [1684588594],
+              "uncertainty": [14]
+            },
+            "departure": {
+              "delay": [45],
+              "time": [1684588594],
+              "uncertainty": [14]
+            },
+            "stop_id": ["3630-18b4c142"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["22890"],
+            "label": ["RT1432"],
+            "license_plate": ["JML179"]
+          },
+          "timestamp": [1684588535],
+          "delay": [-17]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51322287243-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1320-81401-91020-2-af7cc91d"],
+            "start_time": ["25:17:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["814-202"],
+            "direction_id": [0]
+          },
+          "stop_time_update": {
+            "stop_sequence": [27],
+            "arrival": {
+              "delay": [-191],
+              "time": [1684589629],
+              "uncertainty": [0]
+            },
+            "stop_id": ["4087-ec6d4a67"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["14048"],
+            "label": ["NB4048"],
+            "license_plate": ["GCD501"]
+          },
+          "timestamp": [1684590313],
+          "delay": [-191]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["1145279811-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1185-07010-90300-2-8addafcd"],
+            "start_time": ["01:05:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["70H-205"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [18],
+            "arrival": {
+              "delay": [42],
+              "time": [1684588842],
+              "uncertainty": [5]
+            },
+            "departure": {
+              "delay": [42],
+              "time": [1684588842],
+              "uncertainty": [5]
+            },
+            "stop_id": ["7616-5d91fe89"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["24260"],
+            "label": ["HE0260"],
+            "license_plate": ["HZL564"]
+          },
+          "timestamp": [1684588794],
+          "delay": [81]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["1099192524-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1058-10018-91500-2-99484fb8"],
+            "start_time": ["25:25:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["N10-221"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [26],
+            "departure": {
+              "delay": [213],
+              "time": [1684590513],
+              "uncertainty": [0]
+            },
+            "stop_id": ["8730-d33850d3"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["26207"],
+            "label": ["GB5207"],
+            "license_plate": ["JZR682"]
+          },
+          "timestamp": [1684590513],
+          "delay": [213]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51347264468-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1306-94104-91500-2-22ab9e0a"],
+            "start_time": ["25:25:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["941-203"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [55],
+            "arrival": {
+              "delay": [-98],
+              "time": [1684591402],
+              "uncertainty": [0]
+            },
+            "stop_id": ["3568-f27e3073"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["22905"],
+            "label": ["RT1438"],
+            "license_plate": ["GCP689"]
+          },
+          "timestamp": [1684591539],
+          "delay": [-98]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51347264468-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1306-94104-91500-2-22ab9e0a"],
+            "start_time": ["01:25:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["941-203"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "arrival": {
+              "delay": [32],
+              "time": [1684589212],
+              "uncertainty": [14]
+            },
+            "departure": {
+              "delay": [32],
+              "time": [1684589212],
+              "uncertainty": [14]
+            },
+            "stop_id": ["3386-72a1a329"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["22905"],
+            "label": ["RT1438"],
+            "license_plate": ["GCP689"]
+          },
+          "timestamp": [1684589147],
+          "delay": [-53]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["1099192524-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1058-10018-91500-2-99484fb8"],
+            "start_time": ["01:25:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["N10-221"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "arrival": {
+              "delay": [75],
+              "time": [1684589206],
+              "uncertainty": [24]
+            },
+            "departure": {
+              "delay": [75],
+              "time": [1684589206],
+              "uncertainty": [24]
+            },
+            "stop_id": ["7048-740ac051"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["26207"],
+            "label": ["GB5207"],
+            "license_plate": ["JZR682"]
+          },
+          "timestamp": [1684589187],
+          "delay": [213]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51357284266-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1395-27002-91800-2-d4ccec97"],
+            "start_time": ["25:30:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["NX1-203"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [8],
+            "arrival": {
+              "delay": [185],
+              "time": [1684590845],
+              "uncertainty": [0]
+            },
+            "stop_id": ["4227-0e16a7e9"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["22145"],
+            "label": ["RT1064"],
+            "license_plate": ["JPJ998"]
+          },
+          "timestamp": [1684590902],
+          "delay": [185]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["1028274151-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1114-11006-92100-2-6a8b7726"],
+            "start_time": ["25:35:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["110-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [33],
+            "arrival": {
+              "delay": [-24],
+              "time": [1684591836],
+              "uncertainty": [0]
+            },
+            "stop_id": ["1599-7b11ac3b"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["12144"],
+            "label": ["NB2144"],
+            "license_plate": ["EPN256"]
+          },
+          "timestamp": [1684591836],
+          "delay": [-24]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51357284265-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1395-27001-91800-2-de68a7c2"],
+            "start_time": ["25:30:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["NX1-203"],
+            "direction_id": [0]
+          },
+          "stop_time_update": {
+            "stop_sequence": [8],
+            "arrival": {
+              "delay": [62],
+              "time": [1684590662],
+              "uncertainty": [0]
+            },
+            "stop_id": ["1003-ea94d2b2"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["22789"],
+            "label": ["RT1357"],
+            "license_plate": ["LPM20"]
+          },
+          "timestamp": [1684590693],
+          "delay": [62]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["465274152-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1278-02202-92400-2-5267659b"],
+            "start_time": ["25:40:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["22R-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [44],
+            "arrival": {
+              "delay": [-161],
+              "time": [1684591879],
+              "uncertainty": [0]
+            },
+            "stop_id": ["4308-b5e254d1"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["14348"],
+            "label": ["NB4348"],
+            "license_plate": ["HJH10"]
+          },
+          "timestamp": [1684591879],
+          "delay": [-161]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51357284265-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1395-27001-91800-2-de68a7c2"],
+            "start_time": ["01:30:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["NX1-203"],
+            "direction_id": [0]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "arrival": {
+              "delay": [-30],
+              "time": [1684589670],
+              "uncertainty": [79]
+            },
+            "departure": {
+              "delay": [-30],
+              "time": [1684589670],
+              "uncertainty": [79]
+            },
+            "stop_id": ["4222-1f71df5f"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["22789"],
+            "label": ["RT1357"],
+            "license_plate": ["LPM20"]
+          },
+          "timestamp": [1684589459],
+          "delay": [155]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51357284266-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1395-27002-91800-2-d4ccec97"],
+            "start_time": ["01:30:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["NX1-203"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [3],
+            "arrival": {
+              "delay": [89],
+              "time": [1684589729],
+              "uncertainty": [4]
+            },
+            "departure": {
+              "delay": [89],
+              "time": [1684589729],
+              "uncertainty": [4]
+            },
+            "stop_id": ["7036-f1ffa0be"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["22145"],
+            "label": ["RT1064"],
+            "license_plate": ["JPJ998"]
+          },
+          "timestamp": [1684589592],
+          "delay": [217]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["1028274151-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1114-11006-92100-2-6a8b7726"],
+            "start_time": ["01:35:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["110-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "arrival": {
+              "delay": [134],
+              "time": [1684589930],
+              "uncertainty": [15]
+            },
+            "departure": {
+              "delay": [134],
+              "time": [1684589930],
+              "uncertainty": [15]
+            },
+            "stop_id": ["7030-621caa72"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["12144"],
+            "label": ["NB2144"],
+            "license_plate": ["EPN256"]
+          },
+          "timestamp": [1684589725],
+          "delay": [-23]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["465274152-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1278-02202-92400-2-5267659b"],
+            "start_time": ["01:40:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["22R-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "arrival": {
+              "delay": [67],
+              "time": [1684590100],
+              "uncertainty": [8]
+            },
+            "departure": {
+              "delay": [67],
+              "time": [1684590100],
+              "uncertainty": [8]
+            },
+            "stop_id": ["1095-d2168523"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["14348"],
+            "label": ["NB4348"],
+            "license_plate": ["HJH10"]
+          },
+          "timestamp": [1684590066],
+          "delay": [-125]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51438248421-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["30-03008-93600-2-6ea9247a"],
+            "start_time": ["26:00:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["30-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [27],
+            "arrival": {
+              "delay": [144],
+              "time": [1684592784],
+              "uncertainty": [0]
+            },
+            "stop_id": ["8581-e25bb08a"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["12435"],
+            "label": ["NB2435"],
+            "license_plate": ["CLT712"]
+          },
+          "timestamp": [1684592784],
+          "delay": [144]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51357284269-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1395-27002-93600-2-d4ccec97"],
+            "start_time": ["26:00:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["NX1-203"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [7],
+            "departure": {
+              "delay": [242],
+              "time": [1684592342],
+              "uncertainty": [0]
+            },
+            "stop_id": ["4200-3b3da5cd"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["22789"],
+            "label": ["RT1357"],
+            "license_plate": ["LPM20"]
+          },
+          "timestamp": [1684592671],
+          "delay": [242]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51357284268-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1395-27001-93600-2-de68a7c2"],
+            "start_time": ["26:00:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["NX1-203"],
+            "direction_id": [0]
+          },
+          "stop_time_update": {
+            "stop_sequence": [7],
+            "departure": {
+              "delay": [227],
+              "time": [1684592441],
+              "uncertainty": [0]
+            },
+            "stop_id": ["7142-fda95eea"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["22145"],
+            "label": ["RT1064"],
+            "license_plate": ["JPJ998"]
+          },
+          "timestamp": [1684592614],
+          "delay": [227]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["477238660-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1276-07702-93600-2-d7420ce5"],
+            "start_time": ["26:00:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["TMK-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [32],
+            "arrival": {
+              "delay": [36],
+              "time": [1684592736],
+              "uncertainty": [0]
+            },
+            "stop_id": ["7821-f47ec9af"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["15762"],
+            "label": ["NB5762"],
+            "license_plate": ["PMK60"]
+          },
+          "timestamp": [1684592736],
+          "delay": [36]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["1080253052-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1075-01806-93600-2-55bb9f74"],
+            "start_time": ["26:00:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["18-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [50],
+            "arrival": {
+              "delay": [-229],
+              "time": [1684593371],
+              "uncertainty": [0]
+            },
+            "stop_id": ["5841-86978172"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["12148"],
+            "label": ["NB2148"],
+            "license_plate": ["EPN273"]
+          },
+          "timestamp": [1684593371],
+          "delay": [-229]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["470268602-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1281-02504-93600-2-ea362d90"],
+            "start_time": ["26:00:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["25L-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [42],
+            "arrival": {
+              "delay": [-532],
+              "time": [1684592768],
+              "uncertainty": [0]
+            },
+            "stop_id": ["7139-e360d6b5"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["15047"],
+            "label": ["NB5047"],
+            "license_plate": ["LYS149"]
+          },
+          "timestamp": [1684593116],
+          "delay": [-532]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["471259114-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["27-02704-93600-2-1b6247da"],
+            "start_time": ["26:00:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["27H-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [35],
+            "arrival": {
+              "delay": [-626],
+              "time": [1684592674],
+              "uncertainty": [0]
+            },
+            "stop_id": ["8451-793d4f7f"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["11470"],
+            "label": ["NB1470"],
+            "license_plate": ["BSJ161"]
+          },
+          "timestamp": [1684592674],
+          "delay": [-626]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["442274153-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1285-07502-93600-2-da0ca60a"],
+            "start_time": ["26:00:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["75-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [41],
+            "arrival": {
+              "delay": [-120],
+              "time": [1684593000],
+              "uncertainty": [0]
+            },
+            "stop_id": ["7821-f47ec9af"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["14209"],
+            "label": ["NB4209"],
+            "license_plate": ["GTB859"]
+          },
+          "timestamp": [1684593000],
+          "delay": [-120]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["1080253052-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1075-01806-93600-2-55bb9f74"],
+            "start_time": ["02:00:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["18-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "arrival": {
+              "delay": [1],
+              "time": [1684591321],
+              "uncertainty": [15]
+            },
+            "departure": {
+              "delay": [1],
+              "time": [1684591321],
+              "uncertainty": [15]
+            },
+            "stop_id": ["1378-a2feea70"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["12148"],
+            "label": ["NB2148"],
+            "license_plate": ["EPN273"]
+          },
+          "timestamp": [1684591221],
+          "delay": [-222]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51357284269-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1395-27002-93600-2-d4ccec97"],
+            "start_time": ["02:00:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["NX1-203"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "arrival": {
+              "delay": [47],
+              "time": [1684591357],
+              "uncertainty": [4]
+            },
+            "departure": {
+              "delay": [47],
+              "time": [1684591357],
+              "uncertainty": [4]
+            },
+            "stop_id": ["7034-7b36cf5b"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["22789"],
+            "label": ["RT1357"],
+            "license_plate": ["LPM20"]
+          },
+          "timestamp": [1684591219],
+          "delay": [242]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["471259114-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["27-02704-93600-2-1b6247da"],
+            "start_time": ["02:00:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["27H-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "arrival": {
+              "delay": [78],
+              "time": [1684591360],
+              "uncertainty": [11]
+            },
+            "departure": {
+              "delay": [78],
+              "time": [1684591360],
+              "uncertainty": [11]
+            },
+            "stop_id": ["7140-40c91a0c"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["11470"],
+            "label": ["NB1470"],
+            "license_plate": ["BSJ161"]
+          },
+          "timestamp": [1684591223],
+          "delay": [-599]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51439300998-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1321-08208-93600-2-a0fd7c82"],
+            "start_time": ["26:00:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["82-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [39],
+            "departure": {
+              "delay": [88],
+              "time": [1684593389],
+              "uncertainty": [0]
+            },
+            "stop_id": ["3106-4eadf700"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["14083"],
+            "label": ["NB4083"],
+            "license_plate": ["GEH824"]
+          },
+          "timestamp": [1684593389],
+          "delay": [88]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["1145279815-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1185-07010-93900-2-8addafcd"],
+            "start_time": ["26:05:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["70H-205"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [33],
+            "departure": {
+              "delay": [175],
+              "time": [1684593437],
+              "uncertainty": [0]
+            },
+            "stop_id": ["6128-f060967f"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["24254"],
+            "label": ["HE0254"],
+            "license_plate": ["HLW686"]
+          },
+          "timestamp": [1684593437],
+          "delay": [175]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["1149293377-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1183-07208-87900-2-2ace4801"],
+            "start_time": ["24:25:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["72C-205"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [31],
+            "arrival": {
+              "delay": [-74],
+              "time": [1684586986],
+              "uncertainty": [0]
+            },
+            "stop_id": ["6233-47eb8987"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["24254"],
+            "label": ["HE0254"],
+            "license_plate": ["HLW686"]
+          },
+          "timestamp": [1684591247],
+          "delay": [-74]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51357284268-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1395-27001-93600-2-de68a7c2"],
+            "start_time": ["02:00:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["NX1-203"],
+            "direction_id": [0]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "arrival": {
+              "delay": [-30],
+              "time": [1684591470],
+              "uncertainty": [79]
+            },
+            "departure": {
+              "delay": [-30],
+              "time": [1684591470],
+              "uncertainty": [79]
+            },
+            "stop_id": ["4222-1f71df5f"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["22145"],
+            "label": ["RT1064"],
+            "license_plate": ["JPJ998"]
+          },
+          "timestamp": [1684591250],
+          "delay": [227]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["442274153-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1285-07502-93600-2-da0ca60a"],
+            "start_time": ["02:00:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["75-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "arrival": {
+              "delay": [40],
+              "time": [1684591281],
+              "uncertainty": [10]
+            },
+            "departure": {
+              "delay": [40],
+              "time": [1684591281],
+              "uncertainty": [10]
+            },
+            "stop_id": ["1067-cfcee32d"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["14209"],
+            "label": ["NB4209"],
+            "license_plate": ["GTB859"]
+          },
+          "timestamp": [1684591254],
+          "delay": [-105]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51439300998-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1321-08208-93600-2-a0fd7c82"],
+            "start_time": ["02:00:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["82-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "arrival": {
+              "delay": [58],
+              "time": [1684591349],
+              "uncertainty": [4]
+            },
+            "departure": {
+              "delay": [58],
+              "time": [1684591349],
+              "uncertainty": [4]
+            },
+            "stop_id": ["7086-cd2e71da"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["14083"],
+            "label": ["NB4083"],
+            "license_plate": ["GEH824"]
+          },
+          "timestamp": [1684591265],
+          "delay": [88]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51438248421-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["30-03008-93600-2-6ea9247a"],
+            "start_time": ["02:00:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["30-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "arrival": {
+              "delay": [226],
+              "time": [1684591616],
+              "uncertainty": [6]
+            },
+            "departure": {
+              "delay": [226],
+              "time": [1684591616],
+              "uncertainty": [6]
+            },
+            "stop_id": ["7064-7b303e19"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["12435"],
+            "label": ["NB2435"],
+            "license_plate": ["CLT712"]
+          },
+          "timestamp": [1684591265],
+          "delay": [201]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["470268602-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1281-02504-93600-2-ea362d90"],
+            "start_time": ["02:00:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["25L-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "arrival": {
+              "delay": [96],
+              "time": [1684591348],
+              "uncertainty": [6]
+            },
+            "departure": {
+              "delay": [96],
+              "time": [1684591348],
+              "uncertainty": [6]
+            },
+            "stop_id": ["7128-d8460fc5"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["15047"],
+            "label": ["NB5047"],
+            "license_plate": ["LYS149"]
+          },
+          "timestamp": [1684591284],
+          "delay": [-509]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["477238660-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1276-07702-93600-2-d7420ce5"],
+            "start_time": ["02:00:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["TMK-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "arrival": {
+              "delay": [177],
+              "time": [1684591481],
+              "uncertainty": [10]
+            },
+            "departure": {
+              "delay": [177],
+              "time": [1684591481],
+              "uncertainty": [10]
+            },
+            "stop_id": ["1018-ee9d5bba"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["15762"],
+            "label": ["NB5762"],
+            "license_plate": ["PMK60"]
+          },
+          "timestamp": [1684591309],
+          "delay": [43]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["466300999-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["24-02404-93900-2-23ee8ab5"],
+            "start_time": ["26:05:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["24B-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [40],
+            "departure": {
+              "delay": [97],
+              "time": [1684593434],
+              "uncertainty": [0]
+            },
+            "stop_id": ["7033-1e571038"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["12142"],
+            "label": ["NB2142"],
+            "license_plate": ["EPN280"]
+          },
+          "timestamp": [1684593434],
+          "delay": [97]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["1145279815-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1185-07010-93900-2-8addafcd"],
+            "start_time": ["02:05:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["70H-205"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "arrival": {
+              "delay": [29],
+              "time": [1684591562],
+              "uncertainty": [28]
+            },
+            "departure": {
+              "delay": [29],
+              "time": [1684591562],
+              "uncertainty": [28]
+            },
+            "stop_id": ["7140-40c91a0c"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["24254"],
+            "label": ["HE0254"],
+            "license_plate": ["HLW686"]
+          },
+          "timestamp": [1684591532],
+          "delay": [175]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51348304008-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1307-94206-94500-2-fa016c17"],
+            "start_time": ["26:15:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["942-203"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [34],
+            "departure": {
+              "delay": [145],
+              "time": [1684593445],
+              "uncertainty": [0]
+            },
+            "stop_id": ["4146-c1eb3b38"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["22905"],
+            "label": ["RT1438"],
+            "license_plate": ["GCP689"]
+          },
+          "timestamp": [1684593445],
+          "delay": [145]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["466300999-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["24-02404-93900-2-23ee8ab5"],
+            "start_time": ["02:05:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["24B-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "arrival": {
+              "delay": [27],
+              "time": [1684591552],
+              "uncertainty": [7]
+            },
+            "departure": {
+              "delay": [27],
+              "time": [1684591552],
+              "uncertainty": [7]
+            },
+            "stop_id": ["1095-d2168523"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["12142"],
+            "label": ["NB2142"],
+            "license_plate": ["EPN280"]
+          },
+          "timestamp": [1684591537],
+          "delay": [97]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51348304008-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1307-94206-94500-2-fa016c17"],
+            "start_time": ["02:15:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["942-203"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "arrival": {
+              "delay": [13],
+              "time": [1684592162],
+              "uncertainty": [7]
+            },
+            "departure": {
+              "delay": [13],
+              "time": [1684592162],
+              "uncertainty": [7]
+            },
+            "stop_id": ["3630-18b4c142"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["22905"],
+            "label": ["RT1438"],
+            "license_plate": ["GCP689"]
+          },
+          "timestamp": [1684592118],
+          "delay": [140]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51347264473-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1306-94104-95100-2-22ab9e0a"],
+            "start_time": ["26:25:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["941-203"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [15],
+            "departure": {
+              "delay": [56],
+              "time": [1684593322],
+              "uncertainty": [0]
+            },
+            "stop_id": ["3914-e9639715"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["22890"],
+            "label": ["RT1432"],
+            "license_plate": ["JML179"]
+          },
+          "timestamp": [1684593322],
+          "delay": [56]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51357284271-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1395-27002-95400-2-d4ccec97"],
+            "start_time": ["26:30:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["NX1-203"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [3],
+            "departure": {
+              "delay": [72],
+              "time": [1684593312],
+              "uncertainty": [0]
+            },
+            "stop_id": ["7036-f1ffa0be"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["22145"],
+            "label": ["RT1064"],
+            "license_plate": ["JPJ998"]
+          },
+          "timestamp": [1684593312],
+          "delay": [72]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51357284270-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1395-27001-95400-2-de68a7c2"],
+            "start_time": ["26:30:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["NX1-203"],
+            "direction_id": [0]
+          },
+          "stop_time_update": {
+            "stop_sequence": [3],
+            "departure": {
+              "delay": [67],
+              "time": [1684593437],
+              "uncertainty": [0]
+            },
+            "stop_id": ["3219-bb8cdfc6"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["22789"],
+            "label": ["RT1357"],
+            "license_plate": ["LPM20"]
+          },
+          "timestamp": [1684593437],
+          "delay": [67]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51347264473-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1306-94104-95100-2-22ab9e0a"],
+            "start_time": ["02:25:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["941-203"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "arrival": {
+              "delay": [50],
+              "time": [1684592830],
+              "uncertainty": [14]
+            },
+            "departure": {
+              "delay": [50],
+              "time": [1684592830],
+              "uncertainty": [14]
+            },
+            "stop_id": ["3386-72a1a329"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["22890"],
+            "label": ["RT1432"],
+            "license_plate": ["JML179"]
+          },
+          "timestamp": [1684592772],
+          "delay": [56]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["1028274155-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1114-11006-95700-2-6a8b7726"],
+            "start_time": ["26:35:00"],
+            "start_date": ["20230520"],
+            "schedule_relationship": [0],
+            "route_id": ["110-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [1],
+            "departure": {
+              "delay": [12],
+              "time": [1684593312],
+              "uncertainty": [0]
+            },
+            "stop_id": ["1005-c105552e"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["14215"],
+            "label": ["NB4215"],
+            "license_plate": ["GTR821"]
+          },
+          "timestamp": [1684593312],
+          "delay": [12]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51357284271-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1395-27002-95400-2-d4ccec97"],
+            "start_time": ["02:30:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["NX1-203"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "arrival": {
+              "delay": [59],
+              "time": [1684593169],
+              "uncertainty": [266]
+            },
+            "departure": {
+              "delay": [59],
+              "time": [1684593169],
+              "uncertainty": [266]
+            },
+            "stop_id": ["7034-7b36cf5b"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["22145"],
+            "label": ["RT1064"],
+            "license_plate": ["JPJ998"]
+          },
+          "timestamp": [1684593071],
+          "delay": [98]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["51357284270-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1395-27001-95400-2-de68a7c2"],
+            "start_time": ["02:30:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["NX1-203"],
+            "direction_id": [0]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "arrival": {
+              "delay": [-20],
+              "time": [1684593280],
+              "uncertainty": [79]
+            },
+            "departure": {
+              "delay": [-20],
+              "time": [1684593280],
+              "uncertainty": [79]
+            },
+            "stop_id": ["4222-1f71df5f"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["22789"],
+            "label": ["RT1357"],
+            "license_plate": ["LPM20"]
+          },
+          "timestamp": [1684593073],
+          "delay": [67]
+        },
+        "is_deleted": [false]
+      },
+      {
+        "id": ["1028274155-20230515133802_v105.10"],
+        "trip_update": {
+          "trip": {
+            "trip_id": ["1114-11006-95700-2-6a8b7726"],
+            "start_time": ["02:35:00"],
+            "start_date": ["20230521"],
+            "schedule_relationship": [0],
+            "route_id": ["110-202"],
+            "direction_id": [1]
+          },
+          "stop_time_update": {
+            "stop_sequence": [2],
+            "arrival": {
+              "delay": [88],
+              "time": [1684593484],
+              "uncertainty": [137]
+            },
+            "departure": {
+              "delay": [88],
+              "time": [1684593484],
+              "uncertainty": [137]
+            },
+            "stop_id": ["7030-621caa72"],
+            "schedule_relationship": [0]
+          },
+          "vehicle": {
+            "id": ["14215"],
+            "label": ["NB4215"],
+            "license_plate": ["GTR821"]
+          },
+          "timestamp": [1684593313],
+          "delay": [88]
+        },
+        "is_deleted": [false]
+      }
+    ]
+  },
+  "error": {}
+}
