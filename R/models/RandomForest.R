@@ -1,5 +1,7 @@
 # Implementing DT
 
+load(paste0(dir_rawdata, '/FullProcessedData.RData'))
+
 # We will consider a bus delayed if late by 3 minutes
 full_processed_data = full_processed_data %>% mutate(is_delay = if_else(delay > 180, TRUE, FALSE))
 
