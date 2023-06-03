@@ -4,6 +4,9 @@ library(jsonlite)
 library(httr)
 library(lubridate)
 library(ggplot2)
+library(ranger)
+library(rpart)
+library(rpart.plot)
 
 # Setting directories
 dir = getwd()
