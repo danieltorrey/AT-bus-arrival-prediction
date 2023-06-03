@@ -24,10 +24,10 @@ train_idx <- sample(nrow(model_buses), 0.8*nrow(model_buses))
 train_buses <- model_buses[train_idx,]
 test_buses <- model_buses[-train_idx,]
 
-# Creating random forest model, max number of trees of 50
+# Creating random forest model, max number of trees of 500
 bus_forest <- ranger(on_time ~ route_short_name + stop_sequence + stop_lat + 
                        stop_lon + dow + hod + weather + suburb + work_day + peak_hours, 
-                     data=train_buses, importance='impurity', num.trees=50, 
+                     data=train_buses, importance='impurity', num.trees=500, 
                      verbose=TRUE, classification=TRUE)
 bus_forest
 
