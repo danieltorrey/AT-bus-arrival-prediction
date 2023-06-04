@@ -1,12 +1,7 @@
-library(tidyverse)
-library(xgboost)
-library(Matrix)
 load(paste0(dir_rawdata, '/FullProcessedData.RData'))
-library(ggplot2)
-
-# Preprocessing 
-
 set.seed(500)
+
+##### Implementing XGBoost #####
 
 # We will consider a bus on time if no earlier and no later than 3 minutes 
 model_buses <- full_processed_data %>% 

@@ -10,4 +10,6 @@ source(paste0(dir_scripts, '/WeatherDataCleansing.R'))
 source(paste0(dir_scripts, '/CombineAllData.R'))
 source(paste0(dir_scripts, '/DataExploration.R'))
 
+source(paste0(dir_models, '/DecisionTree.R'))
 source(paste0(dir_models, '/RandomForest.R'))
+source(paste0(dir_models, '/XGBoost.R'))
