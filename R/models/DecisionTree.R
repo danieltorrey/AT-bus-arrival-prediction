@@ -36,11 +36,11 @@ bus_tree$cptable
 bus_tree_best = rpart(on_time ~ route_short_name + stop_sequence + stop_lat + 
                         stop_lon + dow + hod + weather + suburb + work_day + 
                         peak_hours, data=train_buses, method="class",
-                      # Lowest xerror = 0.8142239, corresponding xstd = 0.002118235
-                      # 1-SE threshold = 0.816342135
-                      # Hence choose n=12 as 0.8155809 < 0.816342135
+                      # Lowest xerror = 0.8105784, corresponding xstd = 0.002115650
+                      # 1-SE threshold = 0.81269405
+                      # Hence choose n=14 as 0.8109799 < 0.81269405
                       # Replace CP with the best CP found in cptable
-                      control = rpart.control(cp = 0.001284759))
+                      control = rpart.control(cp = 0.001043866))
 
 # Function to appropriately produce labels for DT plot (accounting for issues with very long labels)
 split.fun <- function(x, labs, digits, varlen, faclen)
